@@ -1,4 +1,495 @@
 {
-  "ads": {},
+  "ads": {
+    "https://devlet.tc/tr/kamu-ilanlari/akhisar-belediye-baskanligi-1-muhendis-alacak": {
+      "checked_at": 0,
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "pending",
+      "title": "Akhisar belediye başkanlığı 1 mühendis alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/akhisar-belediye-baskanligi-1-muhendis-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/anet-antalya-insaat-2-engelli-personel-alacak": {
+      "attempted_at": 1792967603.4944048,
+      "checked_at": 1792967603.4944048,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "anet antalya inşaat 2 engelli personel alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/anet-antalya-insaat-2-engelli-personel-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/balikesir-gayrimenkul-yatirim-ve-gida-as-1-garson-alacak": {
+      "checked_at": 0,
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "pending",
+      "title": "balıkesir gayrimenkul yatırım ve gıda a.ş. 1 garson alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/balikesir-gayrimenkul-yatirim-ve-gida-as-1-garson-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/bel-pa-ankara-4-daimi-isci-alacak": {
+      "attempted_at": 1792967602.009894,
+      "checked_at": 1792967602.009894,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "bel-pa ankara 4 daimi işçi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/bel-pa-ankara-4-daimi-isci-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/belkar-13-personel-alacak": {
+      "checked_at": 0,
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "pending",
+      "title": "Belkar 13 personel alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/belkar-13-personel-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/bolgiysan-yatirim-as-3-ozel-guvenlik-gorevlisi-alacak": {
+      "attempted_at": 1792967597.822511,
+      "checked_at": 1792967597.822511,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Bolgiysan Yatırım A.Ş. 3 özel güvenlik görevlisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/bolgiysan-yatirim-as-3-ozel-guvenlik-gorevlisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/canakkale-can-koylere-hizmet-goturme-birligi-1-personel-alacak": {
+      "checked_at": 0,
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "pending",
+      "title": "Çanakkale Çan Köylere Hizmet Götürme Birliği 1 personel alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/canakkale-can-koylere-hizmet-goturme-birligi-1-personel-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/cankiri-karatekin-universitesi-40-ogretim-uyesi-alacak": {
+      "checked_at": 0,
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "pending",
+      "title": "Çankırı Karatekin Üniversitesi 40 öğretim üyesi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/cankiri-karatekin-universitesi-40-ogretim-uyesi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/cavdir-temizlik-hizmetleri-4-gecici-isci-alacak": {
+      "attempted_at": 1792967604.9623475,
+      "checked_at": 1792967604.9623475,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Çavdır Temizlik Hizmetleri 4 geçici işçi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/cavdir-temizlik-hizmetleri-4-gecici-isci-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/corum-sunbeton-ins-san-ve-tic-ltd-sti-1-itfaiye-destek-personeli-alacak": {
+      "attempted_at": 1792967636.5627835,
+      "checked_at": 1792967636.5627835,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Çorum Sunbeton İnş. San. ve Tic. Ltd. Şti. 1 itfaiye destek personeli alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/corum-sunbeton-ins-san-ve-tic-ltd-sti-1-itfaiye-destek-personeli-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/etimkent-yapi-maden-san-ve-tic-as-1-buro-iscisi-alacak": {
+      "attempted_at": 1792967633.6698334,
+      "checked_at": 1792967633.6698334,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "etimkent yapı maden san. ve tic. a.ş. 1 büro işçisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/etimkent-yapi-maden-san-ve-tic-as-1-buro-iscisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/gazibel-insaat-1-insaatisyeri-bekcisi-alacak": {
+      "attempted_at": 1792967635.1138587,
+      "checked_at": 1792967635.1138587,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "gazibel inşaat 1 inşaat/işyeri bekçisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/gazibel-insaat-1-insaatisyeri-bekcisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/gulyali-sosyal-yardimlasma-ve-dayanisma-vakfi-4-beden-iscisi-alacak": {
+      "attempted_at": 1792967641.1305478,
+      "checked_at": 1792967641.1305478,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "gülyalı sosyal yardımlaşma ve dayanışma vakfı 4 beden işçisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/gulyali-sosyal-yardimlasma-ve-dayanisma-vakfi-4-beden-iscisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/havsa-tasimacilik-insaat-hayvancilik-sanayi-ve-ticaret-limited-sirketi-2-beden-iscisi-alacak": {
+      "attempted_at": 1792967625.0552247,
+      "checked_at": 1792967625.0552247,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Havsa taşımacılık inşaat hayvancılık sanayi ve ticaret limited şirketi 2 beden işçisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/havsa-tasimacilik-insaat-hayvancilik-sanayi-ve-ticaret-limited-sirketi-2-beden-iscisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/helvadere-belediyesi-personel-ltd-sti-1-beden-iscisi-alacak": {
+      "attempted_at": 1792967629.3520029,
+      "checked_at": 1792967629.3520029,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "helvadere belediyesi personel ltd. şti 1 beden işçisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/helvadere-belediyesi-personel-ltd-sti-1-beden-iscisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/inonu-belediyesi-1-minibus-soforu-alacak": {
+      "checked_at": 0,
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "pending",
+      "title": "İnönü Belediyesi 1 minibüs şoförü alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/inonu-belediyesi-1-minibus-soforu-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/isper-istanbul-personel-yonetim-as-24-personel-alacak": {
+      "attempted_at": 1792967615.1238766,
+      "checked_at": 1792967615.1238766,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "İsper İstanbul Personel Yönetim A.Ş. 24 personel alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/isper-istanbul-personel-yonetim-as-24-personel-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/isper-istanbul-personel-yonetim-as-3-bilgi-islem-uzman-yardimcisi-alacak": {
+      "attempted_at": 1792967609.2805195,
+      "checked_at": 1792967609.2805195,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "İsper İstanbul Personel Yönetim A.Ş. 3 bilgi işlem uzman yardımcısı alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/isper-istanbul-personel-yonetim-as-3-bilgi-islem-uzman-yardimcisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/istac-as-90-daimi-isci-alacak": {
+      "attempted_at": 1792967639.4920254,
+      "checked_at": 1792967639.4920254,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "istaç a.ş. 90 daimi işçi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/istac-as-90-daimi-isci-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/izmir-buyuksehir-belediyesi-90-zabita-memuru-alacak": {
+      "attempted_at": 1792967597.246867,
+      "checked_at": 1792967597.246867,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "İzmir Büyükşehir Belediyesi 90 zabıta memuru alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/izmir-buyuksehir-belediyesi-90-zabita-memuru-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/kahramanmaras-sutcu-imam-universitesi-4-akademik-personel-alacak": {
+      "checked_at": 0,
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "pending",
+      "title": "Kahramanmaraş Sütçü İmam Üniversitesi 4 akademik personel alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/kahramanmaras-sutcu-imam-universitesi-4-akademik-personel-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/kasdas-kadikoy-2-personel-alacak": {
+      "attempted_at": 1792967612.1821632,
+      "checked_at": 1792967612.1821632,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "kasdaş kadıköy 2 personel alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/kasdas-kadikoy-2-personel-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/kecikalesi-belediyesi-personel-limited-sirketi-1-beden-iscisi-alacak": {
+      "attempted_at": 1792967619.369359,
+      "checked_at": 1792967619.369359,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Keçikalesi belediyesi personel limited şirketi 1 beden işçisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/kecikalesi-belediyesi-personel-limited-sirketi-1-beden-iscisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/kesan-belediyesi-personel-ltdsti-5-personel-alacak": {
+      "attempted_at": 1792967606.4092076,
+      "checked_at": 1792967606.4092076,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Keşan Belediyesi Personel Ltd.Şti. 5 personel alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/kesan-belediyesi-personel-ltdsti-5-personel-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/kirsehir-boztepe-belediyesi-1-muhendis-alacak": {
+      "checked_at": 0,
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "pending",
+      "title": "kırşehir boztepe belediyesi 1 mühendis alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/kirsehir-boztepe-belediyesi-1-muhendis-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/kirsehir-boztepe-belediyesi-1-muhendis-alacak-2": {
+      "attempted_at": 1792967644.4103818,
+      "checked_at": 1792967644.4103818,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Kırşehir Boztepe Belediyesi 1 mühendis alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/kirsehir-boztepe-belediyesi-1-muhendis-alacak-2"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/kozan-imal-ticaret-sanayi-personel-anonim-sirketi-4-beden-iscisi-alacak": {
+      "attempted_at": 1792967622.2604983,
+      "checked_at": 1792967622.2604983,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Kozan İmal Ticaret Sanayi Personel Anonim Şirketi 4 beden işçisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/kozan-imal-ticaret-sanayi-personel-anonim-sirketi-4-beden-iscisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/kozan-imar-ticaret-sanayi-personel-limited-sirketi-4-beden-iscisi-alacak": {
+      "attempted_at": 1792967623.657998,
+      "checked_at": 1792967623.657998,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Kozan İmar Ticaret Sanayi Personel Limited Şirketi 4 beden işçisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/kozan-imar-ticaret-sanayi-personel-limited-sirketi-4-beden-iscisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/kucukcekmece-insaat-taah-san-ve-tic-as-1-beden-iscisi-alacak": {
+      "attempted_at": 1792967613.6491346,
+      "checked_at": 1792967613.6491346,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Küçükçekmece İnşaat Taah. San. ve Tic. A.Ş. 1 beden işçisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/kucukcekmece-insaat-taah-san-ve-tic-as-1-beden-iscisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/kultur-ve-turizm-bakanligi-162-sozlesmeli-kutuphaneci-alacak": {
+      "checked_at": 0,
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "pending",
+      "title": "Kültür ve Turizm Bakanlığı 162 sözleşmeli kütüphaneci alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/kultur-ve-turizm-bakanligi-162-sozlesmeli-kutuphaneci-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/manisa-akhisar-belediyesi-1-memur-alacak": {
+      "attempted_at": 1792967645.870497,
+      "checked_at": 1792967645.870497,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Manisa Akhisar Belediyesi 1 memur alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/manisa-akhisar-belediyesi-1-memur-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/manisa-celal-bayar-universitesi-29-ogretim-uyesi-alacak": {
+      "checked_at": 0,
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "pending",
+      "title": "manisa celal bayar üniversitesi 29 öğretim üyesi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/manisa-celal-bayar-universitesi-29-ogretim-uyesi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/marmara-universitesi-63-sozlesmeli-personel-alacak": {
+      "checked_at": 0,
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "pending",
+      "title": "Marmara Üniversitesi 63 sözleşmeli personel alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/marmara-universitesi-63-sozlesmeli-personel-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/marmaris-belediyesi-personel-as-12-farkli-bransta-isci-alimi-yapacak": {
+      "attempted_at": 1792967616.5217195,
+      "checked_at": 1792967616.5217195,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "marmaris belediyesi personel a.ş. 12 farklı branşta işçi alımı yapacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/marmaris-belediyesi-personel-as-12-farkli-bransta-isci-alimi-yapacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/mentese-belediyesi-personel-ltd-sti-23-personel-alacak": {
+      "attempted_at": 1792967617.924128,
+      "checked_at": 1792967617.924128,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "menteşe belediyesi personel ltd. şti. 23 personel alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/mentese-belediyesi-personel-ltd-sti-23-personel-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/orman-genel-mudurlugu-12-mufettis-yardimcisi-alacak": {
+      "checked_at": 0,
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "pending",
+      "title": "Orman Genel Müdürlüğü 12 müfettiş yardımcısı alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/orman-genel-mudurlugu-12-mufettis-yardimcisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/orman-genel-mudurlugu-12-mufettis-yardimcisi-alacak-2": {
+      "attempted_at": 1792967642.931763,
+      "checked_at": 1792967642.931763,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Orman Genel Müdürlüğü 12 müfettiş yardımcısı alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/orman-genel-mudurlugu-12-mufettis-yardimcisi-alacak-2"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/peras-denizli-buyuksehir-belediyesi-1-endustri-muhendisi-alacak": {
+      "attempted_at": 1792967630.7532675,
+      "checked_at": 1792967630.7532675,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Peraş Denizli Büyükşehir Belediyesi 1 endüstri mühendisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/peras-denizli-buyuksehir-belediyesi-1-endustri-muhendisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/sakari-nakliye-pazarlama-limited-sirketi-1-beden-iscisi-alacak": {
+      "attempted_at": 1792967632.2156649,
+      "checked_at": 1792967632.2156649,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Sakarı nakliye pazarlama limited şirketi 1 beden işçisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/sakari-nakliye-pazarlama-limited-sirketi-1-beden-iscisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/samsun-canik-imar-8-personel-alacak": {
+      "attempted_at": 1792967626.4700167,
+      "checked_at": 1792967626.4700167,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "samsun canik imar 8 personel alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/samsun-canik-imar-8-personel-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/sarbel-uretim-ve-gida-limited-sirketi-4-servis-elemani-alacak": {
+      "checked_at": 0,
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "pending",
+      "title": "Sarbel Üretim ve Gıda Limited Şirketi 4 servis elemanı alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/sarbel-uretim-ve-gida-limited-sirketi-4-servis-elemani-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/sekabel-gida-ve-tic-as-2-beden-iscisi-alacak": {
+      "attempted_at": 1792967607.8639085,
+      "checked_at": 1792967607.8639085,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "şekabel gıda ve tic. a.ş. 2 beden işçisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/sekabel-gida-ve-tic-as-2-beden-iscisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/sile-belediyesi-personel-as-1-buro-memuru-alacak": {
+      "attempted_at": 1792967610.7273695,
+      "checked_at": 1792967610.7273695,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Şile Belediyesi Personel A.Ş. 1 büro memuru alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/sile-belediyesi-personel-as-1-buro-memuru-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/sinanpasa-unlu-mamulleri-gida-sanayi-ve-tic-ltd-sti-1-beden-iscisi-alacak": {
+      "attempted_at": 1792967599.08243,
+      "checked_at": 1792967599.08243,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Sinanpaşa Unlu Mamulleri Gıda Sanayi ve Tic. Ltd. Şti 1 beden işçisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/sinanpasa-unlu-mamulleri-gida-sanayi-ve-tic-ltd-sti-1-beden-iscisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/sivas-susehri-belediyesi-bel-su-as-5-beden-iscisi-alacak": {
+      "attempted_at": 1792967620.8656998,
+      "checked_at": 1792967620.8656998,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Sivas Suşehri Belediyesi Bel-Su A.Ş. 5 beden işçisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/sivas-susehri-belediyesi-bel-su-as-5-beden-iscisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/sorgun-sosyal-yardimlasma-ve-dayanisma-vakfi-1-temizlik-gorevlisi-alacak": {
+      "attempted_at": 1792967627.9076688,
+      "checked_at": 1792967627.9076688,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Sorgun sosyal yardımlaşma ve dayanışma vakfı 1 temizlik görevlisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/sorgun-sosyal-yardimlasma-ve-dayanisma-vakfi-1-temizlik-gorevlisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/tuncbel-tuncbilek-belediyesi-1-temizlik-iscisi-alacak": {
+      "attempted_at": 1792967600.5308166,
+      "checked_at": 1792967600.5308166,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Tunçbel Tunçbilek Belediyesi 1 temizlik işçisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/tuncbel-tuncbilek-belediyesi-1-temizlik-iscisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/turkiye-uluslararasi-islam-bilim-ve-teknoloji-universitesi-3-arastirma-gorevlisi-alacak": {
+      "checked_at": 0,
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "pending",
+      "title": "Türkiye Uluslararası İslam, Bilim ve Teknoloji Üniversitesi 3 araştırma görevlisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/turkiye-uluslararasi-islam-bilim-ve-teknoloji-universitesi-3-arastirma-gorevlisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/umraniye-belediyesi-personel-as-4-buro-elemani-alacak": {
+      "attempted_at": 1792967638.017619,
+      "checked_at": 1792967638.017619,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Ümraniye Belediyesi Personel A.Ş. 4 büro elemanı alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/umraniye-belediyesi-personel-as-4-buro-elemani-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/yuntas-akaryakit-6-ozel-egitim-ogretmeni-alacak": {
+      "checked_at": 0,
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "pending",
+      "title": "yüntaş akaryakıt 6 özel eğitim öğretmeni alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/yuntas-akaryakit-6-ozel-egitim-ogretmeni-alacak"
+    },
+    "https://www.isinolsa.com/41-universiteye-1139-personel-alimi-basvurular-suruyor-iste-kadrolar-ve-tarihler/": {
+      "checked_at": 0,
+      "source": "https://www.isinolsa.com/sozlesmeli-personel-alimi/feed/",
+      "status": "pending",
+      "title": "41 Üniversiteye 1139 Personel Alımı: Başvurular Sürüyor! İşte Kadrolar ve Tarihler",
+      "url": "https://www.isinolsa.com/41-universiteye-1139-personel-alimi-basvurular-suruyor-iste-kadrolar-ve-tarihler/"
+    },
+    "https://www.isinolsa.com/marmara-universitesi-63-personel-alacak-lise-mezunu-hizmetli-ve-sofor/": {
+      "checked_at": 0,
+      "source": "https://www.isinolsa.com/sozlesmeli-personel-alimi/feed/",
+      "status": "pending",
+      "title": "Marmara Üniversitesi 63 Personel Alacak! Lise Mezunu Hizmetli ve Şoför",
+      "url": "https://www.isinolsa.com/marmara-universitesi-63-personel-alacak-lise-mezunu-hizmetli-ve-sofor/"
+    },
+    "https://www.isinolsa.com/marmara-universitesi-63-personel-alimi-ilani-degisti-basvuru-tarihleri-ve-sartlar-guncellendi/": {
+      "checked_at": 0,
+      "source": "https://www.isinolsa.com/sozlesmeli-personel-alimi/feed/",
+      "status": "pending",
+      "title": "Marmara Üniversitesi 63 Personel Alımı İlanı Değişti! Başvuru Tarihleri ve Şartlar Güncellendi",
+      "url": "https://www.isinolsa.com/marmara-universitesi-63-personel-alimi-ilani-degisti-basvuru-tarihleri-ve-sartlar-guncellendi/"
+    },
+    "https://www.isinolsa.com/saglik-bakanligi-agiz-dis-sagligi-teknikeri-alimi/": {
+      "checked_at": 0,
+      "source": "https://www.isinolsa.com/sozlesmeli-personel-alimi/feed/",
+      "status": "pending",
+      "title": "Sağlık Bakanlığı Ağız ve Diş Sağlığı Teknikeri Alımı 2026: Şartlar ve Geçmiş Puanlar",
+      "url": "https://www.isinolsa.com/saglik-bakanligi-agiz-dis-sagligi-teknikeri-alimi/"
+    },
+    "https://www.isinolsa.com/saglik-bakanligi-att-ve-paramedik-alimlari/": {
+      "checked_at": 0,
+      "source": "https://www.isinolsa.com/sozlesmeli-personel-alimi/feed/",
+      "status": "pending",
+      "title": "Sağlık Bakanlığı ATT ve Paramedik Alımı 2026: KPSS, Mezuniyet ve Geçmiş Puanlar",
+      "url": "https://www.isinolsa.com/saglik-bakanligi-att-ve-paramedik-alimlari/"
+    },
+    "https://www.isinolsa.com/saglik-bakanligi-buro-personeli-alimlari/": {
+      "checked_at": 0,
+      "source": "https://www.isinolsa.com/sozlesmeli-personel-alimi/feed/",
+      "status": "pending",
+      "title": "Sağlık Bakanlığı Büro Personeli Alımı 2026: Mezuniyet Şartı, KPSS ve Geçmiş Taban Puan",
+      "url": "https://www.isinolsa.com/saglik-bakanligi-buro-personeli-alimlari/"
+    },
+    "https://www.isinolsa.com/saglik-bakanligi-ebe-alimi-ilanlari/": {
+      "checked_at": 0,
+      "source": "https://www.isinolsa.com/sozlesmeli-personel-alimi/feed/",
+      "status": "pending",
+      "title": "Sağlık Bakanlığı Ebe Alımı 2026: Mezuniyet Şartı, KPSS ve Geçmiş Taban Puan",
+      "url": "https://www.isinolsa.com/saglik-bakanligi-ebe-alimi-ilanlari/"
+    },
+    "https://www.isinolsa.com/saglik-bakanligi-hemsire-ebe-tekniker-teknisyen-alimlari/": {
+      "checked_at": 0,
+      "source": "https://www.isinolsa.com/sozlesmeli-personel-alimi/feed/",
+      "status": "pending",
+      "title": "Sağlık Bakanlığı Personel Alımı 2026: Hemşire, Ebe ve Sağlık Branşlarında Şartlar",
+      "url": "https://www.isinolsa.com/saglik-bakanligi-hemsire-ebe-tekniker-teknisyen-alimlari/"
+    },
+    "https://www.isinolsa.com/saglik-bakanligi-sofor-alimi-ilanlari/": {
+      "checked_at": 0,
+      "source": "https://www.isinolsa.com/sozlesmeli-personel-alimi/feed/",
+      "status": "pending",
+      "title": "Sağlık Bakanlığı Şoför Alımı 2026: Ehliyet, Mezuniyet ve KPSS Şartları",
+      "url": "https://www.isinolsa.com/saglik-bakanligi-sofor-alimi-ilanlari/"
+    },
+    "https://www.isinolsa.com/saglik-bakanligi-teknisyen-tekniker-alimlari/": {
+      "checked_at": 0,
+      "source": "https://www.isinolsa.com/sozlesmeli-personel-alimi/feed/",
+      "status": "pending",
+      "title": "Sağlık Bakanlığı Tekniker ve Teknisyen Alımı 2026: Bölümler, KPSS ve Geçmiş Taban Puanlar",
+      "url": "https://www.isinolsa.com/saglik-bakanligi-teknisyen-tekniker-alimlari/"
+    }
+  },
   "version": 1
 }
