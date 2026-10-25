@@ -1,0 +1,118 @@
+name: KPSS ilan takipçisi
+
+on:
+  schedule:
+    # UTC her saatin 17. dakikası; Türkiye'de de her saat :17.
+    - cron: '17 * * * *'
+  workflow_dispatch:
+    inputs:
+      test_telegram:
+        description: 'Telegram bağlantısını test et'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+# Elle ve cron ile tetiklenen iki çalışma aynı JSON üzerinde yarışmasın.
+concurrency:
+  group: kpss-tracker
+  cancel-in-progress: false
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+    steps:
+      - name: Güncel hafızayı ve kodu al
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Python hazırla
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Bağımlılıkları yükle
+        run: python -m pip install -r requirements.txt
+
+      - name: Telegram bağlantısını test et
+        if: github.event_name == 'workflow_dispatch' && inputs.test_telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python - <<'PY'
+          import os
+          import sys
+          import requests
+          try:
+              token = os.environ['TELEGRAM_BOT_TOKEN']
+              chat_id = os.environ['TELEGRAM_CHAT_ID']
+              response = requests.post(
+                  'https://api.telegram.org/bot' + token + '/sendMessage',
+                  json={'chat_id': chat_id, 'text': '✅ KPSS ilan takipçin bağlandı. Kaynaklar her saat kontrol edilecek; filtreye uyan yeni ilanlar buraya gelecek.'},
+                  timeout=(5, 20),
+              )
+              result = response.json()
+              if response.status_code != 200 or result.get('ok') is not True:
+                  print('Telegram test başarısız (HTTP %s). Botunda Başlat düğmesine bastığını ve Secrets değerlerini kontrol et.' % response.status_code)
+                  sys.exit(1)
+              print('Telegram test mesajı teslim edildi.')
+          except (requests.RequestException, ValueError, KeyError, AttributeError):
+              print('Telegram test bağlantısı kurulamadı; kimlik bilgileri loglanmadı.')
+              sys.exit(1)
+          PY
+
+      - name: İlanları tara ve bildir
+        id: scrape
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          REQUIRE_IT_SECONDARY: 'true'
+          RSS_URLS: ${{ vars.RSS_URLS }}
+          PYTHONUNBUFFERED: '1'
+        run: python scraper.py
+
+      - name: Hafızayı repo içinde kalıcılaştır
+        if: always() && (steps.scrape.outcome == 'success' || steps.scrape.outcome == 'failure')
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ ! -f seen_ads.json ]]; then
+            echo 'Hafıza dosyası bulunamadı.' >&2
+            exit 1
+          fi
+          python -m json.tool seen_ads.json >/dev/null
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- seen_ads.json
+          if git diff --cached --quiet; then
+            echo 'Hafıza değişmedi.'
+            exit 0
+          fi
+          git commit -m 'chore: update seen ads [skip ci]'
+          # Aynı sırada README/kod değişirse güvenli rebase; force-push yok.
+          for attempt in 1 2 3; do
+            git pull --rebase origin "$DEFAULT_BRANCH"
+            if git push origin "HEAD:$DEFAULT_BRANCH"; then
+              exit 0
+            fi
+            sleep 3
+          done
+          echo 'Hafıza push edilemedi; sonraki turda tekrar bildirim riski var.' >&2
+          exit 1
+
+      - name: Kısmi hatayı Actions ekranında göster
+        if: always() && steps.scrape.outcome == 'failure'
+        run: |
+          echo 'Kaynak veya Telegram hatası oluştu. Kaydedilebilen hafıza korundu; logları kontrol et.' >&2
+          exit 1
