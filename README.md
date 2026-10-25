@@ -107,7 +107,11 @@ doğruladığın erişilebilir kamu ilanı RSS adreslerini virgülle ayırarak y
 İçine token veya kişisel oturum bağlantısı koyma. Besleme, ilan keşfinde kullanılır;
 özetin eksik olması riskine karşı HTML detay sayfası ayrıca okunur. Yeni kaynağın
 HTML düzeni farklıysa `BODY_SELECTORS` veya `parse_detail` uyarlaması gerekebilir.
-Varsayılan, ayrıca doğrulanmış bağımsız bir RSS kaynağı içermez.
+Varsayılan bağımsız kaynaklar Devlet.TC kamu ilanları RSS
+(`https://devlet.tc/tr/kamu-ilanlari/rss.xml`) ve İşin Olsa RSS
+(`https://www.isinolsa.com/sozlesmeli-personel-alimi/feed/`) beslemeleridir. Bunlar bağımsız haber/ilan
+rehberleridir, resmî kamu kurumu değildir. RSS_URLS boşsa bu iki kaynak kullanılır;
+doluysa yazdığın liste kullanılır.
 
 403, CAPTCHA veya robots yasağında kaynak atlanır; engel aşma/proxy kullanımı yok.
 Bir kaynağın bugün açık olması GitHub runner IP'sinden sürekli açık kalacağı
@@ -138,8 +142,10 @@ kalanlar kuyrukta saklanır ve sonraki turlarda devam edilir.
 - Workflow, scraper hata kodu döndürse de değişen JSON'u commit/push eder.
   Aynı anda iki workflow JSON'a yazmaz. Push'ta normal kod/README değişiklikleri
   için rebase denenir; JSON üzerinde gerçek çakışma varsa force-push yapılmaz.
-- Kaynak hatası diğer kaynakları durdurmaz. Hatalı tur tamamlandıktan sonra
-  Actions kırmızı görünür; sorun sessizce başarılı gösterilmez.
+- Kaynak hatası diğer kaynakları durdurmaz. En az bir kaynak ve bekleyen
+  detaylardan en az biri okunabiliyorsa kısmi kaynak hataları uyarı olarak loglanır.
+  Hiç kaynak okunamazsa, denenen detayların hiçbiri okunamazsa veya Telegram
+  gönderimi başarısızsa Actions kırmızı görünür.
 - Token, chat ID ve hata yanıtı loglanmaz. Public repodaki JSON sadece kamu ilanı
   URL/ID, başlık, durum ve zaman damgalarını içerir.
 
@@ -177,10 +183,11 @@ Normal moda geçildikten sonra bekleyen ilanlar bildirim adayıdır.
 
 ## Doğrulama ve bilinen sınır
 
-19 otomatik test; Türkçe normalizasyonu, negatif veto, alan/eğitim kapısı,
+20 otomatik test; Türkçe normalizasyonu, negatif veto, alan/eğitim kapısı,
 RSS/Atom, ID tekilleştirme, gövde ayrıştırma, atomik kayıt, bozuk hafıza, Telegram
 429/timeout, tokenın loglanmaması ve ardışık çalışmalarda yeniden deneme/tekrar
-göndermeme davranışlarını doğrular. Testler ağ ve gerçek Telegram hesabı kullanmaz.
+göndermeme davranışlarını doğrular. Memurlar.net engelliyken sağlıklı RSS üzerinden
+bildirimin devam ettiği de test edilir. Testler ağ ve gerçek Telegram hesabı kullanmaz.
 
 Canlı `--dry-run` denemesinde üç liste kaynağı okundu (sırasıyla 35, 25 ve 25
 bağlantı; kaynaklar arasında tekrarlar var), ilk 35 ilan detayı ayrıştırıldı ve
@@ -188,9 +195,14 @@ bağlantı; kaynaklar arasında tekrarlar var), ilk 35 ilan detayı ayrıştır�
 okundu. Bu örneklemde filtreye uyan ilan çıkmadı. Deneme
 Telegram mesajı göndermedi ve boş başlangıç hafızasını değiştirmedi. Workflow
 YAML/Bash sözdizimi ve gerçek bir geçici Git reposunda JSON commit/push ile
-kalıcılığı da kontrol edildi. Gerçek Telegram gönderimi ve senin GitHub hesabında
-dağıtım henüz yapılmadı; GitHub runner IP'sinden kaynak erişimi ilk çalışmada
-doğrulanmalı.
+kalıcılığı da kontrol edildi. GitHub üzerinde ilk gerçek çalışmada Telegram test mesajı başarıyla
+teslim edildi ve JSON commit/push adımı başarılı oldu. Memurlar.net GitHub runner
+IP'sine HTTP 403 döndürdüğü için bağımsız RSS kaynakları eklendi. Memurlar.net
+taraması loglarda uyarıyla devam eder; erişim açılırsa yeniden çalışır.
+
+Elle çalıştırırken **Telegram bağlantısını test et** seçeneği işaretlenirse
+ilandan bağımsız tek bir bağlantı test mesajı gönderilir. Saatlik cron çalışmaları
+bu test mesajını göndermez.
 
 ## Resmî teknik kaynaklar
 

@@ -40,11 +40,17 @@ LIST_URLS = (
     MEMURLAR + "/kategori/4b-ilanlari/2.sayfa",
     MEMURLAR + "/kategori/kpss-b-ilanlari/?Expire=false",
 )
+# Bağımsız beslemeler: Memurlar.net runner IP'sine kapalıysa da tarama sürer.
+DEFAULT_RSS_URLS = (
+    "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+    "https://www.isinolsa.com/sozlesmeli-personel-alimi/feed/",
+)
 # Bunlar değişirse reddedilen ilanlar bir sonraki turda yeniden değerlendirilir.
-PARSER_VERSION = "1"
+PARSER_VERSION = "2"
 BODY_SELECTORS = (
     '[itemprop="articleBody"]', "#ilan-content", ".ilan-content",
     ".ilan-metni", ".ilan-detay-icerik", "#haber_detay", ".haber_detay",
+    ".entry-content",
     "article",
 )
 STOP_HEADINGS = {"kategoriler", "yeni ilanlar", "ilgili ilanlar", "anket"}
@@ -358,8 +364,11 @@ def main() -> int:
         LOG.error("Hafıza okunamadı; bildirim gönderilmedi ve dosya sıfırlanmadı")
         return 2
     web, good_sources, failures = Web(), 0, 0
+    delivery_failures, parsed_details = 0, 0
     deadline = time.monotonic() + 420
     rss_urls = [u.strip() for u in os.getenv("RSS_URLS", "").split(",") if u.strip()]
+    if not rss_urls:
+        rss_urls = list(DEFAULT_RSS_URLS)
     try:
         for url, kind in [(u, "html") for u in LIST_URLS] + [(u, "rss") for u in rss_urls]:
             if time.monotonic() >= deadline:
@@ -398,17 +407,22 @@ def main() -> int:
                 if "html" not in response.headers.get("Content-Type", "").lower():
                     raise SourceError("HTML olmayan detay; PDF/görsel manuel kontrol edilmeli")
                 ad = parse_detail(response.text, Ad(entry["url"], entry["title"], entry["source"]))
+                parsed_details += 1
                 if not process_ad(ad, state, token, chat_id, require_it_secondary=require_it,
                                   baseline=args.baseline, dry_run=args.dry_run,
                                   filter_id=filter_id, now=now):
                     failures += 1
+                    delivery_failures += 1
             except (SourceError, ValueError, TypeError, AttributeError, KeyError) as exc:
                 LOG.warning("Detay atlandı (%s): %s", str(exc), entry["url"])
                 failures += 1
             if not args.dry_run:
                 save_state(state_path, state)  # Her başarılı/başarısız denemeden sonra checkpoint.
         LOG.info("Özet: başarılı kaynak=%s, detay denemesi=%s, hata=%s", good_sources, attempted, failures)
-        return 1 if failures or not good_sources else 0
+        # Tek kaynak engellendi diye çalışan bağımsız kaynakları başarısız sayma.
+        # Hiçbir detay okunamıyorsa veya Telegram gönderimi hata veriyorsa kırmızı.
+        unhealthy = not good_sources or delivery_failures or (attempted > 0 and parsed_details == 0)
+        return 1 if unhealthy else 0
     finally:
         web.session.close()
         if not args.dry_run:
