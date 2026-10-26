@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """KPSS ilan takipçisi. Python 3.10+, tek sefer çalışır; zamanlamayı Actions yapar.
 
-Sadece ilan başlığı + ayrıştırılmış ilan gövdesi filtrelenir. Menü, ilgili
-ilanlar ve footer filtreye girmez. PDF/görsel/OCR bu sürümün kapsamında değil.
+SBB önceliklidir; RSS ve metin içeren PDF ekleri desteklenir.
+Negatif kelime filtresi yoktur. Görsel PDF için OCR yapılmaz.
 """
 from __future__ import annotations
 
@@ -16,7 +16,8 @@ import re
 import sys
 import time
 import unicodedata
-from dataclasses import dataclass
+from dataclasses import dataclass, field
+from io import BytesIO
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urljoin, urlsplit, urlunsplit
@@ -26,28 +27,34 @@ from zoneinfo import ZoneInfo
 import feedparser
 import requests
 from bs4 import BeautifulSoup, NavigableString
+from pypdf import PdfReader
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 LOG = logging.getLogger("kpss")
 ROOT = Path(__file__).resolve().parent
 MEMURLAR = "https://ilan.memurlar.net"
-USER_AGENT = "KPSSTracker/1.0 (personal job notification bot)"
-POSITIVE = ("teknisyen", "bilişim", "bilgisayar", "ortaöğretim", "lise", "2011")
-NEGATIVE = ("mühendis", "lisans", "önlisans", "öğretmen", "doktor", "hemşire", "sağlık teknikeri")
-LIST_URLS = (
-    MEMURLAR + "/default.aspx",
-    MEMURLAR + "/kategori/4b-ilanlari/",
-    MEMURLAR + "/kategori/4b-ilanlari/2.sayfa",
-    MEMURLAR + "/kategori/kpss-b-ilanlari/?Expire=false",
+USER_AGENT = (
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
 )
-# Bağımsız beslemeler: Memurlar.net runner IP'sine kapalıysa da tarama sürer.
+# Her iki grup zorunlu: teknisyen + en az bir alan/eğitim kelimesi.
+POSITIVE = ("bilişim", "bilgisayar", "ortaöğretim", "lise", "2011")
+SBB_URL = "https://kamuilan.sbb.gov.tr/"
+# SBB kök sayfasındaki gerçek 4/B bağlantısı keşfedilir; kategori ID'si uydurulmaz.
+LIST_URLS = (SBB_URL,)
+# Çalışan bir resmî Memurlar.net RSS adresi doğrulanamadığı için sahte URL yok.
+# MEMURLAR_RSS_URLS ortam değişkenine doğruladığın adresleri virgülle gir.
 DEFAULT_RSS_URLS = (
     "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
     "https://www.isinolsa.com/sozlesmeli-personel-alimi/feed/",
 )
+MAX_DOWNLOAD_BYTES = 12 * 1024 * 1024
+MAX_PDF_PAGES = 80
+MAX_PDFS_PER_AD = 5
+MAX_TEXT_CHARS = 1_000_000
 # Bunlar değişirse reddedilen ilanlar bir sonraki turda yeniden değerlendirilir.
-PARSER_VERSION = "3"
+PARSER_VERSION = "4"
 BODY_SELECTORS = (
     '[itemprop="articleBody"]', "#ilan-content", ".ilan-content",
     ".ilan-metni", ".ilan-detay-icerik", "#haber_detay", ".haber_detay",
@@ -68,35 +75,16 @@ def normalize(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
-def matches(text: str, require_it_secondary: bool = True) -> bool:
-    """İstenen pozitif OR + negatif veto; Türkçe/ASCII yazımları eşdeğer.
+def matches(text: str) -> bool:
+    """Sayfa/belge düzeyinde pozitif AND; karma ilandaki diğer unvanlar elemez.
 
-    Kelime kökü eşleşmesi bilinçlidir: 'mühendisliği' de elenir. Negatifler
-    TÜM ilan metninde aranır; karma ilanları kaçırma pahasına istenen katı kural.
-    Ek alan/eğitim kapısı elektrik teknisyeni gibi alakasız eşleşmeleri azaltır.
+    Bu bilinçli olarak geniş bir aday filtresidir. Örneğin elektrik teknisyeni
+    + lise de eşleşir; kişisel başvuru uygunluğu ayrıca kontrol edilmelidir.
     """
     text = normalize(text)
-    if any(normalize(word) in text for word in NEGATIVE):
-        return False
-    if not any(normalize(word) in text for word in POSITIVE):
-        return False
-    if not require_it_secondary:
-        return True
-    # 2011 tarihini nitelik kodu sanma. Kod veya açık lise + bilişim mezuniyeti.
-    code = re.search(r"\b(?:nitelik|kod)[^.\n]{0,80}\b2011\b", text)
-    # Bilgisayar kullanma/Office/sertifika şartı bir bilişim diploması değildir.
-    # Alan/bölüm/dal ifadesi doğrudan bilişim veya bilgisayara bağlanmalıdır.
-    it_department = re.search(
-        r"\b(?:bilisim(?: teknolojileri)?|bilgisayar(?: programciligi| teknolojileri|"
-        r" teknolojisi| donanim| yazilim| ag isletmenligi)?)\s+"
-        r"(?:alan\w*|bolum\w*|dal\w*)\b", text,
-    )
-    qualification = (
-        re.search(r"\b(?:lise\w*|orta\s?ogretim)\b", text)
-        and it_department
-        and re.search(r"\bmezun\w*\b", text)
-    )
-    return bool(code or qualification)
+    technician = re.search(r"\bteknisyen\w*\b", text)
+    education = re.search(r"\b(?:bilisim\w*|bilgisayar\w*|orta\s?ogretim\w*|lise\w*|2011)\b", text)
+    return bool(technician and education)
 
 
 def canonical_url(url: str) -> str:
@@ -125,6 +113,9 @@ class Ad:
     source: str
     body: str = ""
     exclusion_reason: str = ""
+    pdf_urls: list[str] = field(default_factory=list)
+    pdf_texts: list[str] = field(default_factory=list)
+    incomplete: bool = False
 
 
 def deadline_is_past(value: str, now: datetime | None = None) -> bool:
@@ -145,7 +136,11 @@ class Web:
 
     def __init__(self) -> None:
         self.session = requests.Session()
-        self.session.headers.update({"User-Agent": USER_AGENT})
+        self.session.headers.update({
+            "User-Agent": USER_AGENT,
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/pdf;q=0.8,*/*;q=0.7",
+            "Accept-Language": "tr-TR,tr;q=0.9,en;q=0.6",
+        })
         retry = Retry(total=1, backoff_factor=1, status_forcelist=(500, 502, 503, 504),
                       allowed_methods=frozenset({"GET"}), respect_retry_after_header=False)
         self.session.mount("https://", HTTPAdapter(max_retries=retry))
@@ -158,7 +153,20 @@ class Web:
         time.sleep(max(0.0, 1.0 - (time.monotonic() - self.last_request.get(origin, 0))))
         try:
             # Yönlendirme başka sunucuya giderse onun robots kuralını atlama.
-            response = self.session.get(url, timeout=(5, 15), allow_redirects=False)
+            response = self.session.get(url, timeout=(5, 15), allow_redirects=False, stream=True)
+            # stream=True: büyük PDF'yi sınırsız belleğe indirme.
+            chunks, size = [], 0
+            started = time.monotonic()
+            try:
+                for chunk in response.iter_content(64 * 1024):
+                    size += len(chunk)
+                    if size > MAX_DOWNLOAD_BYTES or time.monotonic() - started > 30:
+                        raise SourceError("İndirme boyut/süre sınırı aşıldı")
+                    chunks.append(chunk)
+                response._content = b"".join(chunks)
+                response._content_consumed = True
+            finally:
+                response.close()
         except requests.RequestException:
             raise SourceError("Ağ hatası / timeout") from None
         finally:
@@ -197,7 +205,29 @@ class Web:
         return response
 
 
+def sbb_category_links(markup: str, base: str) -> list[str]:
+    """Canlı HTML'deki 4/B sekmesinin HTTP bağlantısını bul."""
+    soup = BeautifulSoup(markup, "html.parser")
+    result = []
+    for link in soup.select("a[href]"):
+        label = normalize(link.get_text(" ", strip=True))
+        if not re.search(r"4\s*/\s*b", label) or "sozlesmeli" not in label:
+            continue
+        try:
+            url = canonical_url(urljoin(base, link["href"]))
+            if urlsplit(url).hostname == "kamuilan.sbb.gov.tr" and url not in result:
+                result.append(url)
+        except ValueError:
+            continue
+    return result[:3]
+
+
 def parse_listing(markup: str, base: str) -> list[Ad]:
+    """SBB detay bağlantıları. Sunucu HTML'si değişirse hata açıkça loglanır.
+
+    4/B sekmesi JS ile filtreleniyorsa ana listedeki tüm ilanlar alınır;
+    karma üniversite ilanı başlıkta teknisyen yazmıyor diye atılmaz.
+    """
     soup = BeautifulSoup(markup, "html.parser")
     ads: dict[str, Ad] = {}
     for link in soup.select("a[href]"):
@@ -205,19 +235,85 @@ def parse_listing(markup: str, base: str) -> list[Ad]:
             url = canonical_url(urljoin(base, link["href"]))
         except ValueError:
             continue
-        if urlsplit(url).hostname != "ilan.memurlar.net":
+        parts = urlsplit(url)
+        if parts.hostname != "kamuilan.sbb.gov.tr":
             continue
-        if not re.match(r"/ilan/\d+/", urlsplit(url).path):
+        if not re.search(r"(?:ilandetay|ilan[-_/]detay|duyuru[-_/]detay)", parts.path, re.I):
             continue
         title = link.get_text(" ", strip=True) or link.get("title", "")
         if title:
-            ads.setdefault(ad_key(url), Ad(url, title[:500], "Memurlar.net"))
+            ads.setdefault(ad_key(url), Ad(url, title[:500], "SBB Kamu İlan"))
     if not ads:
-        raise SourceError("Liste boş: sayfa yapısı değişmiş veya erişim engellenmiş olabilir")
+        raise SourceError("SBB ilan bağlantıları bulunamadı; yapı/erişim kontrol edilmeli")
     return list(ads.values())
 
 
+def pdf_links(markup: str, base: str) -> list[str]:
+    soup = BeautifulSoup(markup, "html.parser")
+    for node in soup.select("nav,footer,aside"):
+        node.decompose()
+    urls = []
+    for node in soup.select("a[href],iframe[src],embed[src],object[data]"):
+        raw = node.get("href") or node.get("src") or node.get("data")
+        try:
+            url = canonical_url(urljoin(base, raw))
+        except (ValueError, TypeError):
+            continue
+        if re.search(r"\.pdf$", urlsplit(url).path, re.I) and url not in urls:
+            urls.append(url)
+    return urls
+
+
+def extract_pdf_text(content: bytes) -> str:
+    """Diske yazmadan PDF metni çıkar; taranmış PDF'yi boş/reddedilmiş sayma."""
+    try:
+        reader = PdfReader(BytesIO(content), strict=False)
+        if reader.is_encrypted and not reader.decrypt(""):
+            raise SourceError("PDF şifreli")
+        if len(reader.pages) > MAX_PDF_PAGES:
+            raise SourceError("PDF sayfa sınırı aşıldı; otomatik ret yapılmadı")
+        pieces, size = [], 0
+        for page in reader.pages:
+            text = page.extract_text() or ""
+            size += len(text)
+            if size > MAX_TEXT_CHARS:
+                raise SourceError("PDF metin sınırı aşıldı")
+            pieces.append(text)
+        text = "\n".join(pieces).strip()
+        if not text:
+            raise SourceError("PDF'de okunabilir metin yok; OCR gerekiyor")
+        return text
+    except SourceError:
+        raise
+    except Exception:
+        # Bozuk PDF ve pypdf sürümüne bağlı ayrıştırma hataları diğer ilanı durdurmaz.
+        raise SourceError("PDF okunamadı / bozuk dosya") from None
+
+
+def enrich_pdfs(web: Web, ad: Ad, deadline: float) -> Ad:
+    if len(ad.pdf_urls) > MAX_PDFS_PER_AD:
+        ad.incomplete = True
+        LOG.warning("PDF ek sınırı aşıldı: %s", ad.url)
+    for url in ad.pdf_urls[:MAX_PDFS_PER_AD]:
+        if time.monotonic() >= deadline:
+            ad.incomplete = True
+            break
+        try:
+            response = web.get(url)
+            ad.pdf_texts.append(extract_pdf_text(response.content))
+        except SourceError as exc:
+            ad.incomplete = True
+            LOG.warning("PDF atlandı (%s): %s", str(exc), url)
+    return ad
+
+
+def ad_matches(ad: Ad) -> bool:
+    # Aynı HTML sayfasında başlık+gövde birleşebilir; her PDF bağımsız belgedir.
+    return matches(ad.title + "\n" + ad.body) or any(matches(text) for text in ad.pdf_texts)
+
+
 def parse_detail(markup: str, ad: Ad) -> Ad:
+    ad.pdf_urls = pdf_links(markup, ad.url)
     soup = BeautifulSoup(markup, "html.parser")
     heading = soup.find("h1")
     if heading:
@@ -263,9 +359,9 @@ def parse_detail(markup: str, ad: Ad) -> Ad:
                 if value:
                     pieces.append(value)
         body = "\n".join(pieces)
-    if not body or len(body) < 80:
+    if (not body or len(body) < 30) and not ad.pdf_urls:
         raise SourceError("İlan gövdesi okunamadı; kayıt görüldü sayılmadı")
-    ad.body = body
+    ad.body = body or ""
     return ad
 
 
@@ -280,7 +376,20 @@ def parse_feed(content: bytes, base: str) -> list[Ad]:
         if not entry.get("link") or not entry.get("title"):
             continue
         try:
-            ads.append(Ad(canonical_url(urljoin(base, entry.link)), entry.title[:500], base))
+            fragments = [entry.get("summary", "")]
+            fragments += [part.get("value", "") for part in entry.get("content", [])]
+            markup = "\n".join(fragments)
+            ad = Ad(canonical_url(urljoin(base, entry.link)), entry.title[:500], base,
+                    BeautifulSoup(markup, "html.parser").get_text("\n", strip=True))
+            ad.pdf_urls = pdf_links(markup, ad.url)
+            for enclosure in entry.get("enclosures", []):
+                href = enclosure.get("href", "")
+                if href and (enclosure.get("type") == "application/pdf"
+                             or urlsplit(href).path.lower().endswith(".pdf")):
+                    url = canonical_url(urljoin(ad.url, href))
+                    if url not in ad.pdf_urls:
+                        ad.pdf_urls.append(url)
+            ads.append(ad)
         except ValueError:
             continue
     if not ads:
@@ -360,18 +469,21 @@ def send_telegram(ad: Ad, token: str, chat_id: str) -> bool:
 
 
 def process_ad(ad: Ad, state: dict, token: str, chat_id: str, *,
-               require_it_secondary: bool, baseline: bool, dry_run: bool,
+               baseline: bool, dry_run: bool,
                filter_id: str, now: float) -> bool:
     """False yalnızca gönderim başarısızsa. Başarısız gönderim pending kalır."""
-    selected = not ad.exclusion_reason and matches(ad.title + "\n" + ad.body, require_it_secondary)
+    selected = not ad.exclusion_reason and ad_matches(ad)
     if dry_run:
         LOG.info("DRY RUN eşleşme=%s %s", selected, ad.url)
         return True
     entry = state["ads"][ad_key(ad.url)]
     entry.update(checked_at=now, filter_id=filter_id)
-    if not selected:
+    if not selected and ad.incomplete and not ad.exclusion_reason:
+        entry["status"] = "pending"
+        entry["rejection_reason"] = "Eksik PDF/RSS içeriği; sonraki tur yeniden denenecek"
+    elif not selected:
         entry["status"] = "rejected"
-        entry["rejection_reason"] = ad.exclusion_reason or "Alan/eğitim veya anahtar kelime filtresi eşleşmedi"
+        entry["rejection_reason"] = ad.exclusion_reason or "Teknisyen + alan/eğitim pozitif eşleşmesi bulunamadı"
     elif baseline:
         entry["status"] = "baseline"
     elif send_telegram(ad, token, chat_id):
@@ -397,8 +509,7 @@ def main() -> int:
         LOG.error("TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID tanımlanmamış")
         return 2
     state_path = Path(os.getenv("STATE_FILE", str(ROOT / "seen_ads.json")))
-    require_it = os.getenv("REQUIRE_IT_SECONDARY", "true").lower() != "false"
-    filter_id = hashlib.sha256(json.dumps([POSITIVE, NEGATIVE, require_it, PARSER_VERSION]).encode()).hexdigest()[:16]
+    filter_id = hashlib.sha256(json.dumps([POSITIVE, PARSER_VERSION]).encode()).hexdigest()[:16]
     try:
         state = load_state(state_path)
     except (OSError, ValueError, KeyError, TypeError):
@@ -410,18 +521,28 @@ def main() -> int:
     rss_urls = [u.strip() for u in os.getenv("RSS_URLS", "").split(",") if u.strip()]
     if not rss_urls:
         rss_urls = list(DEFAULT_RSS_URLS)
+    memurlar_feeds = [u.strip() for u in os.getenv("MEMURLAR_RSS_URLS", "").split(",") if u.strip()]
+    if not memurlar_feeds:
+        LOG.warning("MEMURLAR_RSS_URLS boş; doğrulanmış RSS olmadan Memurlar HTML taraması yapılmaz")
+    sources = [(u, "html") for u in LIST_URLS] + [(u, "rss") for u in memurlar_feeds + rss_urls]
     try:
-        for url, kind in [(u, "html") for u in LIST_URLS] + [(u, "rss") for u in rss_urls]:
+        for url, kind in sources:
             if time.monotonic() >= deadline:
                 break
             try:
                 response = web.get(url)
                 ads = parse_feed(response.content, response.url) if kind == "rss" else parse_listing(response.text, response.url)
+                if kind == "html":
+                    for category_url in sbb_category_links(response.text, response.url):
+                        if category_url != url and (category_url, "html") not in sources:
+                            sources.insert(sources.index((url, kind)) + 1, (category_url, "html"))
                 for ad in ads:
-                    state["ads"].setdefault(ad_key(ad.url), {
+                    entry = state["ads"].setdefault(ad_key(ad.url), {
                         "url": ad.url, "title": ad.title, "source": ad.source,
                         "status": "pending", "checked_at": 0,
                     })
+                    if kind == "rss":
+                        entry.update(feed_body=ad.body[:MAX_TEXT_CHARS], feed_pdf_urls=ad.pdf_urls)
                 good_sources += 1
                 LOG.info("Kaynak okundu: %s (%s ilan)", url, len(ads))
             except (SourceError, ValueError, TypeError, AttributeError, KeyError) as exc:
@@ -444,12 +565,24 @@ def main() -> int:
             attempted += 1
             entry["attempted_at"] = now
             try:
-                response = web.get(entry["url"])
-                if "html" not in response.headers.get("Content-Type", "").lower():
-                    raise SourceError("HTML olmayan detay; PDF/görsel manuel kontrol edilmeli")
-                ad = parse_detail(response.text, Ad(entry["url"], entry["title"], entry["source"]))
+                ad = Ad(entry["url"], entry["title"], entry["source"])
+                # Memurlar için yalnız RSS içerik/ekleri kullan; eski kuyruk da HTML açmaz.
+                if urlsplit(ad.url).hostname in {"ilan.memurlar.net", "www.memurlar.net", "memurlar.net"}:
+                    ad.body = entry.get("feed_body", "")
+                    ad.pdf_urls = entry.get("feed_pdf_urls", [])
+                    ad.incomplete = True  # RSS kısa olabilir; eşleşmezse kesin ret yapma.
+                    if not ad.body and not ad.pdf_urls and not matches(ad.title):
+                        raise SourceError("Memurlar RSS içeriği yok; HTML isteği yapılmadı")
+                else:
+                    response = web.get(ad.url)
+                    if "pdf" in response.headers.get("Content-Type", "").lower() or response.content.startswith(b"%PDF-"):
+                        ad.pdf_texts.append(extract_pdf_text(response.content))
+                    else:
+                        ad = parse_detail(response.text, ad)
+                if not ad.exclusion_reason:
+                    ad = enrich_pdfs(web, ad, deadline)
                 parsed_details += 1
-                if not process_ad(ad, state, token, chat_id, require_it_secondary=require_it,
+                if not process_ad(ad, state, token, chat_id,
                                   baseline=args.baseline, dry_run=args.dry_run,
                                   filter_id=filter_id, now=now):
                     failures += 1
