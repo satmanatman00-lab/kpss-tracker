@@ -18,6 +18,15 @@
       "title": "anet antalya inşaat 2 engelli personel alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/anet-antalya-insaat-2-engelli-personel-alacak"
     },
+    "https://devlet.tc/tr/kamu-ilanlari/ankara-haci-bayram-veli-universitesi-7-ogretim-elemani-alacak": {
+      "attempted_at": 1792989730.7929182,
+      "checked_at": 1792989730.7929182,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Ankara Hacı Bayram Veli Üniversitesi 7 öğretim elemanı alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/ankara-haci-bayram-veli-universitesi-7-ogretim-elemani-alacak"
+    },
     "https://devlet.tc/tr/kamu-ilanlari/balikesir-gayrimenkul-yatirim-ve-gida-as-1-garson-alacak": {
       "attempted_at": 1792967845.1701214,
       "checked_at": 1792967845.1701214,
@@ -91,6 +100,15 @@
       "title": "Çorum Sunbeton İnş. San. ve Tic. Ltd. Şti. 1 itfaiye destek personeli alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/corum-sunbeton-ins-san-ve-tic-ltd-sti-1-itfaiye-destek-personeli-alacak"
     },
+    "https://devlet.tc/tr/kamu-ilanlari/dokuz-eylul-universitesi-21-akademik-personel-ve-ogretim-gorevlisi-alacak": {
+      "attempted_at": 1792989730.24465,
+      "checked_at": 1792989730.24465,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Dokuz Eylül Üniversitesi 21 akademik personel ve öğretim görevlisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/dokuz-eylul-universitesi-21-akademik-personel-ve-ogretim-gorevlisi-alacak"
+    },
     "https://devlet.tc/tr/kamu-ilanlari/etimkent-yapi-maden-san-ve-tic-as-1-buro-iscisi-alacak": {
       "attempted_at": 1792967633.6698334,
       "checked_at": 1792967633.6698334,
@@ -99,6 +117,15 @@
       "status": "rejected",
       "title": "etimkent yapı maden san. ve tic. a.ş. 1 büro işçisi alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/etimkent-yapi-maden-san-ve-tic-as-1-buro-iscisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/firat-universitesi-80-akademik-personel-ve-ogretim-elemani-alacak": {
+      "attempted_at": 1792989731.9599662,
+      "checked_at": 1792989731.9599662,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Fırat Üniversitesi 80 akademik personel ve öğretim elemanı alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/firat-universitesi-80-akademik-personel-ve-ogretim-elemani-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/gazibel-insaat-1-insaatisyeri-bekcisi-alacak": {
       "attempted_at": 1792967635.1138587,
