@@ -2,6 +2,7 @@
 import json
 import tempfile
 import unittest
+from datetime import datetime, timezone
 from pathlib import Path
 from unittest.mock import Mock, patch
 
@@ -38,6 +39,32 @@ class TrackerTests(unittest.TestCase):
     def test_literal_keyword_mode_can_be_selected(self):
         self.assertTrue(s.matches("Lise mezunu destek personeli", require_it_secondary=False))
         self.assertFalse(s.matches("Lise mezunu destek personeli"))
+
+    def test_computer_literacy_is_not_an_it_diploma(self):
+        self.assertFalse(s.matches('Büro İşçisi. En az lise mezunu olmak. Office programlarına hakim olmak ve aktif bilgisayar kullanıyor olmak.'))
+        self.assertFalse(s.matches('Lise mezunu olmak ve bilgisayar işletmenliği sertifikası sahibi olmak.'))
+        self.assertTrue(s.matches('Teknisyen: Meslek liselerinin bilgisayar bölümünden mezun olmak.'))
+
+    def test_worker_category_is_rejected_even_with_it_department(self):
+        markup = f'<article data-k-article><header class="k-jobhead"><a href="/tr/kamu-ilanlari/tur/isci">İşçi</a><h1>Şirket 2 personel alacak</h1></header><div class="k-article__body">{QUALIFIED}</div></article>'
+        ad = s.parse_detail(markup, self.ad())
+        self.assertIn('Hedef dışı ilan türü', ad.exclusion_reason)
+        state = self.state()
+        with patch.object(s, 'send_telegram') as send:
+            s.process_ad(ad, state, 'TOKEN', 'ID', require_it_secondary=True,
+                         baseline=False, dry_run=False, filter_id='x', now=1)
+        send.assert_not_called()
+        self.assertEqual(state['ads'][s.ad_key(URL)]['status'], 'rejected')
+
+    def test_expired_ad_is_rejected_even_when_qualification_matches(self):
+        markup = f'<article data-k-article><header class="k-jobhead"><a href="/tr/kamu-ilanlari/tur/sozlesmeli">Sözleşmeli</a><span>Süre doldu</span><h1>Teknisyen alımı</h1></header><div class="k-article__body">{QUALIFIED}</div></article>'
+        self.assertIn('Başvuru süresi dolmuş', s.parse_detail(markup, self.ad()).exclusion_reason)
+
+    def test_deadline_timezone_and_date_only_end_of_day(self):
+        now = datetime(2026, 10, 26, 12, tzinfo=timezone.utc)
+        self.assertTrue(s.deadline_is_past('2026-10-24T17:00:00+03:00', now))
+        self.assertFalse(s.deadline_is_past('2026-10-26', now))
+        self.assertTrue(s.deadline_is_past('2026-10-26T14:00:00', now))
 
     def test_url_variants_have_same_id(self):
         self.assertEqual(s.ad_key(URL), s.ad_key(URL + "?amp=1&utm_source=x#foo"))
