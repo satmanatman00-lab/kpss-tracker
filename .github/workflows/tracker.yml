@@ -77,8 +77,8 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          REQUIRE_IT_SECONDARY: 'true'
           RSS_URLS: ${{ vars.RSS_URLS }}
+          MEMURLAR_RSS_URLS: ${{ vars.MEMURLAR_RSS_URLS }}
           PYTHONUNBUFFERED: '1'
         run: python scraper.py
 
