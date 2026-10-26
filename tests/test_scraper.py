@@ -26,24 +26,20 @@ class TrackerTests(unittest.TestCase):
         self.assertTrue(s.matches("TEKNİSYEN MESLEK LİSESİ BİLİŞİM TEKNOLOJİLERİ ALANI MEZUNU"))
         self.assertTrue(s.matches("teknisyen ortaogretim bilgisayar bolumu mezunu"))
 
-    def test_each_negative_vetoes_mixed_ad(self):
-        for word in s.NEGATIVE:
-            with self.subTest(word=word):
-                self.assertFalse(s.matches(QUALIFIED + " " + word))
+    def test_mixed_ad_other_roles_do_not_veto(self):
+        for word in ("mühendis", "lisans", "önlisans", "öğretmen", "doktor", "hemşire", "sağlık teknikeri"):
+            self.assertTrue(s.matches(QUALIFIED + " " + word))
 
-    def test_scope_gate_prevents_electrician_and_year_false_positive(self):
-        self.assertFalse(s.matches("Teknisyen: Elektrik meslek lisesi alanından mezun olmak."))
-        self.assertFalse(s.matches("2011 yılında yayımlanan teknisyen ilanı"))
-        self.assertTrue(s.matches("Teknisyen; nitelik kodları: 2001, 2011, 6225"))
+    def test_positive_groups_both_required(self):
+        self.assertFalse(s.matches("Lise mezunu destek personeli. Bilgisayar kullanabilmek."))
+        self.assertFalse(s.matches("Teknisyen aranıyor."))
+        for text in ("Teknisyeni bilişim", "Teknisyen bilgisayar", "Teknisyen ortaöğretim",
+                     "Teknisyen lise", "Teknisyen 2011", "Teknisyen: Elektrik meslek lisesi"):
+            self.assertTrue(s.matches(text), text)
+        self.assertFalse(s.matches("Sağlık teknikeri lise"))
 
-    def test_literal_keyword_mode_can_be_selected(self):
-        self.assertTrue(s.matches("Lise mezunu destek personeli", require_it_secondary=False))
-        self.assertFalse(s.matches("Lise mezunu destek personeli"))
-
-    def test_computer_literacy_is_not_an_it_diploma(self):
-        self.assertFalse(s.matches('Büro İşçisi. En az lise mezunu olmak. Office programlarına hakim olmak ve aktif bilgisayar kullanıyor olmak.'))
-        self.assertFalse(s.matches('Lise mezunu olmak ve bilgisayar işletmenliği sertifikası sahibi olmak.'))
-        self.assertTrue(s.matches('Teknisyen: Meslek liselerinin bilgisayar bölümünden mezun olmak.'))
+    def test_computer_literacy_without_technician_does_not_match(self):
+        self.assertFalse(s.matches('Büro İşçisi. En az lise mezunu. Office ve bilgisayar kullanmak.'))
 
     def test_worker_category_is_rejected_even_with_it_department(self):
         markup = f'<article data-k-article><header class="k-jobhead"><a href="/tr/kamu-ilanlari/tur/isci">İşçi</a><h1>Şirket 2 personel alacak</h1></header><div class="k-article__body">{QUALIFIED}</div></article>'
@@ -51,7 +47,7 @@ class TrackerTests(unittest.TestCase):
         self.assertIn('Hedef dışı ilan türü', ad.exclusion_reason)
         state = self.state()
         with patch.object(s, 'send_telegram') as send:
-            s.process_ad(ad, state, 'TOKEN', 'ID', require_it_secondary=True,
+            s.process_ad(ad, state, 'TOKEN', 'ID', 
                          baseline=False, dry_run=False, filter_id='x', now=1)
         send.assert_not_called()
         self.assertEqual(state['ads'][s.ad_key(URL)]['status'], 'rejected')
@@ -71,10 +67,13 @@ class TrackerTests(unittest.TestCase):
         self.assertEqual(s.canonical_url("https://example.gov.tr/ilan?id=2&utm_source=x#abc"),
                          "https://example.gov.tr/ilan?id=2")
 
-    def test_list_dedupes_and_rejects_external_or_non_ad_links(self):
-        markup = f'<a href="{URL}">İlan</a><a href="{URL}?amp=1">Tekrar</a>'
-        markup += '<a href="/kategori/4b-ilanlari/">Kategori</a><a href="https://evil.example/ilan/2/x">Dış</a>'
-        self.assertEqual(len(s.parse_listing(markup, s.MEMURLAR)), 1)
+    def test_sbb_links_and_category_discovery(self):
+        base = s.SBB_URL
+        markup = '<a href="/ilanDetay.aspx?id=123">Örnek Üniversitesi 50 personel</a>'
+        markup += '<a href="/ilanDetay.aspx?id=123">Tekrar</a><a href="/arsiv.aspx">Arşiv</a>'
+        markup += '<a href="/?ktg=99">4/B Sözleşmeli Personel</a>'
+        self.assertEqual(len(s.parse_listing(markup, base)), 1)
+        self.assertEqual(s.sbb_category_links(markup, base), [base + '?ktg=99'])
 
     def test_listing_structure_change_is_explicit(self):
         with self.assertRaises(s.SourceError):
@@ -118,7 +117,7 @@ class TrackerTests(unittest.TestCase):
     def test_telegram_failure_not_marked_notified(self):
         state = self.state()
         with patch.object(s, "send_telegram", return_value=False):
-            result = s.process_ad(self.ad(), state, "TOKEN", "ID", require_it_secondary=True,
+            result = s.process_ad(self.ad(), state, "TOKEN", "ID", 
                                   baseline=False, dry_run=False, filter_id="x", now=1)
         self.assertFalse(result)
         self.assertEqual(state["ads"][s.ad_key(URL)]["status"], "pending")
@@ -127,7 +126,7 @@ class TrackerTests(unittest.TestCase):
         for baseline, status in ((False, "notified"), (True, "baseline")):
             state = self.state()
             with patch.object(s, "send_telegram", return_value=True) as send:
-                s.process_ad(self.ad(), state, "TOKEN", "ID", require_it_secondary=True,
+                s.process_ad(self.ad(), state, "TOKEN", "ID", 
                              baseline=baseline, dry_run=False, filter_id="x", now=1)
             self.assertEqual(state["ads"][s.ad_key(URL)]["status"], status)
             self.assertEqual(send.call_count, 0 if baseline else 1)
@@ -167,9 +166,10 @@ class TrackerTests(unittest.TestCase):
 
     def test_full_run_retries_failed_send_but_does_not_repeat_success(self):
         markup = f'<h1>Örnek Üniversitesi</h1><article>{QUALIFIED}</article>'
-        listing = f'<a href="{URL}">Örnek Üniversitesi personel alacak</a>'
+        listing = '<a href="https://kamuilan.sbb.gov.tr/ilanDetay.aspx?id=123">Üniversite personel alacak</a>'
         def fetch(url):
-            return Mock(text=markup if "/ilan/" in url else listing,
+            text = markup if 'ilanDetay' in url else listing
+            return Mock(text=text, content=text.encode(),
                         headers={"Content-Type": "text/html"}, url=url)
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp) / "seen_ads.json"
@@ -185,7 +185,7 @@ class TrackerTests(unittest.TestCase):
                                 self.assertEqual(s.main(), 0)
                                 self.assertEqual(send.call_count, 2)
             saved = json.loads(path.read_text())
-            self.assertEqual(saved["ads"]["memurlar:123"]["status"], "notified")
+            self.assertEqual(saved["ads"]["https://kamuilan.sbb.gov.tr/ilanDetay.aspx?id=123"]["status"], "notified")
 
     def test_blocked_primary_source_does_not_stop_healthy_rss(self):
         rss_url = 'https://example.gov.tr/feed.xml'
@@ -193,9 +193,9 @@ class TrackerTests(unittest.TestCase):
         rss = f'<rss version="2.0"><channel><title>İlan</title><link>{rss_url}</link><description>x</description><item><title>Teknisyen</title><link>{ad_url}</link></item></channel></rss>'
         detail = f'<h1>Örnek Üniversitesi</h1><article>{QUALIFIED}</article>'
         def fetch(url):
-            if 'memurlar.net' in url:
+            if 'sbb.gov.tr' in url:
                 raise s.SourceError('HTTP 403')
-            return Mock(text=detail, content=rss.encode(), url=url,
+            return Mock(text=detail, content=(detail.encode() if url == ad_url else rss.encode()), url=url,
                         headers={'Content-Type': 'text/html'})
         with tempfile.TemporaryDirectory() as tmp:
             with patch.dict(s.os.environ, {'STATE_FILE': str(Path(tmp)/'state.json'),
@@ -206,6 +206,94 @@ class TrackerTests(unittest.TestCase):
                         with patch.object(s, 'send_telegram', return_value=True) as send:
                             self.assertEqual(s.main(), 0)
                             self.assertEqual(send.call_count, 1)
+
+    def pdf(self, text="Teknisyen bilgisayar lise"):
+        from io import BytesIO
+        from pypdf import PdfWriter
+        from pypdf.generic import DictionaryObject, NameObject, DecodedStreamObject
+        writer = PdfWriter()
+        page = writer.add_blank_page(width=600, height=800)
+        font = DictionaryObject({NameObject('/Type'): NameObject('/Font'),
+                                 NameObject('/Subtype'): NameObject('/Type1'),
+                                 NameObject('/BaseFont'): NameObject('/Helvetica')})
+        page[NameObject('/Resources')] = DictionaryObject({
+            NameObject('/Font'): DictionaryObject({NameObject('/F1'): writer._add_object(font)})})
+        stream = DecodedStreamObject()
+        stream.set_data(('BT /F1 12 Tf 20 700 Td (' + text + ') Tj ET').encode())
+        page[NameObject('/Contents')] = writer._add_object(stream)
+        out = BytesIO(); writer.write(out)
+        return out.getvalue()
+
+    def test_real_pdf_extraction_and_matching(self):
+        text = s.extract_pdf_text(self.pdf())
+        self.assertTrue(s.matches(text))
+        ad = s.Ad(URL, 'Karma üniversite alımı', 'test', 'Hemşire lisans mühendis alımı')
+        ad.pdf_texts.append(text)
+        self.assertTrue(s.ad_matches(ad))
+
+    def test_keywords_cannot_join_unrelated_pdf_documents(self):
+        ad = self.ad(); ad.title = 'Alım'; ad.body = 'Personel'
+        ad.pdf_texts = ['Teknisyen aranıyor', 'Lise mezunu büro personeli']
+        self.assertFalse(s.ad_matches(ad))
+
+    def test_scanned_corrupt_and_oversized_pdf_are_explicit(self):
+        from io import BytesIO
+        from pypdf import PdfWriter
+        writer = PdfWriter(); writer.add_blank_page(width=600, height=800)
+        out = BytesIO(); writer.write(out)
+        for content in (out.getvalue(), b'not a PDF'):
+            with self.assertRaises(s.SourceError): s.extract_pdf_text(content)
+        with patch.object(s, 'MAX_PDF_PAGES', 0):
+            with self.assertRaises(s.SourceError): s.extract_pdf_text(self.pdf())
+
+    def test_pdf_links_relative_query_case_and_dedupe(self):
+        markup = '<a href="/ek.PDF?x=1">İlan</a><a href="/ek.PDF?x=1">Tekrar</a>'
+        markup += '<iframe src="/ek2.pdf"></iframe><footer><a href="/unrelated.pdf">X</a></footer>'
+        self.assertEqual(s.pdf_links(markup, URL),
+                         ['https://ilan.memurlar.net/ek.PDF?x=1', 'https://ilan.memurlar.net/ek2.pdf'])
+
+    def test_pdf_only_html_is_accepted(self):
+        ad = s.parse_detail('<h1>Üniversite alımı</h1><a href="/ilan.pdf">İlan metni</a>', self.ad())
+        self.assertEqual(len(ad.pdf_urls), 1)
+
+    def test_failed_pdf_stays_pending_and_next_ad_continues(self):
+        ad = s.Ad(URL, 'Üniversite alımı', 'test', 'Personel alımı')
+        ad.pdf_urls = ['https://example.gov.tr/ilan.pdf']
+        with patch.object(s.Web, 'get', side_effect=s.SourceError('HTTP 403')):
+            web = s.Web()
+            s.enrich_pdfs(web, ad, s.time.monotonic() + 10)
+            web.session.close()
+        self.assertTrue(ad.incomplete)
+        state = self.state()
+        with patch.object(s, 'send_telegram') as send:
+            s.process_ad(ad, state, 'TOKEN', 'ID', baseline=False, dry_run=False, filter_id='x', now=1)
+        send.assert_not_called()
+        self.assertEqual(state['ads'][s.ad_key(URL)]['status'], 'pending')
+
+    def test_memurlar_feed_keeps_content_and_enclosure(self):
+        rss = f'<rss version="2.0"><channel><title>İlan</title><item><title>Üniversite</title><link>{URL}</link><description><![CDATA[Hemşire lisans. Teknisyen bilgisayar lise.]]></description><enclosure url="https://example.edu.tr/ilan.pdf" type="application/pdf" length="10"/></item></channel></rss>'
+        ad = s.parse_feed(rss.encode(), URL)[0]
+        self.assertTrue(s.ad_matches(ad))
+        self.assertEqual(ad.pdf_urls, ['https://example.edu.tr/ilan.pdf'])
+
+    def test_memurlar_rss_never_fetches_detail_html(self):
+        feed_url = 'https://example.edu.tr/feed.xml'
+        rss = f'<rss version="2.0"><channel><title>İlan</title><item><title>Üniversite</title><link>{URL}</link><description>Hemşire lisans. Teknisyen bilgisayar lise.</description></item></channel></rss>'
+        calls = []
+        def fetch(url):
+            calls.append(url)
+            if url != feed_url: raise s.SourceError('HTTP 403')
+            return Mock(content=rss.encode(), url=url)
+        with tempfile.TemporaryDirectory() as tmp:
+            with patch.dict(s.os.environ, {'STATE_FILE': str(Path(tmp)/'state.json'),
+                    'TELEGRAM_BOT_TOKEN': 'TOKEN', 'TELEGRAM_CHAT_ID': 'ID', 'RSS_URLS': feed_url,
+                    'MEMURLAR_RSS_URLS': ''}):
+                with patch.object(s.sys, 'argv', ['scraper.py']):
+                    with patch.object(s.Web, 'get', side_effect=fetch):
+                        with patch.object(s, 'send_telegram', return_value=True) as send:
+                            self.assertEqual(s.main(), 0)
+                            self.assertEqual(send.call_count, 1)
+        self.assertNotIn(URL, calls)
 
 
 if __name__ == "__main__":
