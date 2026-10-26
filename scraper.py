@@ -430,7 +430,7 @@ def institution(title: str) -> str:
 
 
 def telegram_message(ad: Ad) -> str:
-    n = normalize(ad.title + " " + ad.body)
+    n = normalize(ad.title + " " + ad.body + " " + " ".join(ad.pdf_texts))
     role = "Teknisyen" if "teknisyen" in n else "Unvan için ilan metnini kontrol et"
     return (
         "🔔 <b>Yeni KPSS ilan adayı</b>\n\n"
