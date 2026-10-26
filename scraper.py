@@ -21,6 +21,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urljoin, urlsplit, urlunsplit
 from urllib.robotparser import RobotFileParser
+from zoneinfo import ZoneInfo
 
 import feedparser
 import requests
@@ -46,11 +47,11 @@ DEFAULT_RSS_URLS = (
     "https://www.isinolsa.com/sozlesmeli-personel-alimi/feed/",
 )
 # Bunlar değişirse reddedilen ilanlar bir sonraki turda yeniden değerlendirilir.
-PARSER_VERSION = "2"
+PARSER_VERSION = "3"
 BODY_SELECTORS = (
     '[itemprop="articleBody"]', "#ilan-content", ".ilan-content",
     ".ilan-metni", ".ilan-detay-icerik", "#haber_detay", ".haber_detay",
-    ".entry-content",
+    ".entry-content", ".k-article__body",
     "article",
 )
 STOP_HEADINGS = {"kategoriler", "yeni ilanlar", "ilgili ilanlar", "anket"}
@@ -83,11 +84,17 @@ def matches(text: str, require_it_secondary: bool = True) -> bool:
         return True
     # 2011 tarihini nitelik kodu sanma. Kod veya açık lise + bilişim mezuniyeti.
     code = re.search(r"\b(?:nitelik|kod)[^.\n]{0,80}\b2011\b", text)
-    qualification = any(
-        re.search(r"\b(?:lise|lisesi|ortaogretim)\b", sentence)
-        and re.search(r"\b(?:bilisim|bilgisayar)\b", sentence)
-        and re.search(r"mezun|bolum|alan", sentence)
-        for sentence in re.split(r"[.;]", text)
+    # Bilgisayar kullanma/Office/sertifika şartı bir bilişim diploması değildir.
+    # Alan/bölüm/dal ifadesi doğrudan bilişim veya bilgisayara bağlanmalıdır.
+    it_department = re.search(
+        r"\b(?:bilisim(?: teknolojileri)?|bilgisayar(?: programciligi| teknolojileri|"
+        r" teknolojisi| donanim| yazilim| ag isletmenligi)?)\s+"
+        r"(?:alan\w*|bolum\w*|dal\w*)\b", text,
+    )
+    qualification = (
+        re.search(r"\b(?:lise\w*|orta\s?ogretim)\b", text)
+        and it_department
+        and re.search(r"\bmezun\w*\b", text)
     )
     return bool(code or qualification)
 
@@ -117,6 +124,20 @@ class Ad:
     title: str
     source: str
     body: str = ""
+    exclusion_reason: str = ""
+
+
+def deadline_is_past(value: str, now: datetime | None = None) -> bool:
+    """Makine okunabilir son başvuruyu Türkiye saatine göre değerlendir."""
+    try:
+        deadline = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except (TypeError, ValueError):
+        return False
+    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", value):
+        deadline = deadline.replace(hour=23, minute=59, second=59, microsecond=999999)
+    if deadline.tzinfo is None:
+        deadline = deadline.replace(tzinfo=ZoneInfo("Europe/Istanbul"))
+    return deadline < (now or datetime.now(timezone.utc))
 
 
 class Web:
@@ -201,6 +222,25 @@ def parse_detail(markup: str, ad: Ad) -> Ad:
     heading = soup.find("h1")
     if heading:
         ad.title = heading.get_text(" ", strip=True)[:500]
+    # Devlet.TC'nin semantik ilan etiketleri: şirket işçisi ≠ memur / 4/B.
+    # Bu kontrol, genel metindeki 'işçi' kelimesine uygulanmaz; yalnız kategoriye.
+    article = soup.select_one("article[data-k-article]")
+    if article:
+        reasons = []
+        job_header = article.select_one(".k-jobhead")
+        category = article.select_one(".k-jobhead a[href*='/kamu-ilanlari/tur/']")
+        if category:
+            kind = urlsplit(category.get("href", "")).path.rstrip("/").rsplit("/", 1)[-1]
+            if kind not in {"memur", "sozlesmeli"}:
+                reasons.append("Hedef dışı ilan türü: " + category.get_text(" ", strip=True))
+        expired = job_header and "sure doldu" in normalize(job_header.get_text(" ", strip=True))
+        for stamp in article.select("time[datetime]"):
+            label = normalize(stamp.parent.get_text(" ", strip=True))
+            if ("son basvuru" in label or "basvuru suresi doldu" in label):
+                expired = expired or deadline_is_past(stamp.get("datetime", ""))
+        if expired:
+            reasons.append("Başvuru süresi dolmuş")
+        ad.exclusion_reason = "; ".join(reasons)
     for node in soup.select("script,style,nav,footer,header,aside,form,iframe"):
         node.decompose()
     body = None
@@ -323,7 +363,7 @@ def process_ad(ad: Ad, state: dict, token: str, chat_id: str, *,
                require_it_secondary: bool, baseline: bool, dry_run: bool,
                filter_id: str, now: float) -> bool:
     """False yalnızca gönderim başarısızsa. Başarısız gönderim pending kalır."""
-    selected = matches(ad.title + "\n" + ad.body, require_it_secondary)
+    selected = not ad.exclusion_reason and matches(ad.title + "\n" + ad.body, require_it_secondary)
     if dry_run:
         LOG.info("DRY RUN eşleşme=%s %s", selected, ad.url)
         return True
@@ -331,6 +371,7 @@ def process_ad(ad: Ad, state: dict, token: str, chat_id: str, *,
     entry.update(checked_at=now, filter_id=filter_id)
     if not selected:
         entry["status"] = "rejected"
+        entry["rejection_reason"] = ad.exclusion_reason or "Alan/eğitim veya anahtar kelime filtresi eşleşmedi"
     elif baseline:
         entry["status"] = "baseline"
     elif send_telegram(ad, token, chat_id):

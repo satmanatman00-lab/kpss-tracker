@@ -79,8 +79,10 @@ gerekmez. Token ve chat ID kaynak koduna yazılmaz.
 - Türkçe büyük/küçük harf ve ASCII yazımları normalize edilir. Kök/alt dize
   eşleşmesi kullanılır; örneğin `mühendisliği` de negatif sayılır.
 - Sadece lise bilişim hedefini daraltmak için ek kapı varsayılan olarak açıktır:
-  aynı cümlede lise/ortaöğretim, bilişim/bilgisayar ve mezun/bölüm/alan ifadesi
-  veya nitelik/kod bağlamında `2011` aranır. `2011 yılında` tek başına yeterli olmaz.
+  lise/ortaöğretim mezuniyeti ve doğrudan bilişim/bilgisayar alanı, bölümü veya
+  dalından mezun olma şartı ya da nitelik/kod bağlamında `2011` aranır.
+  Bilgisayar kullanma, Office bilgisi veya bilgisayar sertifikası tek başına
+  bilişim diploması kabul edilmez. `2011 yılında` tek başına yeterli olmaz.
 - Yalnızca senin yazdığın ham kelime filtresini istiyorsan workflow'daki
   `REQUIRE_IT_SECONDARY: 'true'` değerini `'false'` yap. O mod, elektrik teknisyeni
   veya lise destek personeli gibi alan dışı ilanları da bildirebilir.
@@ -121,7 +123,9 @@ modül yoktur; sistem web ilan metninde geçen 2011 kodlarını arar. Tüm 2011
 kadrolarını eksiksiz bulma garantisi yoktur.
 
 İlk tur geçmişte yayımlanmış ama listede bulunan ilanları da değerlendirebilir;
-son başvuru tarihi filtresi uygulanmaz. Her tur en fazla 35 detay işlenir;
+Devlet.TC ilanlarında türü memur/sözleşmeli olmayan ilanlar ve süresi dolduğu
+bildirilen veya makine okunabilir son başvurusu geçmiş ilanlar elenir. Diğer
+kaynaklarda son başvuru tarihi otomatik olarak doğrulanmayabilir. Her tur en fazla 35 detay işlenir;
 kalanlar kuyrukta saklanır ve sonraki turlarda devam edilir.
 
 ## Hafıza ve hata davranışı
@@ -183,7 +187,7 @@ Normal moda geçildikten sonra bekleyen ilanlar bildirim adayıdır.
 
 ## Doğrulama ve bilinen sınır
 
-20 otomatik test; Türkçe normalizasyonu, negatif veto, alan/eğitim kapısı,
+24 otomatik test; Türkçe normalizasyonu, negatif veto, alan/eğitim kapısı,
 RSS/Atom, ID tekilleştirme, gövde ayrıştırma, atomik kayıt, bozuk hafıza, Telegram
 429/timeout, tokenın loglanmaması ve ardışık çalışmalarda yeniden deneme/tekrar
 göndermeme davranışlarını doğrular. Memurlar.net engelliyken sağlıklı RSS üzerinden
@@ -212,3 +216,12 @@ bu test mesajını göndermez.
 - [Telegram BotFather başlangıcı](https://core.telegram.org/bots/tutorial#obtain-your-bot-token)
 - [Telegram Bot API](https://core.telegram.org/bots/api)
 - [Memurlar.net 4/B ilanları](https://ilan.memurlar.net/kategori/4b-ilanlari/)
+
+## 26 Ekim 2026 filtre düzeltmesi
+
+Belkar bildirimi hatalı eşleşmeydi: lise mezuniyetiyle bilgisayar kullanma
+şartı bilişim mezuniyeti sanılmıştı. Diploma alanı filtresi sıkılaştırıldı;
+Devlet.TC üzerinde işçi türü ve süresi dolmuş ilanlara açık eleme eklendi.
+Canlı Belkar sayfası artık bildirim üretmiyor. Dört yeni test bu senaryoları
+ve Türkiye saatine göre son başvuru tarihini kontrol ediyor. Eski gönderilmiş
+bildirimlerin geçmişi korunur; hafıza sıfırlanmaz.
