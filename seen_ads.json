@@ -1,5 +1,14 @@
 {
   "ads": {
+    "https://devlet.tc/tr/kamu-ilanlari/afbelsan-insaat-5-cop-kamyonu-surucusu-alacak": {
+      "attempted_at": 1792997578.1137695,
+      "checked_at": 1792997578.1137695,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Afbelsan İnşaat 5 çöp kamyonu sürücüsü alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/afbelsan-insaat-5-cop-kamyonu-surucusu-alacak"
+    },
     "https://devlet.tc/tr/kamu-ilanlari/akhisar-belediye-baskanligi-1-muhendis-alacak": {
       "attempted_at": 1792967844.4087744,
       "checked_at": 1792967844.4087744,
@@ -63,6 +72,15 @@
       "status": "rejected",
       "title": "Bolgiysan Yatırım A.Ş. 3 özel güvenlik görevlisi alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/bolgiysan-yatirim-as-3-ozel-guvenlik-gorevlisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/bulancak-ogretmenevi-ve-aksam-sanat-okulu-1-daimi-isci-alacak": {
+      "attempted_at": 1792997580.6893754,
+      "checked_at": 1792997580.6893754,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Bulancak öğretmenevi ve akşam sanat okulu 1 daimi işçi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/bulancak-ogretmenevi-ve-aksam-sanat-okulu-1-daimi-isci-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/canakkale-can-koylere-hizmet-goturme-birligi-1-personel-alacak": {
       "attempted_at": 1792967848.6287367,
@@ -343,6 +361,24 @@
       "title": "menteşe belediyesi personel ltd. şti. 23 personel alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/mentese-belediyesi-personel-ltd-sti-23-personel-alacak"
     },
+    "https://devlet.tc/tr/kamu-ilanlari/ordu-su-ve-kanalizasyon-idaresi-personel-as-3-engelli-teknisyen-ve-tekniker-alacak": {
+      "attempted_at": 1792997584.8861866,
+      "checked_at": 1792997584.8861866,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "ordu su ve kanalizasyon idaresi personel a.ş. 3 engelli teknisyen ve tekniker alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/ordu-su-ve-kanalizasyon-idaresi-personel-as-3-engelli-teknisyen-ve-tekniker-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/ordu-su-ve-kanalizasyon-idaresi-personel-as-5-isci-alacak": {
+      "attempted_at": 1792997583.4985008,
+      "checked_at": 1792997583.4985008,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "ordu su ve kanalizasyon idaresi personel a.ş. 5 işçi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/ordu-su-ve-kanalizasyon-idaresi-personel-as-5-isci-alacak"
+    },
     "https://devlet.tc/tr/kamu-ilanlari/orman-genel-mudurlugu-12-mufettis-yardimcisi-alacak": {
       "attempted_at": 1792967860.411841,
       "checked_at": 1792967860.411841,
@@ -360,6 +396,15 @@
       "status": "rejected",
       "title": "Orman Genel Müdürlüğü 12 müfettiş yardımcısı alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/orman-genel-mudurlugu-12-mufettis-yardimcisi-alacak-2"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/oz-agri-as-3-kanal-ve-izgara-iscisi-alacak": {
+      "attempted_at": 1792997579.3149087,
+      "checked_at": 1792997579.3149087,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Öz Ağrı A.Ş 3 kanal ve ızgara işçisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/oz-agri-as-3-kanal-ve-izgara-iscisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/peras-denizli-buyuksehir-belediyesi-1-endustri-muhendisi-alacak": {
       "attempted_at": 1792967630.7532675,
@@ -460,6 +505,15 @@
       "title": "Türkiye Uluslararası İslam, Bilim ve Teknoloji Üniversitesi 3 araştırma görevlisi alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/turkiye-uluslararasi-islam-bilim-ve-teknoloji-universitesi-3-arastirma-gorevlisi-alacak"
     },
+    "https://devlet.tc/tr/kamu-ilanlari/ulukisla-belediyesi-personel-ltd-sti-1-beden-iscisi-alacak-2": {
+      "attempted_at": 1792997582.113844,
+      "checked_at": 1792997582.113844,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Ulukışla Belediyesi Personel Ltd. Şti. 1 beden işçisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/ulukisla-belediyesi-personel-ltd-sti-1-beden-iscisi-alacak-2"
+    },
     "https://devlet.tc/tr/kamu-ilanlari/umraniye-belediyesi-personel-as-4-buro-elemani-alacak": {
       "attempted_at": 1792967638.017619,
       "checked_at": 1792967638.017619,
@@ -468,6 +522,15 @@
       "status": "rejected",
       "title": "Ümraniye Belediyesi Personel A.Ş. 4 büro elemanı alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/umraniye-belediyesi-personel-as-4-buro-elemani-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/yuntas-akaryakit-27-personel-alacak": {
+      "attempted_at": 1792997577.5111804,
+      "checked_at": 1792997577.5111804,
+      "filter_id": "e1e7b75ec1c246bf",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "yüntaş akaryakıt 27 personel alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/yuntas-akaryakit-27-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/yuntas-akaryakit-6-ozel-egitim-ogretmeni-alacak": {
       "attempted_at": 1792967865.0446062,
