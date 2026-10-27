@@ -102,6 +102,18 @@
       "title": "Belkar 13 personel alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/belkar-13-personel-alacak"
     },
+    "https://devlet.tc/tr/kamu-ilanlari/bergama-belediye-baskanligi-4-memur-alacak": {
+      "attempted_at": 1793075990.8957958,
+      "checked_at": 1793075990.8957958,
+      "feed_body": "Bergama Belediye Başkanlığı, 657 sayılı Devlet Memurları Kanunu'na tabi olarak çalıştırılmak üzere 4 memur alımı yapacaktır. Başvurular 09/12/2026 ile 11/12/2026 tarihleri arasında elektronik ortamda veya şahsen/posta yoluyla kabul edilecektir. Son başvuru: 11 Aralık 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Teknisyen + alan/eğitim pozitif eşleşmesi bulunamadı",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "bergama belediye başkanlığı 4 memur alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/bergama-belediye-baskanligi-4-memur-alacak"
+    },
     "https://devlet.tc/tr/kamu-ilanlari/besot-manisa-1-insan-kaynaklari-yoneticisi-alacak": {
       "attempted_at": 1793026333.3768797,
       "checked_at": 1793026333.3768797,
@@ -325,6 +337,18 @@
       "status": "rejected",
       "title": "Gemlik Gemtar Tarım A.Ş 2 perakende satış elemanı alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/gemlik-gemtar-tarim-as-2-perakende-satis-elemani-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/giresun-universitesi-23-ogretim-uyesi-alacak": {
+      "attempted_at": 1793075995.7173622,
+      "checked_at": 1793075995.7173622,
+      "feed_body": "Giresun Üniversitesi, 2547 sayılı kanun uyarınca çeşitli fakülte ve meslek yüksekokullarına toplam 23 öğretim üyesi (profesör ve doktor öğretim üyesi) alımı yapacaktır. Son başvuru: 13 Kasım 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: Akademik Personel",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "giresun üniversitesi 23 öğretim üyesi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/giresun-universitesi-23-ogretim-uyesi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/gulyali-sosyal-yardimlasma-ve-dayanisma-vakfi-4-beden-iscisi-alacak": {
       "attempted_at": 1793011456.7570732,
