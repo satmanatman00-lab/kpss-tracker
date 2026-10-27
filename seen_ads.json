@@ -47,8 +47,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/ankara-haci-bayram-veli-universitesi-7-ogretim-elemani-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/ardahan-il-ozel-idaresi-personel-anonim-sirketi-7-gecici-isci-alacak": {
-      "attempted_at": 1793015807.1980135,
-      "checked_at": 1793015807.1980135,
+      "attempted_at": 1793105484.7134256,
+      "checked_at": 1793105484.7134256,
       "feed_body": "Ardahan İl Özel İdaresi Personel Anonim Şirketi, 5 ay 29 gün süreli çalıştırılmak üzere toplam 7 geçici işçi alımı yapacaktır. Başvurular 26-30 Ekim 2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 30 Ekim 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -69,8 +69,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/balikesir-gayrimenkul-yatirim-ve-gida-as-1-garson-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/basiskele-kentsel-donusum-ins-san-tic-as-1-isci-alacak": {
-      "attempted_at": 1793015805.8308766,
-      "checked_at": 1793015805.8308766,
+      "attempted_at": 1793105483.195804,
+      "checked_at": 1793105483.195804,
       "feed_body": "Başiskele Kentsel Dönüşüm İnş. San. Tic. A.Ş., 1 H.P toplayıcı pozisyonu için daimi personel alımı yapacaktır. Başvurular 26-28 Ekim 2026 tarihleri arasında e-posta yoluyla kabul edilecektir. Son başvuru: 29 Ekim 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -194,6 +194,18 @@
       "title": "Çavdır Temizlik Hizmetleri 4 geçici işçi alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/cavdir-temizlik-hizmetleri-4-gecici-isci-alacak"
     },
+    "https://devlet.tc/tr/kamu-ilanlari/cibel-temizlik-2-personel-alacak": {
+      "attempted_at": 1793105466.5355287,
+      "checked_at": 1793105466.5355287,
+      "feed_body": "Çibel Temizlik Hizm. İnş. Turz. San. ve Tic. Ltd. Şti., İzmir Çiğli'de görevlendirmek üzere 1 şehir plancısı ve 1 mimar olmak üzere toplam 2 daimi işçi alımı yapacaktır. Son başvuru: 30 Ekim 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Çibel Temizlik 2 personel alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/cibel-temizlik-2-personel-alacak"
+    },
     "https://devlet.tc/tr/kamu-ilanlari/corum-belediyesi-personel-limited-sirketi-30-beden-iscisi-alacak": {
       "attempted_at": 1793097911.9629536,
       "checked_at": 1793097911.9629536,
@@ -243,8 +255,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/dokuz-eylul-universitesi-21-akademik-personel-ve-ogretim-gorevlisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/ejder-kayak-merkezleri-1-kayak-kiralama-gorevlisi-alacak": {
-      "attempted_at": 1793015801.7804403,
-      "checked_at": 1793015801.7804403,
+      "attempted_at": 1793105478.6382194,
+      "checked_at": 1793105478.6382194,
       "feed_body": "Ejder Kayak Merkezleri A.Ş., Erzurum'da görevlendirilmek üzere 1 geçici kayak kiralama görevlisi alımı yapacaktır. Başvurular 26-27 Ekim 2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 27 Ekim 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -253,6 +265,30 @@
       "status": "rejected",
       "title": "Ejder Kayak Merkezleri 1 kayak kiralama görevlisi alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/ejder-kayak-merkezleri-1-kayak-kiralama-gorevlisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/eleskirt-sosyal-yardimlasma-ve-dayanisma-vakfi-1-gecici-temizlik-iscisi-alacak": {
+      "attempted_at": 1793105458.4666755,
+      "checked_at": 1793105458.4666755,
+      "feed_body": "Eleşkirt Sosyal Yardımlaşma ve Dayanışma Vakfı, 27.10.2026-30.10.2026 tarihleri arasında 1 geçici temizlik işçisi alımı yapacaktır. Son başvuru: 30 Ekim 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Eleşkirt sosyal yardımlaşma ve dayanışma vakfı 1 geçici temizlik işçisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/eleskirt-sosyal-yardimlasma-ve-dayanisma-vakfi-1-gecici-temizlik-iscisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/ertokus-hazir-beton-3-beden-iscisi-alacak": {
+      "attempted_at": 1793105463.5512657,
+      "checked_at": 1793105463.5512657,
+      "feed_body": "Ertokuş Hazır Beton San. Tic. Ltd. Şti., Isparta Atabey'de daimi olarak çalışacak 3 beden işçisi alımı yapacaktır. Başvurular 27 Ekim 2026 ile 30 Ekim 2026 tarihleri arasında e-posta veya şahsen yapılabilir. Son başvuru: 30 Ekim 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Ertokuş Hazır Beton 3 beden işçisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/ertokus-hazir-beton-3-beden-iscisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/erzurum-kultur-turizm-egitim-reklam-ve-sanat-urunleri-san-tic-as-2-bulasikci-alacak": {
       "attempted_at": 1793026330.5726936,
@@ -410,6 +446,18 @@
       "title": "helvadere belediyesi personel ltd. şti 1 beden işçisi alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/helvadere-belediyesi-personel-ltd-sti-1-beden-iscisi-alacak"
     },
+    "https://devlet.tc/tr/kamu-ilanlari/ilica-termal-as-1-maden-muhendisi-alacak": {
+      "attempted_at": 1793105460.9630432,
+      "checked_at": 1793105460.9630432,
+      "feed_body": "Ilıca Termal A.Ş., Erzurum Aziziye'de görevlendirilmek üzere 1 maden mühendisi alımı yapacağını duyurdu. Başvurular 27 Ekim 2026 tarihinde şahsen özgeçmiş ile yapılacaktır. Son başvuru: 27 Ekim 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Ilıca Termal A.Ş. 1 maden mühendisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/ilica-termal-as-1-maden-muhendisi-alacak"
+    },
     "https://devlet.tc/tr/kamu-ilanlari/inonu-belediyesi-1-minibus-soforu-alacak": {
       "attempted_at": 1793101418.433342,
       "checked_at": 1793101418.433342,
@@ -491,6 +539,30 @@
       "status": "rejected",
       "title": "İzmir Büyükşehir Belediyesi 90 zabıta memuru alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/izmir-buyuksehir-belediyesi-90-zabita-memuru-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/kadbel-hizmet-imar-insaat-3-beden-iscisi-alacak": {
+      "attempted_at": 1793105472.5010364,
+      "checked_at": 1793105472.5010364,
+      "feed_body": "Kadbel Hizmet İmar İnşaat Anonim Şirketi, daimi statüde 3 beden işçisi alımı yapacaktır. Başvurular 27 Ekim 2026 tarihinde şahsen yapılacaktır. Son başvuru: 27 Ekim 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Kadbel Hizmet İmar İnşaat 3 beden işçisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/kadbel-hizmet-imar-insaat-3-beden-iscisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/kadisehri-belediyesi-2-genel-isler-temizlik-personeli-alacak": {
+      "attempted_at": 1793105471.0338552,
+      "checked_at": 1793105471.0338552,
+      "feed_body": "Kadişehri Belediye Başkanlığı bünyesindeki Kadıkent İnşaat San. Tic. Ltd. Şti., 2 genel işler temizlik personeli alımı yapacaktır. Başvurular 28 Ekim 2026 tarihinde şahsen yapılacaktır. Son başvuru: 28 Ekim 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "kadişehri belediyesi 2 genel işler temizlik personeli alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/kadisehri-belediyesi-2-genel-isler-temizlik-personeli-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/kahramanmaras-su-ve-kanalizasyon-idaresi-personel-as-15-isci-alacak": {
       "attempted_at": 1793026325.2829092,
@@ -694,6 +766,18 @@
       "title": "menteşe belediyesi personel ltd. şti. 23 personel alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/mentese-belediyesi-personel-ltd-sti-23-personel-alacak"
     },
+    "https://devlet.tc/tr/kamu-ilanlari/mersin-buyuksehir-kultur-sanat-bilim-ulastirma-ticaret-ve-sanayi-anonim-sirketi-1-psikolog-alacak": {
+      "attempted_at": 1793105465.0442135,
+      "checked_at": 1793105465.0442135,
+      "feed_body": "Mersin Büyükşehir Kültür Sanat Bilim Ulaştırma Ticaret ve Sanayi Anonim Şirketi, 1 daimi psikolog alımı yapacaktır. Başvurular 28.10.2026-30.10.2026 tarihleri arasında online olarak gerçekleştirilecektir. Son başvuru: 30 Ekim 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Mersin Büyükşehir Kültür Sanat Bilim Ulaştırma Ticaret ve Sanayi Anonim Şirketi 1 psikolog alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/mersin-buyuksehir-kultur-sanat-bilim-ulastirma-ticaret-ve-sanayi-anonim-sirketi-1-psikolog-alacak"
+    },
     "https://devlet.tc/tr/kamu-ilanlari/odunpazari-insaat-as-4-personel-alacak": {
       "attempted_at": 1793026331.9432487,
       "checked_at": 1793026331.9432487,
@@ -707,8 +791,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/odunpazari-insaat-as-4-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/ordu-su-ve-kanalizasyon-idaresi-personel-as-3-engelli-teknisyen-ve-tekniker-alacak": {
-      "attempted_at": 1793015798.679803,
-      "checked_at": 1793015798.679803,
+      "attempted_at": 1793105473.994162,
+      "checked_at": 1793105473.994162,
       "feed_body": "Ordu Su ve Kanalizasyon İdaresi Personel A.Ş., 3 engelli teknisyen ve tekniker alımı yapacaktır. Başvurular 26-30 Ekim 2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 30 Ekim 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -762,6 +846,30 @@
       "title": "Öz Ağrı A.Ş 3 kanal ve ızgara işçisi alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/oz-agri-as-3-kanal-ve-izgara-iscisi-alacak"
     },
+    "https://devlet.tc/tr/kamu-ilanlari/palandoken-yatirim-1-beden-iscisi-alacak-2": {
+      "attempted_at": 1793105462.0674632,
+      "checked_at": 1793105462.0674632,
+      "feed_body": "Palandöken Yatırım İnşaat Taahhüt Turizm Mobilya Petrol Ürünleri Sanayi Ticaret Anonim Şirketi, daimi statüde 1 beden işçisi alımı yapacaktır. Son başvuru: 27 Ekim 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Palandöken Yatırım 1 beden işçisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/palandoken-yatirim-1-beden-iscisi-alacak-2"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/pamukkale-personel-anonim-sirketi-3-personel-alacak": {
+      "attempted_at": 1793105459.083937,
+      "checked_at": 1793105459.083937,
+      "feed_body": "Pamukkale Personel A.Ş., 1 aşçı yardımcısı, 1 veteriner hekim ve 1 beden işçisi olmak üzere toplam 3 daimi personel alımı yapacaktır. Başvurular 27.10.2026 ile 30.10.2026 tarihleri arasında e-posta yoluyla kabul edilecektir. Son başvuru: 31 Ekim 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "pamukkale personel anonim şirketi 3 personel alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/pamukkale-personel-anonim-sirketi-3-personel-alacak"
+    },
     "https://devlet.tc/tr/kamu-ilanlari/pamukova-belediyesi-personel-ltd-sti-1-beden-iscisi-alacak": {
       "attempted_at": 1793026334.7434428,
       "checked_at": 1793026334.7434428,
@@ -787,8 +895,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/peras-denizli-buyuksehir-belediyesi-1-endustri-muhendisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/peras-denizli-buyuksehir-belediyesi-16-engelli-isci-alacak": {
-      "attempted_at": 1793015800.4628406,
-      "checked_at": 1793015800.4628406,
+      "attempted_at": 1793105477.0909894,
+      "checked_at": 1793105477.0909894,
       "feed_body": "Peraş Denizli Büyükşehir Belediyesi, 16 engelli işçi alımı yapacağını duyurdu. Başvurular 27 Ekim 2026 ile 29 Ekim 2026 tarihleri arasında e-posta yoluyla kabul edilecektir. Son başvuru: 30 Ekim 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -976,6 +1084,18 @@
       "title": "Tekirdağ Büyükşehir Belediyesi Personel A.Ş. 13 personel alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/tekirdag-buyuksehir-belediyesi-personel-as-13-personel-alacak"
     },
+    "https://devlet.tc/tr/kamu-ilanlari/tekirdag-buyuksehir-belediyesi-personel-as-3-imam-hatip-alacak-2": {
+      "attempted_at": 1793105469.5211828,
+      "checked_at": 1793105469.5211828,
+      "feed_body": "Tekirdağ Büyükşehir Belediyesi Personel A.Ş., Marmaraereğlisi, Muratlı ve Hayrabolu ilçelerinde görevlendirilmek üzere 3 imam-hatip alımı yapacaktır. Başvurular 27-30 Ekim 2026 tarihleri arasında kabul edilecektir. Son başvuru: 30 Ekim 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Tekirdağ Büyükşehir Belediyesi Personel A.Ş. 3 imam-hatip alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/tekirdag-buyuksehir-belediyesi-personel-as-3-imam-hatip-alacak-2"
+    },
     "https://devlet.tc/tr/kamu-ilanlari/tekirdag-buyuksehir-belediyesi-personel-as-7-personel-alacak-2": {
       "attempted_at": 1793026327.92744,
       "checked_at": 1793026327.92744,
@@ -989,8 +1109,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/tekirdag-buyuksehir-belediyesi-personel-as-7-personel-alacak-2"
     },
     "https://devlet.tc/tr/kamu-ilanlari/tepebasi-turizm-12-erbab-isci-alacak": {
-      "attempted_at": 1793015803.1519954,
-      "checked_at": 1793015803.1519954,
+      "attempted_at": 1793105480.1367953,
+      "checked_at": 1793105480.1367953,
       "feed_body": "Tepebaşı Turizm Sağ. İnş. San. Tic. A.Ş., 12 erbab işçi alımı yapacağını duyurdu. Başvurular 26-28 Ekim 2026 tarihleri arasında internet üzerinden gerçekleştirilecektir. Son başvuru: 29 Ekim 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -1059,12 +1179,12 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/tut-ogretmenevi-ve-aso-mudurlugu-3-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/ugurludag-belediyesi-personel-limited-sirketi-6-temizlik-gorevlisi-alacak": {
-      "attempted_at": 1793015799.1743772,
-      "checked_at": 1793015799.1743772,
+      "attempted_at": 1793105475.5528219,
+      "checked_at": 1793105475.5528219,
       "feed_body": "Uğurludağ Belediyesi Personel Limited Şirketi, 6 daimi temizlik görevlisi alımı yapacağını duyurdu. Başvurular 26 Ekim 2026 tarihinde şahsen yapılacaktır. Son başvuru: 26 Ekim 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
-      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi; Başvuru süresi dolmuş",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
       "status": "rejected",
       "title": "uğurludağ belediyesi personel limited şirketi 6 temizlik görevlisi alacak",
@@ -1107,8 +1227,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/urgup-kultur-ve-park-isletmeciligi-1-otopark-iscisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/urit-urla-insaat-turizm-1-asci-alacak": {
-      "attempted_at": 1793015804.4795222,
-      "checked_at": 1793015804.4795222,
+      "attempted_at": 1793105481.625443,
+      "checked_at": 1793105481.625443,
       "feed_body": "Urit Urla İnşaat Turizm İnsan Kayn. San. Tic. Ltd. Şti., daimi statüde 1 aşçı alımı yapacaktır. Başvurular 27.10.2026 ile 30.10.2026 tarihleri arasında e-posta yoluyla kabul edilecektir. Son başvuru: 30 Ekim 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -1141,6 +1261,18 @@
       "status": "rejected",
       "title": "Yeniçağa Belediyesi Personel Ltd. Şti. 1 beden işçisi alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/yenicaga-belediyesi-personel-ltd-sti-1-beden-iscisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/yilmaz-hizm-tah-peyzaj-mim-san-tic-ltd-sti-1-ziraat-muhendisi-alacak": {
+      "attempted_at": 1793105468.0277379,
+      "checked_at": 1793105468.0277379,
+      "feed_body": "Yılmaz Hizm. Tah. Peyzaj Mim. San. Tic. Ltd. Şti, Cihanbeyli'de görevlendirilmek üzere 1 daimi ziraat mühendisi alımı yapacaktır. Başvurular 27-28 Ekim 2026 tarihleri arasında Cihanbeyli Belediyesi Destek Hizmetleri Müdürlüğü'ne şahsen yapılacaktır. Son başvuru: 28 Ekim 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Yılmaz Hizm. Tah. Peyzaj Mim. San. Tic. Ltd. Şti 1 ziraat mühendisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/yilmaz-hizm-tah-peyzaj-mim-san-tic-ltd-sti-1-ziraat-muhendisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/yozgat-ozanli-personel-insaat-1-buro-iscisi-alacak": {
       "attempted_at": 1793097916.321283,
