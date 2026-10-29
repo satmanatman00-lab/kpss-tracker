@@ -315,8 +315,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/darica-kent-insaat-19-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/derince-personel-anonim-sirketi-4-beden-iscisi-alacak": {
-      "attempted_at": 1793206615.4015915,
-      "checked_at": 1793206615.4015915,
+      "attempted_at": 1793293157.479981,
+      "checked_at": 1793293157.479981,
       "feed_body": "Derince Personel Anonim Şirketi, geçici statüde 4 beden işçisi alımı yapacaktır. Başvurular 27-30 Ekim 2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 31 Ekim 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -1207,12 +1207,12 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/peras-denizli-buyuksehir-belediyesi-2-koordinator-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/rize-yamanturk-ogretmenevi-ve-aksam-sanat-okulu-mudurlugu-7-isci-alacak": {
-      "attempted_at": 1793206615.9023273,
-      "checked_at": 1793206615.9023273,
+      "attempted_at": 1793293158.000512,
+      "checked_at": 1793293158.000512,
       "feed_body": "Yamantürk Öğretmenevi ve Akşam Sanat Okulu Müdürlüğü, daimi statüde çalışacak toplam 7 personel alımı yapacaktır. Başvurular 26-28 Ekim 2026 tarihleri arasında şahsen kuruma yapılacaktır. Son başvuru: 28 Ekim 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
-      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi; Başvuru süresi dolmuş",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
       "status": "rejected",
       "title": "Rize Yamantürk Öğretmenevi ve Akşam Sanat Okulu Müdürlüğü 7 işçi alacak",
