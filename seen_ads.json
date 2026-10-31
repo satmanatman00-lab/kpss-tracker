@@ -13,8 +13,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/afbelsan-insaat-5-cop-kamyonu-surucusu-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/akcakent-sosyal-yardimlasma-ve-dayanisma-vakfi-1-buro-gorevlisi-alacak": {
-      "attempted_at": 1793418602.6186693,
-      "checked_at": 1793418602.6186693,
+      "attempted_at": 1793422214.8363957,
+      "checked_at": 1793422214.8363957,
       "feed_body": "Akçakent SYDV, 2025 veya 2026 KPSS P3 puan türünden en az 60 puan almış 1 büro görevlisi alımı yapacaktır. Başvurular 02-09 Kasım 2026 tarihleri arasında çevrimiçi yapılacaktır. Son başvuru: 9 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -246,6 +246,18 @@
       "title": "Beytaş Beykoz Belediyesi 1 kadın büro personeli alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/beytas-beykoz-belediyesi-1-kadin-buro-personeli-alacak-2"
     },
+    "https://devlet.tc/tr/kamu-ilanlari/bitlis-eren-universitesi-8-ogretim-uyesi-alacak": {
+      "attempted_at": 1793422208.273165,
+      "checked_at": 1793422208.273165,
+      "feed_body": "Bitlis Eren Üniversitesi, 2547 sayılı kanun kapsamında çeşitli fakülte ve birimlerine toplam 8 öğretim üyesi alımı yapacaktır. Başvurular 14 Kasım 2026 tarihine kadar çevrim içi sistem üzerinden kabul edilecektir. Son başvuru: 14 Kasım 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: Akademik Personel",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Bitlis Eren Üniversitesi 8 öğretim üyesi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/bitlis-eren-universitesi-8-ogretim-uyesi-alacak"
+    },
     "https://devlet.tc/tr/kamu-ilanlari/bogazici-universitesi-1-ogretim-gorevlisi-alacak": {
       "attempted_at": 1793335971.1075835,
       "checked_at": 1793335971.1075835,
@@ -351,8 +363,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/celtikci-belpet-4-beden-iscisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/ceyhan-sosyal-yardimlasma-ve-dayanisma-vakfi-1-idari-buro-gorevlisi-alacak": {
-      "attempted_at": 1793418597.5483823,
-      "checked_at": 1793418597.5483823,
+      "attempted_at": 1793422209.3942583,
+      "checked_at": 1793422209.3942583,
       "feed_body": "Ceyhan Sosyal Yardımlaşma ve Dayanışma Vakfı, KPSS P3 puan türü ile en az 60 puan şartıyla 1 daimi idari büro görevlisi alımı yapacaktır. Başvurular 11 Kasım 2026 tarihine kadar çevrimiçi olarak gerçekleştirilecektir. Son başvuru: 11 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -1053,6 +1065,30 @@
       "status": "rejected",
       "title": "Kamu İhale Kurumu 25 uzman yardımcısı alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/kamu-ihale-kurumu-25-uzman-yardimcisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/karatay-belediye-baskanligi-9-zabita-memuru-alacak": {
+      "attempted_at": 1793422207.5327034,
+      "checked_at": 1793422207.5327034,
+      "feed_body": "Karatay Belediye Başkanlığı, 657 sayılı Devlet Memurları Kanununa tabi olarak 9 adet zabıta memuru alımı yapacaktır. Başvurular 14-18 Aralık 2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 18 Aralık 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Teknisyen + alan/eğitim pozitif eşleşmesi bulunamadı",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Karatay belediye başkanlığı 9 zabıta memuru alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/karatay-belediye-baskanligi-9-zabita-memuru-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/karsiyaka-belediyesi-6-memur-alacak": {
+      "attempted_at": 1793422203.667055,
+      "checked_at": 1793422203.667055,
+      "feed_body": "Karşıyaka Belediye Başkanlığı, 657 sayılı kanuna tabi olarak 6 adet bilgisayar işletmeni kadrosuna açıktan atama yoluyla memur alımı yapacaktır. Başvurular 30 Kasım - 2 Aralık 2026 tarihleri arasında elektronik ortamda veya şahsen yapılabilir. Son başvuru: 2 Aralık 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Teknisyen + alan/eğitim pozitif eşleşmesi bulunamadı",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "karşıyaka belediyesi 6 memur alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/karsiyaka-belediyesi-6-memur-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/kas-likya-turizm-1-beden-iscisi-alacak": {
       "attempted_at": 1793375757.3222818,
