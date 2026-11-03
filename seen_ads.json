@@ -25,8 +25,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/afbelsan-insaat-5-cop-kamyonu-surucusu-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/akcakent-sosyal-yardimlasma-ve-dayanisma-vakfi-1-buro-gorevlisi-alacak": {
-      "attempted_at": 1793678202.224007,
-      "checked_at": 1793678202.224007,
+      "attempted_at": 1793682009.0410478,
+      "checked_at": 1793682009.0410478,
       "feed_body": "Akçakent SYDV, 2025 veya 2026 KPSS P3 puan türünden en az 60 puan almış 1 büro görevlisi alımı yapacaktır. Başvurular 02-09 Kasım 2026 tarihleri arasında çevrimiçi yapılacaktır. Son başvuru: 9 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -93,6 +93,18 @@
       "status": "rejected",
       "title": "Ankara Hacı Bayram Veli Üniversitesi 7 öğretim elemanı alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/ankara-haci-bayram-veli-universitesi-7-ogretim-elemani-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/antalya-bilim-universitesi-16-ogretim-uyesi-alacak": {
+      "attempted_at": 1793681994.0588477,
+      "checked_at": 1793681994.0588477,
+      "feed_body": "Antalya Bilim Üniversitesi, çeşitli fakülte ve bölümlere 16 öğretim üyesi alımı yapacaktır. Başvurular 17 Kasım 2026 tarihine kadar şahsen veya posta yoluyla yapılabilir. Son başvuru: 17 Kasım 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: Akademik Personel",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "antalya bilim üniversitesi 16 öğretim üyesi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/antalya-bilim-universitesi-16-ogretim-uyesi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/antalya-insan-kaynaklari-as-165-personel-alacak": {
       "attempted_at": 1793625146.034548,
@@ -471,8 +483,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/celtikci-belpet-4-beden-iscisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/ceyhan-sosyal-yardimlasma-ve-dayanisma-vakfi-1-idari-buro-gorevlisi-alacak": {
-      "attempted_at": 1793678198.171229,
-      "checked_at": 1793678198.171229,
+      "attempted_at": 1793682003.1128826,
+      "checked_at": 1793682003.1128826,
       "feed_body": "Ceyhan Sosyal Yardımlaşma ve Dayanışma Vakfı, KPSS P3 puan türü ile en az 60 puan şartıyla 1 daimi idari büro görevlisi alımı yapacaktır. Başvurular 11 Kasım 2026 tarihine kadar çevrimiçi olarak gerçekleştirilecektir. Son başvuru: 11 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -613,6 +625,18 @@
       "status": "rejected",
       "title": "Dokuz Eylül Üniversitesi 21 akademik personel ve öğretim görevlisi alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/dokuz-eylul-universitesi-21-akademik-personel-ve-ogretim-gorevlisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/dokuz-eylul-universitesi-68-sozlesmeli-personel-alacak": {
+      "attempted_at": 1793681994.58761,
+      "checked_at": 1793681994.58761,
+      "feed_body": "Dokuz Eylül Üniversitesi, 657 sayılı Kanun'un 4/B maddesi kapsamında 68 hemşire alımı yapacaktır. Başvurular 03.11.2026 ile 19.11.2026 tarihleri arasında Kariyer Kapısı üzerinden elektronik ortamda gerçekleştirilecektir. Son başvuru: 19 Kasım 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Teknisyen + alan/eğitim pozitif eşleşmesi bulunamadı",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "dokuz eylül üniversitesi 68 sözleşmeli personel alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/dokuz-eylul-universitesi-68-sozlesmeli-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/dumlupinar-belediyesi-1-sihhi-tesisatci-alacak": {
       "attempted_at": 1793625144.5613778,
@@ -950,6 +974,18 @@
       "title": "gazi üniversitesi 95 akademik personel ve öğretim elemanı alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/gazi-universitesi-95-akademik-personel-ve-ogretim-elemani-alacak"
     },
+    "https://devlet.tc/tr/kamu-ilanlari/gaziantep-universitesi-89-akademik-personel-alacak": {
+      "attempted_at": 1793682000.9385126,
+      "checked_at": 1793682000.9385126,
+      "feed_body": "Gaziantep Üniversitesi, çeşitli fakülte ve birimlerine 78 öğretim üyesi ile 11 öğretim elemanı (araştırma görevlisi ve öğretim görevlisi) olmak üzere toplam 89 akademik personel alımı yapacaktır. Başvurular 17 Kasım 2026 tarihine kadar çevrim içi veya şahsen/posta yoluyla yapılacaktır. Son başvuru: 17 Kasım 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: Akademik Personel",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Gaziantep Üniversitesi 89 akademik personel alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/gaziantep-universitesi-89-akademik-personel-alacak"
+    },
     "https://devlet.tc/tr/kamu-ilanlari/gazibel-insaat-1-insaatisyeri-bekcisi-alacak": {
       "attempted_at": 1793629453.7696257,
       "checked_at": 1793629453.7696257,
@@ -1187,6 +1223,18 @@
       "status": "rejected",
       "title": "istaç a.ş. 90 daimi işçi alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/istac-as-90-daimi-isci-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/istanbul-arel-universitesi-53-ogretim-elemani-alacak": {
+      "attempted_at": 1793682001.5816746,
+      "checked_at": 1793682001.5816746,
+      "feed_body": "İstanbul Arel Üniversitesi, çeşitli fakülte ve bölümlere 2547 sayılı Kanun uyarınca 53 öğretim elemanı alımı yapacaktır. Başvurular 17 Kasım 2026 tarihine kadar şahsen veya kargo yoluyla YÖK İlişkileri ve Yazı İşleri Ofisine yapılmalıdır. Son başvuru: 17 Kasım 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: Akademik Personel",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "İstanbul Arel Üniversitesi 53 öğretim elemanı alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/istanbul-arel-universitesi-53-ogretim-elemani-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/istanbul-kalkinma-ajansi-5-uzman-personel-alacak": {
       "attempted_at": 1793617534.3560307,
@@ -1635,6 +1683,18 @@
       "status": "rejected",
       "title": "Kültür ve Turizm Bakanlığı 162 sözleşmeli kütüphaneci alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/kultur-ve-turizm-bakanligi-162-sozlesmeli-kutuphaneci-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/kultur-ve-turizm-bakanligi-turkiye-turizm-tanitim-ve-gelistirme-ajansi-13-personel-alacak": {
+      "attempted_at": 1793681999.371284,
+      "checked_at": 1793681999.371284,
+      "feed_body": "Türkiye Turizm Tanıtım ve Geliştirme Ajansı, sözlü giriş sınavı ile 13 adet personel alımı yapacaktır. Başvurular 03 Kasım 2026 ile 04 Aralık 2026 tarihleri arasında tga.gov.tr/kariyer adresi üzerinden çevrimiçi olarak gerçekleştirilecektir. Son başvuru: 4 Aralık 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Teknisyen + alan/eğitim pozitif eşleşmesi bulunamadı",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "kültür ve turizm bakanlığı türkiye turizm tanıtım ve geliştirme ajansı 13 personel alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/kultur-ve-turizm-bakanligi-turkiye-turizm-tanitim-ve-gelistirme-ajansi-13-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/manisa-akhisar-belediyesi-1-memur-alacak": {
       "attempted_at": 1793629468.4007108,
