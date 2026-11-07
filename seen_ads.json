@@ -109,8 +109,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/agri-ili-eleskirt-belediye-baskanligi-1-itfaiye-eri-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/akcakent-sosyal-yardimlasma-ve-dayanisma-vakfi-1-buro-gorevlisi-alacak": {
-      "attempted_at": 1794023697.1570823,
-      "checked_at": 1794023697.1570823,
+      "attempted_at": 1794027403.9130669,
+      "checked_at": 1794027403.9130669,
       "feed_body": "Akçakent SYDV, 2025 veya 2026 KPSS P3 puan türünden en az 60 puan almış 1 büro görevlisi alımı yapacaktır. Başvurular 02-09 Kasım 2026 tarihleri arasında çevrimiçi yapılacaktır. Son başvuru: 9 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -927,8 +927,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/cerikli-belediyesi-1-kepce-operatoru-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/ceyhan-sosyal-yardimlasma-ve-dayanisma-vakfi-1-idari-buro-gorevlisi-alacak": {
-      "attempted_at": 1794023690.0503156,
-      "checked_at": 1794023690.0503156,
+      "attempted_at": 1794027397.5898092,
+      "checked_at": 1794027397.5898092,
       "feed_body": "Ceyhan Sosyal Yardımlaşma ve Dayanışma Vakfı, KPSS P3 puan türü ile en az 60 puan şartıyla 1 daimi idari büro görevlisi alımı yapacaktır. Başvurular 11 Kasım 2026 tarihine kadar çevrimiçi olarak gerçekleştirilecektir. Son başvuru: 11 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -1778,6 +1778,18 @@
       "title": "gülyalı sosyal yardımlaşma ve dayanışma vakfı 4 beden işçisi alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/gulyali-sosyal-yardimlasma-ve-dayanisma-vakfi-4-beden-iscisi-alacak"
     },
+    "https://devlet.tc/tr/kamu-ilanlari/gundogmus-belediye-baskanligi-4-memur-alacak": {
+      "attempted_at": 1794027392.5320776,
+      "checked_at": 1794027392.5320776,
+      "feed_body": "Gündoğmuş Belediye Başkanlığı, 657 sayılı kanuna tabi olarak mühendis, mimar, muhasebeci ve memur kadrolarında toplam 4 sözleşmeli memur alımı yapacaktır. Başvurular 21 Aralık 2026 ile 5 Ocak 2027 tarihleri arasında kabul edilecektir. Son başvuru: 5 Ocak 2027.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Teknisyen + alan/eğitim pozitif eşleşmesi bulunamadı",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Gündoğmuş Belediye Başkanlığı 4 memur alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/gundogmus-belediye-baskanligi-4-memur-alacak"
+    },
     "https://devlet.tc/tr/kamu-ilanlari/halic-universitesi-61-akademik-personel-alacak": {
       "attempted_at": 1793955781.6171477,
       "checked_at": 1793955781.6171477,
@@ -2255,6 +2267,18 @@
       "status": "rejected",
       "title": "İzmir Demokrasi Üniversitesi 10 akademik personel alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/izmir-demokrasi-universitesi-10-akademik-personel-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/izmir-demokrasi-universitesi-2-sozlesmeli-avukat-alacak": {
+      "attempted_at": 1794027395.7816482,
+      "checked_at": 1794027395.7816482,
+      "feed_body": "İzmir Demokrasi Üniversitesi, 657 sayılı Kanun'un 4/B maddesi kapsamında 2026 KPSS (B) grubu puan sıralaması ile 2 sözleşmeli avukat alımı yapacaktır. Başvurular 07.11.2026 - 20.11.2026 tarihleri arasında Kariyer Kapısı üzerinden gerçekleştirilecektir. Son başvuru: 20 Kasım 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Teknisyen + alan/eğitim pozitif eşleşmesi bulunamadı",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "İzmir Demokrasi Üniversitesi 2 sözleşmeli avukat alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/izmir-demokrasi-universitesi-2-sozlesmeli-avukat-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/izmir-izbel-gida-1-bulasikci-alacak": {
       "attempted_at": 1793998402.6868575,
@@ -3009,6 +3033,18 @@
       "status": "rejected",
       "title": "milli saraylar idaresi başkanlığı 3 sözleşmeli müze görevlisi (kazı görevlisi) alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/milli-saraylar-idaresi-baskanligi-3-sozlesmeli-muze-gorevlisi-kazi-gorevlisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/milli-saraylar-idaresi-baskanligi-38-sozlesmeli-personel-alacak": {
+      "attempted_at": 1794027387.477328,
+      "checked_at": 1794027387.477328,
+      "feed_body": "Milli Saraylar İdaresi Başkanlığı, merkez teşkilatında görevlendirilmek üzere 38 sözleşmeli personel alımı yapacaktır. Başvurular 07.11.2026-17.11.2026 tarihleri arasında Kariyer Kapısı üzerinden elektronik ortamda gerçekleştirilecektir. Son başvuru: 17 Kasım 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Teknisyen + alan/eğitim pozitif eşleşmesi bulunamadı",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Milli Saraylar İdaresi Başkanlığı 38 sözleşmeli personel alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/milli-saraylar-idaresi-baskanligi-38-sozlesmeli-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/mimar-sinan-guzel-sanatlar-universitesi-1-sozlesmeli-canli-model-alacak": {
       "attempted_at": 1793949684.9577446,
@@ -4057,6 +4093,18 @@
       "status": "rejected",
       "title": "uğurludağ belediyesi personel limited şirketi 6 temizlik görevlisi alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/ugurludag-belediyesi-personel-limited-sirketi-6-temizlik-gorevlisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/ula-belediye-baskanligi-4-zabita-memuru-alacak": {
+      "attempted_at": 1794027394.0975997,
+      "checked_at": 1794027394.0975997,
+      "feed_body": "Ula Belediye Başkanlığı, KPSS P93 puan türünden en az 70 puan almış adaylar arasından 4 zabıta memuru alımı yapacaktır. Başvurular 21-23 Aralık 2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 23 Aralık 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Teknisyen + alan/eğitim pozitif eşleşmesi bulunamadı",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Ula Belediye Başkanlığı 4 zabıta memuru alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/ula-belediye-baskanligi-4-zabita-memuru-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/ulubel-imar-insaat-1-sofor-alacak": {
       "attempted_at": 1793984272.7256794,
