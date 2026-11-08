@@ -133,8 +133,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/akdeniz-belediyesi-personel-as-2-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/akhisar-belediye-baskanligi-1-muhendis-alacak": {
-      "attempted_at": 1794084251.7728128,
-      "checked_at": 1794084251.7728128,
+      "attempted_at": 1794170674.0485723,
+      "checked_at": 1794170674.0485723,
       "filter_id": "dabceb2baf083817",
       "rejection_reason": "Teknisyen + alan/eğitim pozitif eşleşmesi bulunamadı",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
@@ -395,8 +395,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/bakircay-madencilik-16-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/balikesir-gayrimenkul-yatirim-ve-gida-as-1-garson-alacak": {
-      "attempted_at": 1794084256.4783735,
-      "checked_at": 1794084256.4783735,
+      "attempted_at": 1794170678.118938,
+      "checked_at": 1794170678.118938,
       "filter_id": "dabceb2baf083817",
       "rejection_reason": "Hedef dışı ilan türü: İşçi; Başvuru süresi dolmuş",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
@@ -811,8 +811,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/bursa-yenisehir-belediyesi-5-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/bursa-yenisehir-belediyesi-personel-hizmetleri-1-buro-iscisi-alacak": {
-      "attempted_at": 1794084264.1652627,
-      "checked_at": 1794084264.1652627,
+      "attempted_at": 1794170684.9234757,
+      "checked_at": 1794170684.9234757,
       "feed_body": "Bursa Yenişehir Belediyesi Personel Hizmetleri Ltd. Şti., 1 büro işçisi alımı yapacağını duyurdu. Başvurular 02.11.2026 ile 04.11.2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 4 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -835,8 +835,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/bursa-yenisehir-belediyesi-personel-hizmetleri-ltd-sti-3-beden-iscisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/canakkale-can-koylere-hizmet-goturme-birligi-1-personel-alacak": {
-      "attempted_at": 1794084257.5786545,
-      "checked_at": 1794084257.5786545,
+      "attempted_at": 1794170679.1774597,
+      "checked_at": 1794170679.1774597,
       "filter_id": "dabceb2baf083817",
       "rejection_reason": "Hedef dışı ilan türü: İşçi; Başvuru süresi dolmuş",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
@@ -869,10 +869,10 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/canik-imar-ins-tic-ltd-sti-1-kasiyer-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/cankiri-karatekin-universitesi-40-ogretim-uyesi-alacak": {
-      "attempted_at": 1794084283.7231379,
-      "checked_at": 1794084283.7231379,
+      "attempted_at": 1794170702.880196,
+      "checked_at": 1794170702.880196,
       "filter_id": "dabceb2baf083817",
-      "rejection_reason": "Hedef dışı ilan türü: Akademik Personel",
+      "rejection_reason": "Hedef dışı ilan türü: Akademik Personel; Başvuru süresi dolmuş",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
       "status": "rejected",
       "title": "Çankırı Karatekin Üniversitesi 40 öğretim üyesi alacak",
@@ -1083,8 +1083,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/derince-personel-anonim-sirketi-4-beden-iscisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/dogansehir-ogretmenevi-ve-aso-2-mutfak-gorevlisi-alacak": {
-      "attempted_at": 1794084278.0066733,
-      "checked_at": 1794084278.0066733,
+      "attempted_at": 1794170696.5669699,
+      "checked_at": 1794170696.5669699,
       "feed_body": "Doğanşehir Öğretmenevi ve ASO, geçici statüde çalıştırılmak üzere 2 mutfak görevlisi alımı yapacaktır. Başvurular 02.11.2026 ile 07.11.2026 tarihleri arasında şahsen kuruma yapılacaktır. Son başvuru: 7 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -1395,8 +1395,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/erzurum-enerji-9-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/erzurum-erkonut-4-personel-alacak": {
-      "attempted_at": 1794084271.4320028,
-      "checked_at": 1794084271.4320028,
+      "attempted_at": 1794170690.7259963,
+      "checked_at": 1794170690.7259963,
       "feed_body": "Erzurum Erkonut A.Ş, ekskavatör, dozer, loder operatörü ve elektrikçi olmak üzere toplam 4 personel alımı yapacaktır. Başvurular 02.11.2026-03.11.2026 tarihleri arasında şahsen kuruma yapılacaktır. Son başvuru: 3 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -1407,8 +1407,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/erzurum-erkonut-4-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/erzurum-kultur-turizm-as-4-gecici-isci-alacak": {
-      "attempted_at": 1794084274.0461082,
-      "checked_at": 1794084274.0461082,
+      "attempted_at": 1794170692.8782709,
+      "checked_at": 1794170692.8782709,
       "feed_body": "Erzurum Kültür Turizm Eğitim Reklam ve Sanat Ürünleri San. Tic. A.Ş., geçici statüde 2 pide ustası ve 2 aşçı yardımcısı olmak üzere toplam 4 işçi alımı yapacaktır. Son başvuru: 3 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -1755,8 +1755,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/golebel-insaat-1-temizlik-iscisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/golmar-madencilik-5-beden-iscisi-alacak": {
-      "attempted_at": 1794084279.9181867,
-      "checked_at": 1794084279.9181867,
+      "attempted_at": 1794170698.6791632,
+      "checked_at": 1794170698.6791632,
       "feed_body": "Gölmar Madencilik, Manisa Gölmarmara'da görevlendirilmek üzere 5 geçici beden işçisi alımı yapacaktır. Başvurular 4-5 Kasım 2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 5 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -1779,8 +1779,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/gulagac-belediyesi-yesil-agacli-personel-limited-sirketi-2-beden-iscisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/gulyali-sosyal-yardimlasma-ve-dayanisma-vakfi-4-beden-iscisi-alacak": {
-      "attempted_at": 1794084240.7944798,
-      "checked_at": 1794084240.7944798,
+      "attempted_at": 1794170662.1786304,
+      "checked_at": 1794170662.1786304,
       "feed_body": "Gülyalı İlçesi Sosyal Yardımlaşma ve Dayanışma Vakfı, geçici statüde 4 beden işçisi alımı yapacaktır. Başvurular 23.10.2026 ile 28.10.2026 tarihleri arasında şahsen vakfa yapılacaktır. Son başvuru: 28 Ekim 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -1887,8 +1887,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/ilica-termal-as-1-maden-muhendisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/inonu-belediyesi-1-minibus-soforu-alacak": {
-      "attempted_at": 1794084285.6456196,
-      "checked_at": 1794084285.6456196,
+      "attempted_at": 1794170704.67707,
+      "checked_at": 1794170704.67707,
       "filter_id": "dabceb2baf083817",
       "rejection_reason": "Hedef dışı ilan türü: İşçi; Başvuru süresi dolmuş",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
@@ -2053,8 +2053,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/istac-2-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/istac-as-90-daimi-isci-alacak": {
-      "attempted_at": 1794084240.0277138,
-      "checked_at": 1794084240.0277138,
+      "attempted_at": 1794170661.1152663,
+      "checked_at": 1794170661.1152663,
       "feed_body": "İSTAÇ AŞ, İstanbul genelinde görevlendirmek üzere 60 tır çekici şoförü ve 30 zemin süpürme operatörü olmak üzere toplam 90 daimi işçi alımı yapacaktır. Başvurular 23.10.2026 ile 30.10.2026 tarihleri arasında kariyer.ibb.istanbul adresi üzerinden gerçekleştirilecektir. Son başvuru: 30 Ekim 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -2401,8 +2401,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/kahramanmaras-su-ve-kanalizasyon-idaresi-personel-as-15-isci-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/kahramanmaras-sutcu-imam-universitesi-4-akademik-personel-alacak": {
-      "attempted_at": 1794084287.849778,
-      "checked_at": 1794084287.849778,
+      "attempted_at": 1794170706.4679353,
+      "checked_at": 1794170706.4679353,
       "filter_id": "dabceb2baf083817",
       "rejection_reason": "Hedef dışı ilan türü: Akademik Personel; Başvuru süresi dolmuş",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
@@ -2471,8 +2471,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/kargin-temizlik-insaat-1-beden-iscisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/kariyer-as-1-insaat-muhendisi-alacak": {
-      "attempted_at": 1794084276.17619,
-      "checked_at": 1794084276.17619,
+      "attempted_at": 1794170694.767866,
+      "checked_at": 1794170694.767866,
       "feed_body": "Kariyer Organizasyon İnsan Kaynakları Toplu Ulaşım İnşaat Taahhüt Enerji Ticaret ve Sanayi Anonim Şirketi, daimi statüde 1 inşaat mühendisi alımı yapacaktır. Son başvuru: 3 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -2639,8 +2639,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/kirsehir-ahi-evran-universitesi-3-beden-iscisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/kirsehir-boztepe-belediyesi-1-muhendis-alacak": {
-      "attempted_at": 1794084289.6872876,
-      "checked_at": 1794084289.6872876,
+      "attempted_at": 1794170708.2525146,
+      "checked_at": 1794170708.2525146,
       "filter_id": "dabceb2baf083817",
       "rejection_reason": "Teknisyen + alan/eğitim pozitif eşleşmesi bulunamadı",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
@@ -2649,8 +2649,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/kirsehir-boztepe-belediyesi-1-muhendis-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/kirsehir-boztepe-belediyesi-1-muhendis-alacak-2": {
-      "attempted_at": 1794084244.2778914,
-      "checked_at": 1794084244.2778914,
+      "attempted_at": 1794170665.9574733,
+      "checked_at": 1794170665.9574733,
       "filter_id": "dabceb2baf083817",
       "rejection_reason": "Teknisyen + alan/eğitim pozitif eşleşmesi bulunamadı",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
@@ -2767,8 +2767,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/kucukcekmece-insaat-taah-san-ve-tic-as-1-beden-iscisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/kultur-ve-turizm-bakanligi-162-sozlesmeli-kutuphaneci-alacak": {
-      "attempted_at": 1794084292.0773351,
-      "checked_at": 1794084292.0773351,
+      "attempted_at": 1794170710.4824202,
+      "checked_at": 1794170710.4824202,
       "filter_id": "dabceb2baf083817",
       "rejection_reason": "Teknisyen + alan/eğitim pozitif eşleşmesi bulunamadı",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
@@ -2813,8 +2813,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/lima-as-11-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/manisa-akhisar-belediyesi-1-memur-alacak": {
-      "attempted_at": 1794084249.6179612,
-      "checked_at": 1794084249.6179612,
+      "attempted_at": 1794170671.714938,
+      "checked_at": 1794170671.714938,
       "filter_id": "dabceb2baf083817",
       "rejection_reason": "Teknisyen + alan/eğitim pozitif eşleşmesi bulunamadı",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
@@ -2823,8 +2823,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/manisa-akhisar-belediyesi-1-memur-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/manisa-celal-bayar-universitesi-29-ogretim-uyesi-alacak": {
-      "attempted_at": 1794084293.9170558,
-      "checked_at": 1794084293.9170558,
+      "attempted_at": 1794170712.5854285,
+      "checked_at": 1794170712.5854285,
       "filter_id": "dabceb2baf083817",
       "rejection_reason": "Hedef dışı ilan türü: Akademik Personel",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
@@ -2833,8 +2833,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/manisa-celal-bayar-universitesi-29-ogretim-uyesi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/marmara-universitesi-63-sozlesmeli-personel-alacak": {
-      "attempted_at": 1794084295.489276,
-      "checked_at": 1794084295.489276,
+      "attempted_at": 1794170714.4654613,
+      "checked_at": 1794170714.4654613,
       "filter_id": "dabceb2baf083817",
       "rejection_reason": "Başvuru süresi dolmuş",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
@@ -3227,8 +3227,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/ondokuz-mayis-universitesi-6-gecici-isci-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/orbel-as-1-otopark-gorevlisi-alacak": {
-      "attempted_at": 1794084281.727485,
-      "checked_at": 1794084281.727485,
+      "attempted_at": 1794170700.710473,
+      "checked_at": 1794170700.710473,
       "feed_body": "Orbel A.Ş, Ünye Otopark İşletmesi'nde görevlendirilmek üzere 1 daimi otopark görevlisi alımı yapacaktır. Başvurular 03.11.2026-04.11.2026 tarihleri arasında e-posta yoluyla kabul edilecektir. Son başvuru: 4 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -3287,8 +3287,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/orkom-kompozit-san-tic-as-2-daimi-isci-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/orman-genel-mudurlugu-12-mufettis-yardimcisi-alacak": {
-      "attempted_at": 1794084297.2863963,
-      "checked_at": 1794084297.2863963,
+      "attempted_at": 1794170716.469935,
+      "checked_at": 1794170716.469935,
       "filter_id": "dabceb2baf083817",
       "rejection_reason": "Hedef dışı ilan türü: Uzman / Denetçi Yardımcısı",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
@@ -3297,8 +3297,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/orman-genel-mudurlugu-12-mufettis-yardimcisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/orman-genel-mudurlugu-12-mufettis-yardimcisi-alacak-2": {
-      "attempted_at": 1794084242.4554584,
-      "checked_at": 1794084242.4554584,
+      "attempted_at": 1794170663.862566,
+      "checked_at": 1794170663.862566,
       "filter_id": "dabceb2baf083817",
       "rejection_reason": "Hedef dışı ilan türü: Uzman / Denetçi Yardımcısı",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
@@ -3391,8 +3391,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/palandoken-yatirim-insaat-1-makine-teknikeri-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/pamukkale-personel-anonim-sirketi-2-buro-iscisi-alacak": {
-      "attempted_at": 1794084266.849875,
-      "checked_at": 1794084266.849875,
+      "attempted_at": 1794170687.0511703,
+      "checked_at": 1794170687.0511703,
       "feed_body": "Pamukkale Personel Anonim Şirketi, 2 büro işçisi alımı yapacaktır. Başvurular 2-4 Kasım 2026 tarihleri arasında e-posta yoluyla kabul edilecektir. Son başvuru: 5 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -3487,8 +3487,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/peras-denizli-buyuksehir-belediyesi-2-koordinator-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/peras-denizli-buyuksehir-belediyesi-5-egitmen-alacak": {
-      "attempted_at": 1794084269.244484,
-      "checked_at": 1794084269.244484,
+      "attempted_at": 1794170689.0585892,
+      "checked_at": 1794170689.0585892,
       "feed_body": "Peraş Denizli Büyükşehir Belediyesi, 5 eğitmen kadrosu için personel alımı yapacağını duyurdu. Başvurular 3 Kasım 2026 ile 5 Kasım 2026 tarihleri arasında e-posta yoluyla kabul edilecektir. Son başvuru: 6 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -3547,8 +3547,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/sades-saglik-ve-saglik-turizmi-destek-hizmetleri-as-100-kantin-gorevlisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/sades-saglik-ve-saglik-turizmi-destek-hizmetleri-as-30-kantin-gorevlisi-alacak": {
-      "attempted_at": 1794084259.6049304,
-      "checked_at": 1794084259.6049304,
+      "attempted_at": 1794170681.0950456,
+      "checked_at": 1794170681.0950456,
       "feed_body": "Sades Sağlık ve Sağlık Turizmi Destek Hizmetleri A.Ş., Aydın Şehir Hastanesi bünyesinde istihdam edilmek üzere 30 kantin görevlisi alımı yapacaktır. Başvurular 03.11.2026 ile 05.11.2026 tarihleri arasında çevrimiçi olarak gerçekleştirilecektir. Son başvuru: 5 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -3691,8 +3691,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/sarbel-organizasyon-1-otomotiv-elektrikcisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/sarbel-uretim-ve-gida-limited-sirketi-4-servis-elemani-alacak": {
-      "attempted_at": 1794084299.3610818,
-      "checked_at": 1794084299.3610818,
+      "attempted_at": 1794170718.7164397,
+      "checked_at": 1794170718.7164397,
       "filter_id": "dabceb2baf083817",
       "rejection_reason": "Hedef dışı ilan türü: İşçi; Başvuru süresi dolmuş",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
@@ -4109,8 +4109,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/turkiye-turizm-tanitim-ve-gelistirme-ajansi-13-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/turkiye-uluslararasi-islam-bilim-ve-teknoloji-universitesi-3-arastirma-gorevlisi-alacak": {
-      "attempted_at": 1794084301.1803296,
-      "checked_at": 1794084301.1803296,
+      "attempted_at": 1794170720.7315836,
+      "checked_at": 1794170720.7315836,
       "filter_id": "dabceb2baf083817",
       "rejection_reason": "Hedef dışı ilan türü: Akademik Personel; Başvuru süresi dolmuş",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
@@ -4335,8 +4335,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/yenicaga-belediyesi-personel-ltd-sti-1-beden-iscisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/yenipazar-belediyesi-personel-ltd-sti-1-buro-personeli-alacak": {
-      "attempted_at": 1794084261.5804615,
-      "checked_at": 1794084261.5804615,
+      "attempted_at": 1794170682.9553132,
+      "checked_at": 1794170682.9553132,
       "feed_body": "Yenipazar Belediyesi Personel Limited Şirketi, 1 daimi büro personeli alımı yapacaktır. Başvurular 04.11.2026 ile 05.11.2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 5 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -4419,8 +4419,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/yuntas-akaryakit-27-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/yuntas-akaryakit-6-ozel-egitim-ogretmeni-alacak": {
-      "attempted_at": 1794084303.0495806,
-      "checked_at": 1794084303.0495806,
+      "attempted_at": 1794170722.4729943,
+      "checked_at": 1794170722.4729943,
       "filter_id": "dabceb2baf083817",
       "rejection_reason": "Hedef dışı ilan türü: İşçi; Başvuru süresi dolmuş",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
@@ -4567,8 +4567,8 @@
       "url": "https://www.isinolsa.com/kultur-bakanligi-162-personel-alimi-basliyor-67-ilde-kpss-70-puan-sarti/"
     },
     "https://www.isinolsa.com/kultur-ve-turizm-bakanligi-162-kutuphaneci-alimi-yapacak/": {
-      "attempted_at": 1794084313.6899197,
-      "checked_at": 1794084313.6899197,
+      "attempted_at": 1794170734.4592516,
+      "checked_at": 1794170734.4592516,
       "filter_id": "dabceb2baf083817",
       "rejection_reason": "Teknisyen + alan/eğitim pozitif eşleşmesi bulunamadı",
       "source": "https://www.isinolsa.com/sozlesmeli-personel-alimi/feed/",
@@ -4603,8 +4603,8 @@
       "url": "https://www.isinolsa.com/marmara-universitesi-10-sozlesmeli-personel-alacak-muhendis-ve-tekniker/"
     },
     "https://www.isinolsa.com/marmara-universitesi-63-personel-alacak-lise-mezunu-hizmetli-ve-sofor/": {
-      "attempted_at": 1794084305.0447466,
-      "checked_at": 1794084305.0447466,
+      "attempted_at": 1794170724.2612252,
+      "checked_at": 1794170724.2612252,
       "feed_body": "Marmara Üniversitesi 63 sözleşmeli personel alacak. Kadro dağılımı, 2024 KPSS şartı, şahsen belge teslimi, başvuru tarihleri ve sözlü sınav ayrıntıları.\nMarmara Üniversitesi, lise mezunları arasından 20 büro personeli, 3 şoför ve 40 hizmetli alacak. 2024 KPSS puanıyla başvurulabilecek alımda, elektronik başvurunun ardından belgelerin şahsen teslim edilmesi ve sözlü sınavda başarılı olunması gerekiyor.\nÜniversitenin yayımladığı ilana göre istihdam,\n657 sayılı Devlet Memurları Kanunu’nun 4/B maddesi kapsamında sözleşmeli personel statüsünde\ngerçekleştirilecek. Adayların genel başvuru koşullarının yanında tercih ettikleri pozisyona ait özel şartları da sağlamaları gerekecek.\nMarmara Üniversitesi personel alımı kontenjan dağılımı\nİlan edilen bütün pozisyonlarda, ortaöğretim kurumlarının herhangi bir alanından mezuniyet kabul edilecek.\nİlan kodu\nPozisyon\nKontenjan\nCinsiyet\nÖzel şartlar\nB01\nBüro personeli\n20\nKadın/erkek\nLise mezunu olmak\nD01\nDestek personeli — şoför\n3\nErkek\nE veya yeni tip D sınıfı ehliyet, en az 3 yıl şoförlük deneyimi, son başvuru tarihinde 30 yaşını doldurmamış olmak\nD02\nDestek personeli — hizmetli\n40\nKadın/erkek\nSon başvuru tarihinde 30 yaşını doldurmamış olmak, vardiyalı çalışmaya uygunluk\nToplam\n63\nŞoförlük deneyiminin\nSGK hizmet dökümüyle belgelendirilmesi\nisteniyor. Şoförler de vardiyalı çalışma düzeninde görev yapacak. Büro personeli pozisyonunda ise tabloda ayrıca 30 yaş sınırı belirtilmiyor.\nBaşvurularda 2024 KPSS P94 puanı kullanılacak\nAdayların\n2024 KPSS B grubu sınavına katılmış olması\ngerekiyor. Lise mezunlarına ayrılan pozisyonlarda\nP94 puanı\nesas alınacak.\nİlanda sayısal bir asgari KPSS puanı açıklanmıyor. Ancak başvurular puan sıralamasına alınacağı için bu durum, sınava katılma şartının bulunmadığı anlamına gelmiyor.\nGenel başvuru şartları neler?\nAdayların 657 sayılı Kanun’un 48. maddesindeki genel şartları taşıması, herhangi bir sosyal güvenlik kurumundan emeklilik veya yaşlılık aylığı almaması gerekiyor. Erkek adayların askerliklerini tamamlamış veya askerlikten muaf olması isteniyor.\nDaha önce sözleşmeli personel olarak çalışanların, sözleşme feshi sonrasında uygulanan\nbir yıllık yeniden istihdam sınırlaması ve istisnaları\nbakımından başvuruya uygun durumda bulunmaları gerekiyor.\nİlan edilen unvanlara başvuranlardan,\nyükseköğretim kurumlarında örgün lisans öğrencisi kaydı bulunmadığına ilişkin beyan\nalınacak. Atanmaya hak kazananların göreve başlaması, arşiv araştırmasının olumlu sonuçlanmasına bağlı olacak.\nHizmetli pozisyonunda hangi işler yapılacak?\nHizmetliler; üniversitenin açık ve kapalı alanlarının temizliği, çöp toplama ve ayrıştırma, tuvalet ve ortak alan temizliği, eşya ve evrak taşıma, yükleme-boşaltma, yemek servisi, bulaşık, bahçe bakımı ve benzeri hizmetlerde çalışacak.\nBu pozisyona başvuranların, üniversite yerleşkelerinde iç ve dış mekânda, gece ve vardiyalı düzende çalışmaya ve lojistik hizmetlerine engel sağlık sorununun bulunmaması gerekiyor.\nSağlık kurulu raporu, sözlü sınav sonucunda göreve başlamaya hak kazananlardan istenecek.\nBaşvurular ne zaman ve nasıl yapılacak?\nBaşvurular\n23 Ekim 2026 saat 09.00’da başlayacak\n,\n6 Kasım 2026 saat 13.00’te sona erecek\n.\nAdayların aşağıdaki iki işlemi de tamamlaması zorunlu:\nKariyer Kapısı başvuru ekranı\nüzerinden elektronik başvuruyu yapmak.\nBaşvuru sonrasında oluşturulan\n“Aday Başvuru Bilgileri” belgesiyle istenen diğer belgeleri\n, başvuru tarihleri içerisinde\nMarmara Üniversitesi Göztepe Yerleşkesi Personel Daire Başkanlığına şahsen teslim etmek.\nElektronik başvuru tek başına yeterli olmayacak.\nBelgelerini şahsen teslim etmeyenlerin başvuruları tamamlanmamış sayılarak geçersiz kabul edilecek. Postayla yapılan müracaatlar alınmayacak.\nİlan metninde teslim edilecek diğer belgelerin tam listesi ayrı ayrı sıralanmadığından, adayların başvuru ekranındaki açıklamaları ve üniversitenin personel duyurularını kontrol etmesi gerekiyor.\nSözlü sınav ve başarı sıralaması nasıl olacak?\nŞartları sağlayan adaylar arasından, KPSS puanı en yüksek olandan başlanarak her pozisyonun\nüç katı aday\nsözlü sınava çağrılacak. Son sıradaki adayla aynı KPSS puanını alanların tamamı sınava katılabilecek.\nSözlü sınav\n25–26 Kasım 2026 tarihlerinde Göztepe Yerleşkesi’nde\nyapılacak. Değerlendirmede mesleki alan bilgisi 60; liyakat, temsil kabiliyeti, göreve uygunluk ve genel kültür 40 puan üzerinden ölçülecek.\nBaşarılı sayılmak için komisyon üyelerinin verdiği puanların ortalamasının\nen az 70 olması\ngerekecek.\nNihai sıralamada sözlü sınav puanı esas alınacak.\nEşitlikte sırasıyla yüksek KPSS puanı, önceki mezuniyet tarihi ve önceki doğum tarihi dikkate alınacak.\nHer pozisyon için kontenjan kadar asıl ve aynı sayıda yedek aday belirlenecek. Sonuçlar ve atama belgelerine ilişkin duyurular üniversitenin Personel Daire Başkanlığı tarafından yayımlanacak; adaylara ayrıca posta yoluyla tebligat yapılmayacak. Sonuçlara, ilan tarihinden itibaren beş iş günü içerisinde ıslak imzalı dilekçeyle şahsen itiraz edilebilecek.\nDiğer kamu ilanları için güncel ilan listemizi inceleyebilirsiniz.\nGüncel personel alımları ve başvuru duyuruları için İşin Olsa’yı takip edebilir, yeni haberlerden haberdar olmak için mobil uygulamamızı indirebilirsiniz.\nİLANIN TAM METNİ BURADA",
       "feed_pdf_urls": [
         "https://www.isinolsa.com/wp-content/uploads/2026/10/Marmara-Universitesi-Rektorlugu-63-Sozoesmeli-personel-alimi.pdf"
@@ -4617,8 +4617,8 @@
       "url": "https://www.isinolsa.com/marmara-universitesi-63-personel-alacak-lise-mezunu-hizmetli-ve-sofor/"
     },
     "https://www.isinolsa.com/marmara-universitesi-63-personel-alimi-ilani-degisti-basvuru-tarihleri-ve-sartlar-guncellendi/": {
-      "attempted_at": 1794084306.6617525,
-      "checked_at": 1794084306.6617525,
+      "attempted_at": 1794170725.7968602,
+      "checked_at": 1794170725.7968602,
       "feed_body": "Marmara Üniversitesi 63 personel alımı ilanı düzeltildi. 20 büro personeli, 40 hizmetli ve 3 şoför alımında yeni tarihler ve 2024 KPSS şartları açıklandı.\nMarmara Üniversitesi, 63 sözleşmeli personel alımı için yayımladığı ilanda düzeltmeye gitti. Lise mezunlarından büro personeli, şoför ve hizmetli alımı yapılacak. Yeni düzenlemeyle başvuru tarihleri ve bazı özel şartlar değişti. Başvurular 26 Ekim 2026 tarihinde başlayacak.\n23 Ekim 2026 tarihli Resmî Gazete’de yayımlanan sözleşmeli personel alım ilanı için düzeltme duyurusu yapıldı. Üniversite, 657 sayılı Devlet Memurları Kanunu’nun 4/B maddesi kapsamında toplam 63 personel istihdam edecek.\nAlımlarda\n2024 KPSS P94 puanı\nesas alınacak. Adaylar KPSS puan sıralamasına göre sözlü sınava çağrılacak ve nihai yerleştirmeler sözlü sınav başarısına göre gerçekleştirilecek.\nMarmara Üniversitesi Personel Alımında Neler Değişti?\nYayımlanan düzeltme ilanıyla başvuru takvimi ve adaylarda aranan bazı nitelikler yeniden düzenlendi.\nİlk ilanda 23 Ekim–6 Kasım 2026 olarak belirtilen başvuru tarihleri,\n26 Ekim–9 Kasım 2026\nolarak değiştirildi.\nAyrıca ilk ilanda büro personeli pozisyonu için bulunmayan 30 yaş şartı, yeni düzenlemeye eklendi.\nDüzeltilen ilanda üç pozisyonun tamamı için yükseköğretim kurumlarında örgün lisans öğrencisi kaydının bulunmaması şartı da açıkça yer aldı.\nKontenjan sayılarında ise herhangi bir değişiklik yapılmadı.\n63 Personel Alımı Kontenjan Dağılımı\nMarmara Üniversitesi bünyesinde üç farklı pozisyon için personel alımı gerçekleştirilecek.\nKadro\nKontenjan\nMezuniyet\nBüro Personeli\n20\nLise\nDestek Personeli (Şoför)\n3\nLise\nDestek Personeli (Hizmetli)\n40\nLise\nToplam\n63\nBüro personeli ve hizmetli alımlarına kadın ve erkek adaylar başvurabilecek. Şoför kadrosu ise yalnızca erkek adaylara ayrıldı.\nMarmara Üniversitesi 63 Personel Alımı Başvuru Şartları\nBaşvuru yapacak adayların 657 sayılı Kanun’un 48. maddesinde belirtilen genel şartları taşıması gerekiyor.\nAdayların ortaöğretim kurumlarının herhangi bir alanından mezun olması ve 2024 KPSS Ortaöğretim sınavına katılmış olması isteniyor.\nİlanda belirli bir asgari KPSS puanı açıklanmadı. Adaylar 2024 KPSS P94 puanlarına göre değerlendirilecek.\nAyrıca başvuru sahiplerinin herhangi bir Sosyal Güvenlik Kurumundan emeklilik veya yaşlılık aylığı almaması, erkek adayların askerlikle ilişiğinin bulunmaması ve 4/B sözleşmeli personel istihdamına ilişkin mevzuat şartlarını karşılaması gerekiyor.\nBüro Personeli Alımı Şartları\n20 kişilik büro personeli alımına kadın ve erkek adaylar başvurabilecek.\nAdayların lise mezunu olması, son başvuru tarihi itibarıyla 30 yaşını doldurmamış olması ve örgün lisans öğrencisi kaydının bulunmaması gerekiyor.\nŞoför Alımı Şartları\n3 kişilik destek personeli (şoför) kadrosuna yalnızca erkek adaylar başvurabilecek.\nLise mezuniyetinin yanında E sınıfı veya yeni tip D sınıfı sürücü belgesi isteniyor.\nAyrıca şoförlük alanında en az 3 yıllık iş deneyiminin SGK hizmet dökümüyle belgelendirilmesi gerekiyor.\nAdayların son başvuru tarihinde 30 yaşını doldurmamış olması, örgün lisans öğrencisi kaydının bulunmaması ve vardiyalı çalışmaya uygun olması şartı aranacak.\n40 Hizmetli Alımı Şartları\n40 kişilik hizmetli alımına kadın ve erkek adaylar başvurabilecek.\nLise mezunu olmak, son başvuru tarihinde 30 yaşını doldurmamış olmak, örgün lisans öğrencisi kaydı bulunmamak ve vardiyalı çalışmaya uygun olmak gerekiyor.\nBu pozisyonda istihdam edilecek personel; temizlik, eşya ve evrak taşıma, yükleme ve boşaltma, yemek ve çay servisi, bahçe bakımı ve üniversitenin diğer destek hizmetlerinde görevlendirilebilecek.\nAdayların gece ve vardiyalı çalışma düzeninde görevlerini yapmalarına engel sağlık sorununun bulunmaması gerekiyor. Sağlık kurulu raporu, sözlü sınav sonucunda göreve başlamaya hak kazananlardan istenecek.\nBaşvurular 26 Ekim’de Başlıyor! Nasıl Başvuru Yapılacak?\nMarmara Üniversitesi personel alımı başvuruları\n26 Ekim 2026 Pazartesi günü saat 09.00’da\nbaşlayacak.\nBaşvurular\n9 Kasım 2026 Pazartesi günü saat 13.00’te\nsona erecek.\nAdaylar işlemlerini Kariyer Kapısı Kamu İşe Alım platformu üzerinden gerçekleştirecek.\nBaşvuru adresi: https://kariyerkapisi.gov.tr/isealim\nAncak bu alımda adayların özellikle dikkat etmesi gereken bir şart bulunuyor.\nİnternet üzerinden başvuru yapmak tek başına yeterli olmayacak.\nAdaylar, elektronik başvurunun ardından oluşturulan “Aday Başvuru Bilgileri” belgesi ve istenen diğer belgeleri başvuru süresi içerisinde Marmara Üniversitesi Göztepe Yerleşkesi Personel Daire Başkanlığına şahsen teslim etmek zorunda.\nBelgelerini şahsen teslim etmeyen adayların başvuruları geçersiz sayılacak. Postayla yapılan başvurular kabul edilmeyecek.\nBaşvuru İçin Hangi Belgeler İsteniyor?\nMarmara Üniversitesi Personel Daire Başkanlığının duyurusunda yer alan belge listesine göre adaylardan Kariyer Kapısı Aday Başvuru Bilgileri belgesi, 2024 KPSS P94 sonuç belgesi, lise diploması veya mezuniyet belgesi, adli sicil kaydı, öz geçmiş ve SGK hizmet dökümü isteniyor.\nErkek adayların askerlik durum belgesini sunması gerekiyor. Üniversitede öğrenci olan adaylar için öğrenci belgesi, D01 kodlu şoför kadrosuna başvuranlar için ise sürücü belgesi de isteniyor.\nAdayların belge teslimi öncesinde üniversitenin güncel duyurularını kontrol etmesi önem taşıyor.\nSözlü Sınav 25-26 Kasım 2026 Tarihlerinde Yapılacak\nBaşvuru şartlarını taşıyan adaylar arasından 2024 KPSS P94 puanı en yüksek olandan başlanarak her pozisyon için kontenjanın üç katı kadar aday sözlü sınava çağrılacak.\nBu kapsamda puan sıralamasına göre büro personeli için 60, şoför için 9 ve hizmetli için 120 olmak üzere toplam 189 adayın sözlü sınava çağrılması öngörülüyor.\nSon sıradaki adayla aynı KPSS puanına sahip olanların tamamı da sınava alınacağından sayı artabilecek.\nSözlü sınavlar 25-26 Kasım 2026 tarihlerinde Marmara Üniversitesi Göztepe Yerleşkesinde gerçekleştirilecek.\nSınavda mesleki alan bilgisi 60 puan, liyakat, temsil kabiliyeti, göreve uygunluk ve genel kültür ise 40 puan üzerinden değerlendirilecek.\nBaşarılı sayılabilmek için sözlü sınav puanının en az 70 olması gerekecek.\nAtama Sonuçları Nasıl Açıklanacak?\nNihai başarı sıralamasında sözlü sınav puanı esas alınacak.\nHer pozisyon için ilan edilen kontenjan kadar asıl ve aynı sayıda yedek aday belirlenecek.\nSözlü sınav puanlarının eşit olması halinde sırasıyla KPSS puanı yüksek olana, mezuniyet tarihi önce olana ve doğum tarihi önce olana öncelik tanınacak.\nSınav sonuçları, atamaya hak kazanan adaylardan istenecek belgeler ve diğer duyurular Marmara Üniversitesi Personel Daire Başkanlığının internet sitesinden ilan edilecek.\nSonuç ve duyuru adresi: https://pdb.marmara.edu.tr\nİLANIN TAM METNİ BURADA",
       "feed_pdf_urls": [
         "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261026-4-2.pdf"
@@ -4707,8 +4707,8 @@
       "url": "https://www.isinolsa.com/saglik-bakanligi-att-ve-paramedik-alimlari/"
     },
     "https://www.isinolsa.com/saglik-bakanligi-buro-personeli-alimlari/": {
-      "attempted_at": 1794084310.2041657,
-      "checked_at": 1794084310.2041657,
+      "attempted_at": 1794170729.1414802,
+      "checked_at": 1794170729.1414802,
       "feed_body": "Sağlık Bakanlığı farklı şehirler için 2026 yılı büro personeli alımı yapacak. Nitelik kodu ve aranan başvuru şartlarını sizlerle haberimizde paylaşıyoruz.\nSağlık Bakanlığı büro personeli alımını bekleyen adaylar için mezuniyet bölümü ve KPSS puan türü önem taşıyor. Geçmiş yerleştirmede kullanılan 4597 nitelik kodu, 290 kişilik kontenjan dağılımı ve en düşük atama puanı, yeni süreci takip edenlere rehber oluyor.\nSağlık Bakanlığının personel alımı gündeminde gözler, yeni ilanların ayrıntılarına çevrildi. Cumhurbaşkanı Recep Tayyip Erdoğan,\n17 Ekim 2026 tarihli açıklamasında yıl bitmeden 38 bin hekim dışı personel için ilana çıkılacağını\nbildirdi. Takvim ve ayrıntıların Bakanlık tarafından açıklanacağı belirtildi.\nSağlık Bakanlığı Büro Personeli Kontenjanı Açıklandı mı?\nCumhurbaşkanlığının açıklamasında büro personeline ayrılacak kontenjan, mezuniyet koşulları veya bu unvana özel başvuru tarihleri bulunmuyor.\nBu nedenle aşağıdaki bilgiler,\nyeni alımın kesinleşmiş şartları olarak değil, KPSS 2025/5 dönemindeki uygulama\nolarak değerlendirilmeli.\nSağlık Bakanlığı 38 bin personel alımında kontenjan ve şartlar gündemini incelemek için tıklayınız.\nBüro Personeli Alımına Hangi Bölüm Mezunları Başvurabiliyordu?\nÖSYM’nin KPSS 2025/5 kılavuzunda büro personeli pozisyonları için\n4597 öğrenim nitelik kodu\nkullanıldı. Bu kod şu lisans programlarından mezun olmayı kapsıyor:\nSağlık Yönetimi.\nSağlık İdaresi.\nSağlık Kurumları Yönetimi.\nSağlık Kurumları Yöneticiliği.\nSağlık Kuruluşları Yöneticiliği.\nSağlık Kurumları İşletmeciliği.\nHerhangi bir lisans diplomasına sahip olmak, bu koşulu karşılamak için yeterli değildi.\nAdayların mezuniyetlerinin ilanda kabul edilen programlarla eşleşmesi gerekiyordu. Yeni kılavuzda da tercih edilecek pozisyonun nitelik kodu ayrıca kontrol edilmeli.\nKPSS P3 Şartı Ne Anlama Geliyor?\nBüro personeli pozisyonları geçmiş alımda\nlisans düzeyinde\nilan edildi ve yerleştirmede\nKPSS P3\npuanı kullanıldı.\nKPSS 2025/5 döneminde esas alınan sınav,\n2024 KPSS Lisans\noldu. Yerleştirme döneminin adındaki yıl ile kullanılan KPSS sınavının yılı birbirine karıştırılmamalı.\nYeni alımda hangi yılın puanının kullanılacağı, başvuruya ilişkin diğer koşullarla birlikte ilgili kılavuzdan kontrol edilmeli. Geçmiş yerleştirme puanları, farklı sınav yıllarındaki adaylar için doğrudan atanma garantisi oluşturmuyor.\nGeçmiş Alımda 290 Büro Personeli Kontenjanı Bulunuyordu\nKPSS 2025/5 sonuç tablosundaki büro personeli pozisyonları toplandığında\n290 kişilik kontenjan\nbulunuyor. Bunun 120’si merkez, 170’i taşra teşkilatına ait.\nTeşkilat\nKPSS 2025/5 büro personeli kontenjanı\nMerkez\n120\nTaşra\n170\nToplam\n290\nBu sayılar geçmiş yerleştirmenin dağılımını gösteriyor.\n2026 alımında aynı sayıda veya aynı dağılımla büro personeli alınacağına ilişkin bir açıklama bulunmuyor.\nBüro Personeli En Düşük Kaç Puanla Atandı?\nKPSS 2025/5 sonuçlarında büro personeli pozisyonlarının en düşük yerleştirme puanı\n76,46140\noldu. Bu puan,\nSağlık Yatırımları Genel Müdürlüğünün 10 kişilik merkez pozisyonunda\noluştu.\nÖSYM sonuç tablosunda aynı pozisyonun en yüksek yerleştirme puanı ise\n76,76806\nolarak yer aldı.\nDaha önce paylaşılan\n78,87123\npuanı da aynı dönemdeki\nİzmir Şehir Hastanesinin 2 kişilik büro personeli pozisyonuna\nait. Dolayısıyla bir hastanenin kapanış puanı, bütün büro personeli pozisyonlarının genel taban puanı olarak kullanılmamalı.\n76,46140 puanı yeni başvurunun zorunlu barajı değildir.\nGeçmişte gerçekleşmiş bir yerleştirme sonucudur. Yeni dönemde oluşacak puan; kontenjanlara, adayların puanlarına ve tercih sıralamalarına bağlı olacak.\nSağlık Bakanlığı geçmiş dönem taban puan karşılaştırmasını inceleyebilirsiniz.\nBüro Personeli ile Tıbbi Sekreter Aynı Pozisyon mu?\nBüro personeli ve tıbbi sekreter, geçmiş kılavuzda farklı unvanlar ve öğrenim koşullarıyla yer aldı.\nÖrneğin\nTıbbi Dokümantasyon ve Sekreterlik ön lisans mezuniyetine\nilişkin nitelik kodu\n3047\n, yukarıdaki sağlık yönetimi alanındaki lisans programlarına ilişkin kod ise\n4597\noldu. Hastanenin idari hizmetlerinde çalışmaya yönelik olması, bu pozisyonların aynı diploma şartını taşıdığı anlamına gelmiyor.\nBaşvuru Öncesinde Neler Kontrol Edilmeli?\nYeni ilan yayımlandığında adayların yalnızca puanına bakarak tercih listesi oluşturmaması gerekiyor.\nDiploma, öğrenim düzeyi, KPSS yılı ve pozisyona ait özel koşullar\nbirlikte incelenmeli.\nGeçmiş ÖSYM yerleştirmelerinde tercihler Aday İşlemleri Sistemi üzerinden alındı. Yeni süreçte de başvuru yöntemi, tercih süresi ve varsa ödeme işlemleri ilgili duyurudan takip edilmeli.\nGüncel Sağlık Bakanlığı personel alımı ve tercih duyuruları için İşin Olsa’yı takip edebilir, yeni haberlerden haberdar olmak için mobil uygulamamızı indirebilirsiniz.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -4755,8 +4755,8 @@
       "url": "https://www.isinolsa.com/saglik-bakanligi-kpss-tercih-nitelik-kodlari/"
     },
     "https://www.isinolsa.com/saglik-bakanligi-sofor-alimi-ilanlari/": {
-      "attempted_at": 1794084310.8103158,
-      "checked_at": 1794084310.8103158,
+      "attempted_at": 1794170731.4932263,
+      "checked_at": 1794170731.4932263,
       "feed_body": "Sağlık Bakanlığı şoför alımında mezuniyet, ehliyet ve KPSS P93 ayrımı; geçmiş 11 kontenjan, 70,70422 taban puan ve ambulans görevinin ayrıntıları burada.\nSağlık Bakanlığı şoför alımını bekleyen adaylar için pozisyonun unvanı ve mezuniyet şartı önem taşıyor. Önceki KPSS 2025/5 yerleştirmesinde 11 destek personeli şoför kontenjanı bulunurken, ATT ve paramediklerin ambulans sürücülüğü görevi ayrı koşullarla düzenlenmişti.\nSağlık Bakanlığının 38 bin hekim dışı personel alımı açıklamasının ardından şoför olarak görev yapmak isteyen adaylar da kontenjanları araştırıyor. Başvuru hazırlığında yalnızca ehliyet sınıfına bakılması yeterli değil; öğrenim koşulu, KPSS puan türü ve tercih edilecek pozisyonun bütün nitelikleri birlikte incelenmeli.\nSağlık Bakanlığı Şoför Kontenjanı Açıklandı mı?\nCumhurbaşkanı Recep Tayyip Erdoğan,\n17 Ekim 2026 tarihli açıklamasında\n, yıl bitmeden 38 bin hekim dışı personel alımı için ilana çıkılacağını bildirdi. Alım takvimi ve ayrıntıların Sağlık Bakanlığı tarafından açıklanacağını belirtti. Açıklamada şoför pozisyonları için ayrı kontenjan verilmedi.\nYeni dönemde şoför alımı bulunup bulunmayacağı, pozisyon sayısı ve başvuru koşulları yayımlanacak resmî ilanla netleşecek.\nGenel alım gündemini\nSağlık Bakanlığı 38 bin personel alımı: Kontenjan ve şartlar ne olacak?\nhaberimizden takip edebilirsiniz.\nÖnceki Alımda 11 Destek Personeli Şoför Kontenjanı Vardı\nÖSYM’nin\nKPSS 2025/5 ön lisans sonuç tablosunda\n, Sağlık Bakanlığının merkez teşkilatı için “Destek Personeli (Şoför)” unvanıyla iki ayrı pozisyon yer aldı.\nKurum\nKontenjan\nYerleşen aday\nEn düşük yerleştirme puanı\nHalk Sağlığı Genel Müdürlüğü\n4\n4\n72,16007\nYönetim Hizmetleri Genel Müdürlüğü\n7\n7\n70,70422\nToplam\n11\n11\n—\nBu pozisyonların tamamı doldu.\n70,70422 puan\n, Yönetim Hizmetleri Genel Müdürlüğünün yedi kişilik pozisyonunda oluşan geçmiş kapanış puanıydı. Yeni alım için belirlenmiş asgari başvuru puanı veya yerleşme garantisi anlamına gelmiyor.\nTabloda pozisyonlar “ambulans şoförü” olarak adlandırılmadığından, bu kontenjanları doğrudan ambulans sürücüsü alımı şeklinde değerlendirmek doğru olmayacak.\n3188, 6514 ve 7302 Kodları Ne Anlama Geliyor?\nÖnceki tercih tablosunda her iki destek personeli şoför pozisyonunun karşısında\n3188, 6514 ve 7302\nnitelik kodları bulunuyordu.\nBu kodlar şu koşulları içeriyordu:\n3188:\nOtobüs Şoförlüğü (Kaptanlık), Otobüs Şoförlüğü veya Otobüs Kaptanlığı ön lisans programlarından birinden mezun olmak.\n6514:\nD sınıfı sürücü belgesi sahibi olmak.\n7302:\nKılavuzun şoför pozisyonlarına ilişkin özel şartlarını incelemek.\nDolayısıyla bu geçmiş pozisyonlarda\nherhangi bir ön lisans diploması veya yalnızca ehliyet sahibi olmak yeterli değildi\n. Mezuniyet ve sürücü belgesi koşullarının birlikte karşılanması gerekiyordu.\nEhliyet uygunluğu değerlendirilirken kılavuzdaki belge sınıfları ve kabul edilen karşılıkları da kontrol edilmeli. Geçmiş koşullar, yeni ilan yayımlanmadan bütün şoför alımlarına genellenmemeli.\nŞoför Alımında Hangi KPSS Puanı Kullanılmıştı?\nİncelenen destek personeli şoför pozisyonları\nön lisans düzeyinde\nolduğu için\nKPSS P93\npuanıyla tercih yapılmıştı. KPSS 2025/5 kılavuzunda bu öğrenim düzeyi için\n2024 KPSS Ön Lisans sonuçları\nesas alınmıştı.\nYeni dönemde kabul edilecek sınav yılı ve öğrenim koşulu, ilgili pozisyon tablosundan kontrol edilecek. P93 puanına sahip olmak da tek başına yeterli olmayacak; adayın bölüm ve diğer özel şartları taşıması gerekecek.\nATT ve Paramediklerin Ambulans Görevi Ayrı Değerlendirilmeli\nÖnceki kılavuzda,\nSağlık Teknisyeni (İlk ve Acil Yardım)\nile\nSağlık Teknikeri (İlk ve Acil Yardım)\npozisyonlarına başvuracak adayların ambulans sürücüsü olarak da görev yapacaklarını göz önünde bulundurmaları isteniyordu.\nBu kişiler sağlık mesleğine ait unvanlarla alınıyor. Görevleri arasında sürücülük bulunması, kontenjanlarının ayrıca açılmış destek personeli şoför pozisyonlarıyla birleştirilmesini gerektirmiyor.\nBu nedenle sağlık mesleği diploması bulunmayan bir aday, yalnızca sürücü belgesine dayanarak ATT veya paramedik pozisyonlarının mezuniyet şartını karşılayamaz.\nİki unvanın bölüm ve puan ayrıntılarını\nSağlık Bakanlığı ATT ve paramedik alımı: KPSS, mezuniyet ve geçmiş puanlar\nhaberimizden inceleyebilirsiniz.\nBaşvuru Öncesinde Pozisyonun Tam Unvanına Bakılmalı\nAdaylar yeni tercih tablosunda önce pozisyonun unvanını, ardından öğrenim ve ehliyet kodlarını kontrol etmeli.\n“Şoför”, “ATT” ve “paramedik” ifadeleri aynı başvuru koşullarını taşımıyor.\nYüksek KPSS puanı, karşılanmayan mezuniyet veya belge şartının yerine geçmiyor. Tercih öncesinde pozisyon satırıyla kılavuzun genel ve özel açıklamalarının birlikte okunması gerekiyor.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
