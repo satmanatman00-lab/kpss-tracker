@@ -109,14 +109,14 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/agri-ili-eleskirt-belediye-baskanligi-1-itfaiye-eri-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/akcakent-sosyal-yardimlasma-ve-dayanisma-vakfi-1-buro-gorevlisi-alacak": {
-      "attempted_at": 1794215950.6891313,
-      "checked_at": 1794215950.6891313,
+      "attempted_at": 1794244567.1800792,
+      "checked_at": 1794244567.1800792,
       "feed_body": "Akçakent SYDV, 2025 veya 2026 KPSS P3 puan türünden en az 60 puan almış 1 büro görevlisi alımı yapacaktır. Başvurular 02-09 Kasım 2026 tarihleri arasında çevrimiçi yapılacaktır. Son başvuru: 9 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
-      "rejection_reason": "Eksik PDF/RSS içeriği; sonraki tur yeniden denenecek",
+      "rejection_reason": "Başvuru süresi dolmuş",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
-      "status": "pending",
+      "status": "rejected",
       "title": "akçakent sosyal yardımlaşma ve dayanışma vakfı 1 büro görevlisi alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/akcakent-sosyal-yardimlasma-ve-dayanisma-vakfi-1-buro-gorevlisi-alacak"
     },
@@ -191,8 +191,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/alanya-belediyesi-4-temizlik-personeli-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/anamur-ogretmenevi-ve-aso-2-isci-alacak": {
-      "attempted_at": 1794152610.7850106,
-      "checked_at": 1794152610.7850106,
+      "attempted_at": 1794244554.8379617,
+      "checked_at": 1794244554.8379617,
       "feed_body": "Anamur Öğretmenevi ve ASO, 1 servis elemanı (garson yardımcısı) ve 1 aşçı olmak üzere toplam 2 geçici süreli işçi alımı yapacaktır. Başvurular 4-6 Kasım 2026 tarihleri arasında şahsen kuruma yapılacaktır. Son başvuru: 6 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -763,8 +763,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/bolgiysan-yatirim-as-3-ozel-guvenlik-gorevlisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/bornova-belediyesi-personel-as-10-isci-alacak": {
-      "attempted_at": 1794152592.780621,
-      "checked_at": 1794152592.780621,
+      "attempted_at": 1794244537.221733,
+      "checked_at": 1794244537.221733,
       "feed_body": "Bornova Belediyesi Personel A.Ş., 5 işçi ve 5 ağır vasıta tamir ustası olmak üzere toplam 10 daimi personel alımı yapacaktır. Başvurular 11.11.2026 ile 13.11.2026 tarihleri arasında e-posta yoluyla kabul edilecektir. Son başvuru: 13 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -799,12 +799,12 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/buca-imar-ve-insaat-sanayi-50-beden-iscisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/buca-imar-ve-insaat-sanayi-teknik-hizmetler-as-1-psikolojik-danisman-alacak": {
-      "attempted_at": 1794152612.7520323,
-      "checked_at": 1794152612.7520323,
+      "attempted_at": 1794244556.865018,
+      "checked_at": 1794244556.865018,
       "feed_body": "Buca İmar ve İnşaat Sanayi Teknik Hizmetler A.Ş., daimi statüde çalıştırılmak üzere 1 psikolojik danışman alımı yapacaktır. Başvurular 04.11.2026 ile 08.11.2026 tarihleri arasında e-posta yoluyla kabul edilecektir. Son başvuru: 8 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
-      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi; Başvuru süresi dolmuş",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
       "status": "rejected",
       "title": "Buca İmar ve İnşaat Sanayi Teknik Hizmetler A.Ş. 1 psikolojik danışman alacak",
@@ -963,8 +963,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/cankiri-karatekin-universitesi-40-ogretim-uyesi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/catsa-1-beden-iscisi-alacak": {
-      "attempted_at": 1794152606.8184469,
-      "checked_at": 1794152606.8184469,
+      "attempted_at": 1794244550.8549993,
+      "checked_at": 1794244550.8549993,
       "feed_body": "Çatsa İnş. Taah. İnş. Malz. Sos. Tes. Hayv. Ar. Kir. San. ve Tic. A.Ş., Erzurum Çat ilçesinde görevlendirilmek üzere 1 beden işçisi (temizlik) alımı yapacaktır. Başvurular 3-4 Kasım 2026 tarihleri arasında Çat Belediye Başkanlığı'na şahsen yapılacaktır. Son başvuru: 4 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -1035,8 +1035,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/cerikli-belediyesi-1-kepce-operatoru-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/ceyhan-sosyal-yardimlasma-ve-dayanisma-vakfi-1-idari-buro-gorevlisi-alacak": {
-      "attempted_at": 1794215946.0802348,
-      "checked_at": 1794215946.0802348,
+      "attempted_at": 1794244560.750593,
+      "checked_at": 1794244560.750593,
       "feed_body": "Ceyhan Sosyal Yardımlaşma ve Dayanışma Vakfı, KPSS P3 puan türü ile en az 60 puan şartıyla 1 daimi idari büro görevlisi alımı yapacaktır. Başvurular 11 Kasım 2026 tarihine kadar çevrimiçi olarak gerçekleştirilecektir. Son başvuru: 11 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -1119,8 +1119,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/corum-sunbeton-ins-san-ve-tic-ltd-sti-1-itfaiye-destek-personeli-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/cu-saglik-kultur-ve-spor-daire-baskanligi-anaokulu-iktisadi-isletmesi-1-satranc-egitmeni-alacak": {
-      "attempted_at": 1794152598.4495735,
-      "checked_at": 1794152598.4495735,
+      "attempted_at": 1794244542.990792,
+      "checked_at": 1794244542.990792,
       "feed_body": "Ç.Ü. Sağlık Kültür ve Spor Daire Başkanlığı Anaokulu İktisadi İşletmesi, 1 adet geçici satranç eğitmeni alımı yapacaktır. Başvurular 02-03 Kasım 2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 3 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -1467,8 +1467,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/ermenek-turkuaz-turizm-isletmeleri-10-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/ertansa-as-16-personel-alimi-yapacak": {
-      "attempted_at": 1794152590.5663397,
-      "checked_at": 1794152590.5663397,
+      "attempted_at": 1794244536.0966825,
+      "checked_at": 1794244536.0966825,
       "feed_body": "Ertansa A.Ş., Erzurum'da görevlendirilmek üzere kasiyer, manav, şarküteri satış elemanı ve market elemanı pozisyonlarında toplam 16 daimi personel alımı yapacaktır. Son başvuru: 3 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -1683,8 +1683,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/etimkent-yapi-maden-san-ve-tic-as-6-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/etimkent-yapi-maden-san-ve-tic-as-7-personel-alacak": {
-      "attempted_at": 1794152603.1291895,
-      "checked_at": 1794152603.1291895,
+      "attempted_at": 1794244547.0411983,
+      "checked_at": 1794244547.0411983,
       "feed_body": "ETİMKENT A.Ş. bünyesinde istihdam edilmek üzere şoför, büro personeli ve depo sorumlusu kadrolarında toplam 7 daimi işçi alımı yapılacaktır. Başvurular 4-5 Kasım 2026 tarihleri arasında e-posta yoluyla kabul edilecektir. Son başvuru: 5 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -2341,8 +2341,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/istanbul-gedik-universitesi-5-ogretim-elemani-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/istanbul-kalkinma-ajansi-5-uzman-personel-alacak": {
-      "attempted_at": 1794152596.6325173,
-      "checked_at": 1794152596.6325173,
+      "attempted_at": 1794244541.1750455,
+      "checked_at": 1794244541.1750455,
       "feed_body": "İstanbul Kalkınma Ajansı, 5 uzman personel alımı yapacağını duyurdu. Başvurular 02.11.2026 ile 22.11.2026 tarihleri arasında Kariyer Kapısı üzerinden elektronik ortamda gerçekleştirilecektir. Son başvuru: 22 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -3443,8 +3443,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/mersin-buyuksehir-kultur-sanat-bilim-ulastirma-ticaret-ve-sanayi-anonim-sirketi-1-psikolog-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/mihaliccik-belediyesi-personel-ltdsti-5-beden-iscisi-alacak": {
-      "attempted_at": 1794152608.7528791,
-      "checked_at": 1794152608.7528791,
+      "attempted_at": 1794244552.812319,
+      "checked_at": 1794244552.812319,
       "feed_body": "Mihalıççık Belediyesi Personel Limited Şirketi, 5 beden işçisi alımı yapacaktır. Başvurular 04.11.2026 ile 06.11.2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 7 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -4015,8 +4015,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/rize-yamanturk-ogretmenevi-ve-aksam-sanat-okulu-mudurlugu-7-isci-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/sabanozu-belediyesi-personel-ltd-sti-1-buro-personeli-alacak-2": {
-      "attempted_at": 1794152604.950525,
-      "checked_at": 1794152604.950525,
+      "attempted_at": 1794244549.0361328,
+      "checked_at": 1794244549.0361328,
       "feed_body": "Şabanözü Belediyesi Personel Ltd. Şti., 1 büro personeli alımı yapacaktır. Başvurular 04.11.2026 tarihinde şahsen dilekçe ile yapılacaktır. Son başvuru: 4 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -4385,12 +4385,12 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/sivas-susehri-belediyesi-bel-su-as-5-beden-iscisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/sizirbelsan-2-orman-iscisi-alacak": {
-      "attempted_at": 1794152600.297585,
-      "checked_at": 1794152600.297585,
+      "attempted_at": 1794244544.9205964,
+      "checked_at": 1794244544.9205964,
       "feed_body": "Sızırbelsan, Sivas Gemerek'te görevlendirilmek üzere 2 geçici orman işçisi alımı yapacaktır. Başvurular 03.11.2026 ile 09.11.2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 9 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
-      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi; Başvuru süresi dolmuş",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
       "status": "rejected",
       "title": "Sızırbelsan 2 orman işçisi alacak",
@@ -4457,8 +4457,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/spilas-as-1-ekmek-satis-personeli-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/spilife-saglik-2-personel-alacak": {
-      "attempted_at": 1794152614.7302427,
-      "checked_at": 1794152614.7302427,
+      "attempted_at": 1794244558.7765095,
+      "checked_at": 1794244558.7765095,
       "feed_body": "Spilife Sağlık San. ve Tic. A.Ş., Manisa'da görevlendirilmek üzere 1 ilaçlama birim uygulama personeli ve 1 odyometrist olmak üzere toplam 2 daimi işçi alımı yapacaktır. Son başvuru: 4 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -4553,8 +4553,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/tarakli-belediyesi-personel-ltd-sti-4-beden-iscisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/tasarruf-mevduati-sigorta-fonu-75-personel-alacak": {
-      "attempted_at": 1794152594.851686,
-      "checked_at": 1794152594.851686,
+      "attempted_at": 1794244539.3348644,
+      "checked_at": 1794244539.3348644,
       "feed_body": "Tasarruf Mevduatı Sigorta Fonu, İstanbul merkez teşkilatında istihdam edilmek üzere 10 Fon denetçi yardımcısı, 45 Fon uzman yardımcısı ve 20 Fon avukatı olmak üzere toplam 75 personel alımı için giriş sınavı düzenleyecektir. Son başvuru: 30 Ekim 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -5341,6 +5341,18 @@
       "status": "rejected",
       "title": "Nükleer Düzenleme Kurumu 8 Bilişim Personeli Alacak! Başvuru Şartları Açıklandı",
       "url": "https://www.isinolsa.com/nukleer-duzenleme-kurumu-8-bilisim-personeli-alacak-basvuru-sartlari-aciklandi/"
+    },
+    "https://www.isinolsa.com/nukleer-duzenleme-kurumu-8-personel-alimi-basladi-kpss-puani-olmayanlar-da-basvurabiliyor/": {
+      "attempted_at": 1794244535.0130067,
+      "checked_at": 1794244535.0130067,
+      "feed_body": "NDK 8 bilişim personeli alıyor. Sekiz pozisyonun kontenjanını, KPSS puanı olmayanlar için hesaplamayı ve 23 Kasım’a kadar başvuru adımlarını inceleyin.\nNükleer Düzenleme Kurumunun Ankara’da görevlendireceği 8 sözleşmeli bilişim personeli için başvurular 9 Kasım 2026 saat 14.00’te başladı. Son başvuru 23 Kasım Pazartesi günü saat 23.59’da. Adaylar, deneyim ve teknik şartlarını karşıladıkları sekiz pozisyondan yalnızca birini seçebilecek.\nNDK, Bilgi Teknolojileri Grup Başkanlığında tam zamanlı çalışmak üzere yazılım, sistem, ağ, veri tabanı, siber güvenlik ve proje yönetimi alanlarında personel alacak.\nKPSS P3 puanı bulunmayan adaylar da başvurabilecek.\nBu adayların KPSS puanı, sınava çağrı sıralaması yapılırken 70 kabul edilecek.\nNDK bilişim personeli alımına nasıl başvurulur?\nBaşvurular e-Devlet’teki\nNükleer Düzenleme Kurumu – Kariyer Kapısı Kamu İşe Alım\nhizmeti veya Kariyer Kapısı üzerinden elektronik ortamda yapılıyor.\ne-Devlet NDK başvuru ekranını açın\nİlanı açın ve pozisyonunuzu seçin.\nKimlik doğrulamasından sonra\nSözleşmeli Bilişim Personeli Giriş Sınavı\nilanını açın. Mezuniyet, deneyim ve teknik şartları karşıladığınız bir pozisyonu seçin.\nPozisyona özel teknik özgeçmiş formunu doldurun.\nNDK’nın yayımladığı\nTeknik Özgeçmiş ve Değerlendirme Formu\ntaslağını kullanın. Her madde için ilgili proje, görev veya kullandığınız teknolojiyi açıklayın. Açıklayacak bir husus bulunmayan alanlara\n“YOK”\nyazın ve formu imzalayın.\nÇalışma sürenizi ve mesleki deneyiminizi belgeleyin.\nÖzel sektör için barkodlu SGK hizmet dökümünü, kamu için kurumdan alınan çalışma belgesini hazırlayın. Pozisyona özel deneyim için ayrıca görev unvanınızı, çalışma tarihlerinizi ve yürüttüğünüz iş veya projeleri gösteren onaylı belgeyi yükleyin. Deneyim hesabında\nlisans mezuniyeti sonrasındaki çalışmalar\ndikkate alınacak.\nDiğer belgeleri ekleyip başvuruyu tamamlayın.\nİmzalı teknik formun yanı sıra son üç ayda çekilmiş renkli fotoğrafı içeren öz geçmişinizi, programlama dili belgenizi ve barkodlu vukuatlı nüfus kayıt örneğinizi yükleyin. Durumunuza göre yabancı dil belgenizi, denklik belgenizi ve pozisyon için istenen sertifikaları da ekleyin. Belgeleri kontrol edip başvuruyu\n23 Kasım saat 23.59’a kadar\ntamamlayın.\nNDK 8 bilişim personeli alımı kontenjanları\nPozisyon\nKontenjan\nAsgari mesleki deneyim\nAylık brüt ücret tavanı\nYazılım mimarı\n1\n8 yıl\n4 katına kadar\nKıdemli yazılım uzmanı\n1\n5 yıl\n3 katına kadar\nKıdemli veri tabanı uzmanı\n1\n5 yıl\n3 katına kadar\nKıdemli siber güvenlik uzmanı\n1\n5 yıl\n3 katına kadar\nSistem uzmanı\n1\n3 yıl\n2 katına kadar\nAğ uzmanı\n1\n3 yıl\n2 katına kadar\nYazılım uzmanı\n1\n3 yıl\n2 katına kadar\nProje yöneticisi\n1\n3 yıl\n2 katına kadar\nToplam\n8\nDeneyimin, seçilen pozisyonun özel şartlarında tarif edilen görev ve çalışma ortamlarına uygun olması gerekiyor. Tablodaki katsayılar\naylık brüt sözleşme ücreti için uygulanabilecek üst sınırı\ngösteriyor. Kurum bu sınırların altında ücret belirleyebilecek.\nHangi bölüm mezunları başvurabilir?\nİlanda\nbilgisayar, yazılım, elektrik, elektronik, elektrik ve elektronik ile endüstri mühendisliği\nlisans programları ve bunlara denkliği kabul edilen programlar yer alıyor. Diğer dört yıllık mühendislik programları ile ilanda belirtilen bilgisayar ve teknoloji alanları, istatistik, matematik ve fizik mezunları ise özel şartları karşılamaları hâlinde\nsistem uzmanı, ağ uzmanı, yazılım uzmanı veya proje yöneticisi\npozisyonlarından birini seçebilecek.\nGenel şartlar arasında\nen az iki güncel programlama dilini bildiğini belgelemek\nde bulunuyor. Dilleri açıkça gösteren onaylı transkript, kurum yazısı veya ilanda kabul edilen eğitim belgeleri bu amaçla kullanılabiliyor.\nKPSS puanı olmayanların başvuru puanı nasıl hesaplanacak?\nSınava çağrı sıralamasında\n2025 veya 2026 KPSS P3 puanının yüzde 70’i\nile\nİngilizce yabancı dil puanının yüzde 30’u\ntoplanacak. İngilizce YDS, e-YDS veya ilanda kabul edilen eşdeğer sınav puanı kullanılabilecek.\nKPSS P3 puanı veya belgesi sunulmazsa\nKPSS bileşeni 70 kabul edilecek.\nİngilizce dil belgesi sunulmazsa\ndil bileşeni 0 kabul edilecek.\nHer iki belge de sunulmazsa\nsıralamaya esas başvuru puanı\n49\nolacak. Adayın mezuniyet, deneyim ve teknik şartları karşılaması gerekecek.\nSözlü ve uygulamalı sınav 7–11 Aralık’ta yapılacak\nNDK, başvuru puanı sıralamasına göre\nher pozisyon için 10 aday\nçağıracak. Son sıradaki adayla aynı puanı alanlar da sınava katılabilecek. Sözlü ve uygulamalı sınav\n7–11 Aralık 2026\ntarihleri arasında\nÇankaya, Ankara’da\nyapılacak. Adaylara ait sınav günü, saati ve yer bilgileri NDK’nın internet sitesinden ve Kariyer Kapısı’ndan duyurulacak. Başarılı sayılmak için sınavdan\nen az 70 puan\nalmak gerekiyor.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Teknisyen + alan/eğitim pozitif eşleşmesi bulunamadı",
+      "source": "https://www.isinolsa.com/sozlesmeli-personel-alimi/feed/",
+      "status": "rejected",
+      "title": "Nükleer Düzenleme Kurumu 8 Personel Alımı Başladı! KPSS Puanı Olmayanlar da Başvurabiliyor",
+      "url": "https://www.isinolsa.com/nukleer-duzenleme-kurumu-8-personel-alimi-basladi-kpss-puani-olmayanlar-da-basvurabiliyor/"
     },
     "https://www.isinolsa.com/saglik-bakanligi-2026-kpss-tercih-kilavuzu-ile-personel-alimi/": {
       "attempted_at": 1793267768.0844884,
