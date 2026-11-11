@@ -407,8 +407,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/bag-kent-ltd-sti-1-buro-personeli-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/bahcesehir-universitesi-1-akademik-personel-alacak": {
-      "attempted_at": 1794286710.0620637,
-      "checked_at": 1794286710.0620637,
+      "attempted_at": 1794373561.5494623,
+      "checked_at": 1794373561.5494623,
       "feed_body": "Bahçeşehir Üniversitesi, Eğitim Bilimleri Fakültesi bünyesinde görevlendirilmek üzere 1 Profesör alımı yapacaktır. Başvurular 10 Kasım 2026 ile 24 Kasım 2026 tarihleri arasında şahsen veya kurye yoluyla yapılacaktır. Son başvuru: 24 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -1107,8 +1107,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/cerikli-belediyesi-1-kepce-operatoru-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/ceyhan-sosyal-yardimlasma-ve-dayanisma-vakfi-1-idari-buro-gorevlisi-alacak": {
-      "attempted_at": 1794369573.7071795,
-      "checked_at": 1794369573.7071795,
+      "attempted_at": 1794373568.3694124,
+      "checked_at": 1794373568.3694124,
       "feed_body": "Ceyhan Sosyal Yardımlaşma ve Dayanışma Vakfı, KPSS P3 puan türü ile en az 60 puan şartıyla 1 daimi idari büro görevlisi alımı yapacaktır. Başvurular 11 Kasım 2026 tarihine kadar çevrimiçi olarak gerçekleştirilecektir. Son başvuru: 11 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -2460,6 +2460,18 @@
       "title": "İstanbul Asfalt Fabrikaları 3 personel alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/istanbul-asfalt-fabrikalari-3-personel-alacak"
     },
+    "https://devlet.tc/tr/kamu-ilanlari/istanbul-beykent-universitesi-12-ogretim-uyesi-alacak": {
+      "attempted_at": 1794373556.0664806,
+      "checked_at": 1794373556.0664806,
+      "feed_body": "İstanbul Beykent Üniversitesi, Mühendislik-Mimarlık, Fen-Edebiyat, Tıp ve Diş Hekimliği fakültelerine toplam 12 öğretim üyesi alımı yapacaktır. Başvurular 25 Kasım 2026 tarihine kadar şahsen veya posta yoluyla yapılabilir. Son başvuru: 25 Kasım 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: Akademik Personel",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "İstanbul Beykent Üniversitesi 12 öğretim üyesi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/istanbul-beykent-universitesi-12-ogretim-uyesi-alacak"
+    },
     "https://devlet.tc/tr/kamu-ilanlari/istanbul-dijital-medya-ticaret-as-1-kameraman-asistani-alacak": {
       "attempted_at": 1794320351.5776758,
       "checked_at": 1794320351.5776758,
@@ -2555,6 +2567,18 @@
       "status": "rejected",
       "title": "istanbul personel yönetim a.ş. (isper a.ş.) 1 personel alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/istanbul-personel-yonetim-as-isper-as-1-personel-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/istanbul-rumeli-universitesi-1-ogretim-uyesi-alacak": {
+      "attempted_at": 1794373555.2597442,
+      "checked_at": 1794373555.2597442,
+      "feed_body": "İstanbul Rumeli Üniversitesi, İktisadi, İdari ve Sosyal Bilimler Fakültesi Havacılık Yönetimi bölümüne 1 Doktor Öğretim Üyesi alımı yapacaktır. Başvurular 25 Kasım 2026 tarihine kadar şahsen yapılmalıdır. Son başvuru: 25 Kasım 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: Akademik Personel",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "İstanbul Rumeli Üniversitesi 1 öğretim üyesi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/istanbul-rumeli-universitesi-1-ogretim-uyesi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/istanbul-spor-etkinlikleri-ve-isletmeciligi-ticaret-as-istanbul-spor-etkinlikleri-ve-isletmeciligi-ticaret-as": {
       "attempted_at": 1794304783.5227606,
@@ -3707,8 +3731,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/mugla-ula-belediyesi-4-zabita-memuru-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/munzur-universitesi-12-akademik-personel-alacak": {
-      "attempted_at": 1794286709.2965426,
-      "checked_at": 1794286709.2965426,
+      "attempted_at": 1794373559.4729395,
+      "checked_at": 1794373559.4729395,
       "feed_body": "Munzur Üniversitesi, 11 öğretim üyesi ve 1 öğretim görevlisi olmak üzere toplam 12 akademik personel alımı yapacaktır. Başvurular 25 Kasım 2026 mesai bitimine kadar şahsen veya posta yoluyla ilgili birimlere yapılmalıdır. Son başvuru: 25 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -4219,8 +4243,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/rize-yamanturk-ogretmenevi-ve-aksam-sanat-okulu-mudurlugu-7-isci-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/sabanci-universitesi-1-ogretim-uyesi-alacak": {
-      "attempted_at": 1794286711.6659694,
-      "checked_at": 1794286711.6659694,
+      "attempted_at": 1794373563.701981,
+      "checked_at": 1794373563.701981,
       "feed_body": "Sabancı Üniversitesi, Yönetim Bilimleri Fakültesi bünyesinde görevlendirilmek üzere 1 adet Dr. Öğr. Üyesi alımı yapacaktır. Başvurular 24 Kasım 2026 tarihine kadar çevrim içi olarak kabul edilecektir. Son başvuru: 24 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -4303,8 +4327,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/saglik-bakanligi-2026-yili-3-donem-ilk-defa-ve-yeniden-atama-kurasi-ilani"
     },
     "https://devlet.tc/tr/kamu-ilanlari/saglik-bilimleri-universitesi-4-ogretim-elemani-alacak": {
-      "attempted_at": 1794286713.3071828,
-      "checked_at": 1794286713.3071828,
+      "attempted_at": 1794373566.3020086,
+      "checked_at": 1794373566.3020086,
       "feed_body": "Sağlık Bilimleri Üniversitesi, farklı fakülte ve meslek yüksekokullarında görevlendirilmek üzere toplam 4 öğretim görevlisi ve araştırma görevlisi alımı yapacaktır. Başvurular 24 Kasım 2026 tarihine kadar şahsen veya posta yoluyla ilgili birimlere yapılmalıdır. Son başvuru: 24 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -4647,6 +4671,18 @@
       "status": "rejected",
       "title": "Sinkar Turizm 3 personel alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/sinkar-turizm-3-personel-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/sirnak-universitesi-1-ogretim-uyesi-alacak": {
+      "attempted_at": 1794373557.7759938,
+      "checked_at": 1794373557.7759938,
+      "feed_body": "Şırnak Üniversitesi, Turizm ve Otel İşletmeciliği Yüksekokulu bünyesinde 1 profesör kadrosuna akademik personel alımı yapacaktır. Başvurular 11.11.2026 ile 25.11.2026 mesai bitimi tarihleri arasında şahsen veya posta yoluyla yapılacaktır. Son başvuru: 25 Kasım 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: Akademik Personel",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Şırnak Üniversitesi 1 öğretim üyesi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/sirnak-universitesi-1-ogretim-uyesi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/sivas-susehri-belediyesi-bel-su-as-5-beden-iscisi-alacak": {
       "attempted_at": 1794343935.8824015,
