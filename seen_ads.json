@@ -97,8 +97,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/agri-eleskirt-belediyesi-1-itfaiye-eri-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/agri-ili-eleskirt-belediye-baskanligi-1-itfaiye-eri-alacak": {
-      "attempted_at": 1794299037.9555037,
-      "checked_at": 1794299037.9555037,
+      "attempted_at": 1794387718.2776942,
+      "checked_at": 1794387718.2776942,
       "feed_body": "Eleşkirt Belediye Başkanlığı, 657 sayılı Kanuna tabi olarak 1 adet lisans mezunu erkek itfaiye eri alımı yapacaktır. Başvurular 09-11 Aralık 2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 11 Aralık 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -263,8 +263,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/anket-as-5-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/antalya-bilim-universitesi-16-ogretim-uyesi-alacak": {
-      "attempted_at": 1794299049.1714287,
-      "checked_at": 1794299049.1714287,
+      "attempted_at": 1794387728.4776094,
+      "checked_at": 1794387728.4776094,
       "feed_body": "Antalya Bilim Üniversitesi, çeşitli fakülte ve bölümlere 16 öğretim üyesi alımı yapacaktır. Başvurular 17 Kasım 2026 tarihine kadar şahsen veya posta yoluyla yapılabilir. Son başvuru: 17 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -1107,14 +1107,14 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/cerikli-belediyesi-1-kepce-operatoru-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/ceyhan-sosyal-yardimlasma-ve-dayanisma-vakfi-1-idari-buro-gorevlisi-alacak": {
-      "attempted_at": 1794381657.182007,
-      "checked_at": 1794381657.182007,
+      "attempted_at": 1794387737.098796,
+      "checked_at": 1794387737.098796,
       "feed_body": "Ceyhan Sosyal Yardımlaşma ve Dayanışma Vakfı, KPSS P3 puan türü ile en az 60 puan şartıyla 1 daimi idari büro görevlisi alımı yapacaktır. Başvurular 11 Kasım 2026 tarihine kadar çevrimiçi olarak gerçekleştirilecektir. Son başvuru: 11 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
-      "rejection_reason": "Eksik PDF/RSS içeriği; sonraki tur yeniden denenecek",
+      "rejection_reason": "Başvuru süresi dolmuş",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
-      "status": "pending",
+      "status": "rejected",
       "title": "Ceyhan Sosyal Yardımlaşma ve Dayanışma Vakfı 1 idari büro görevlisi alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/ceyhan-sosyal-yardimlasma-ve-dayanisma-vakfi-1-idari-buro-gorevlisi-alacak"
     },
@@ -1143,12 +1143,12 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/cifteler-belediyesi-personel-ltd-sti-2-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/corlu-belediyesi-personel-as-4-personel-alacak": {
-      "attempted_at": 1794299034.5707686,
-      "checked_at": 1794299034.5707686,
+      "attempted_at": 1794387714.872895,
+      "checked_at": 1794387714.872895,
       "feed_body": "Çorlu Belediyesi Personel A.Ş., 3 kadın destek personeli ve 1 erkek temizlik personeli olmak üzere toplam 4 geçici işçi alımı yapacaktır. Başvurular 9-10 Kasım 2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 10 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
-      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi; Başvuru süresi dolmuş",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
       "status": "rejected",
       "title": "Çorlu Belediyesi Personel A.Ş. 4 personel alacak",
@@ -1335,8 +1335,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/dokuz-eylul-universitesi-21-akademik-personel-ve-ogretim-gorevlisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/dokuz-eylul-universitesi-68-sozlesmeli-personel-alacak": {
-      "attempted_at": 1794299051.210565,
-      "checked_at": 1794299051.210565,
+      "attempted_at": 1794387730.4179568,
+      "checked_at": 1794387730.4179568,
       "feed_body": "Dokuz Eylül Üniversitesi, 657 sayılı Kanun'un 4/B maddesi kapsamında 68 hemşire alımı yapacaktır. Başvurular 03.11.2026 ile 19.11.2026 tarihleri arasında Kariyer Kapısı üzerinden elektronik ortamda gerçekleştirilecektir. Son başvuru: 19 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -1527,8 +1527,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/emin-personel-hizmeti-as-1-marangoz-ustasi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/emin-personel-hizmeti-as-1-marangoz-ustasi-alacak-2": {
-      "attempted_at": 1794299032.920161,
-      "checked_at": 1794299032.920161,
+      "attempted_at": 1794387712.8485987,
+      "checked_at": 1794387712.8485987,
       "feed_body": "Emin Personel Hizmeti A.Ş., Fatih İstanbul lokasyonunda daimi olarak görevlendirilmek üzere 1 adet en az 5 yıl deneyimli marangoz ustası alımı yapacaktır. Başvurular 09.11.2026 ile 20.11.2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 20 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -1923,8 +1923,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/gazi-universitesi-95-akademik-personel-ve-ogretim-elemani-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/gaziantep-universitesi-89-akademik-personel-alacak": {
-      "attempted_at": 1794299055.6442492,
-      "checked_at": 1794299055.6442492,
+      "attempted_at": 1794387734.3726027,
+      "checked_at": 1794387734.3726027,
       "feed_body": "Gaziantep Üniversitesi, çeşitli fakülte ve birimlerine 78 öğretim üyesi ile 11 öğretim elemanı (araştırma görevlisi ve öğretim görevlisi) olmak üzere toplam 89 akademik personel alımı yapacaktır. Başvurular 17 Kasım 2026 tarihine kadar çevrim içi veya şahsen/posta yoluyla yapılacaktır. Son başvuru: 17 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -2079,8 +2079,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/gopas-10-elektrik-tesisatcisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/gudul-sosyal-yardimlasma-ve-dayanisma-vakfi-1-personel-alacak": {
-      "attempted_at": 1794299029.529947,
-      "checked_at": 1794299029.529947,
+      "attempted_at": 1794387709.512785,
+      "checked_at": 1794387709.512785,
       "feed_body": "Güdül Sosyal Yardımlaşma ve Dayanışma Vakfı, 1 adet Sosyal Yardım ve İnceleme Görevlisi alımı yapacaktır. Başvurular 09.11.2026-16.11.2026 tarihleri arasında çevrimiçi yapılacak olup belgelerin 17.11.2026 mesai bitimine kadar şahsen teslim edilmesi gerekmektedir. Son başvuru: 16 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -2413,8 +2413,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/istac-2-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/istac-as-2-personel-alacak": {
-      "attempted_at": 1794299031.2091236,
-      "checked_at": 1794299031.2091236,
+      "attempted_at": 1794387711.169442,
+      "checked_at": 1794387711.169442,
       "feed_body": "İSTAÇ A.Ş., İstanbul genelinde görevlendirilmek üzere 1 Elektrik Teknikeri ve 1 Beden İşçisi olmak üzere toplam 2 daimi işçi alımı yapacaktır. Başvurular 13 Kasım 2026 tarihine kadar devam edecektir. Son başvuru: 13 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -2437,8 +2437,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/istac-as-90-daimi-isci-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/istanbul-arel-universitesi-53-ogretim-elemani-alacak": {
-      "attempted_at": 1794299057.26227,
-      "checked_at": 1794299057.26227,
+      "attempted_at": 1794387735.466077,
+      "checked_at": 1794387735.466077,
       "feed_body": "İstanbul Arel Üniversitesi, çeşitli fakülte ve bölümlere 2547 sayılı Kanun uyarınca 53 öğretim elemanı alımı yapacaktır. Başvurular 17 Kasım 2026 tarihine kadar şahsen veya kargo yoluyla YÖK İlişkileri ve Yazı İşleri Ofisine yapılmalıdır. Son başvuru: 17 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -2509,8 +2509,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/istanbul-kalkinma-ajansi-5-uzman-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/istanbul-kultur-universitesi-4-akademik-personel-alacak": {
-      "attempted_at": 1794299044.0876534,
-      "checked_at": 1794299044.0876534,
+      "attempted_at": 1794387723.8310144,
+      "checked_at": 1794387723.8310144,
       "feed_body": "İstanbul Kültür Üniversitesi, 1 araştırma görevlisi ve 3 öğretim üyesi (doktor öğretim üyesi, doçent, profesör) olmak üzere toplam 4 akademik personel alımı yapacaktır. Başvurular 19 Kasım 2026 tarihine kadar şahsen veya posta yoluyla yapılabilir. Son başvuru: 19 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -3131,8 +3131,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/kiraz-kalesi-ltd-sti-1-beden-iscisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/kirbel-kent-hizmetleri-as-4-beden-iscisi-alacak": {
-      "attempted_at": 1794299036.256637,
-      "checked_at": 1794299036.256637,
+      "attempted_at": 1794387716.5745583,
+      "checked_at": 1794387716.5745583,
       "feed_body": "Kırbel Kent Hizmetleri A.Ş., Kırıkkale ilinde ikamet eden, engelli statüsünde 4 beden işçisi alımı yapacaktır. Başvurular 09.11.2026 ile 13.11.2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 13 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -3353,8 +3353,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/kultur-ve-turizm-bakanligi-162-sozlesmeli-kutuphaneci-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/kultur-ve-turizm-bakanligi-turkiye-turizm-tanitim-ve-gelistirme-ajansi-13-personel-alacak": {
-      "attempted_at": 1794299053.3766825,
-      "checked_at": 1794299053.3766825,
+      "attempted_at": 1794387732.3833656,
+      "checked_at": 1794387732.3833656,
       "feed_body": "Türkiye Turizm Tanıtım ve Geliştirme Ajansı, sözlü giriş sınavı ile 13 adet personel alımı yapacaktır. Başvurular 03 Kasım 2026 ile 04 Aralık 2026 tarihleri arasında tga.gov.tr/kariyer adresi üzerinden çevrimiçi olarak gerçekleştirilecektir. Son başvuru: 4 Aralık 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -3803,8 +3803,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/nar-bel-2-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/necmettin-erbakan-universitesi-4-ogretim-elemani-alacak": {
-      "attempted_at": 1794299045.1922185,
-      "checked_at": 1794299045.1922185,
+      "attempted_at": 1794387724.7021127,
+      "checked_at": 1794387724.7021127,
       "feed_body": "Necmettin Erbakan Üniversitesi, 2547 sayılı kanun uyarınca 4 araştırma görevlisi alımı yapacaktır. Başvurular 20 Kasım 2026 tarihine kadar şahsen veya posta yoluyla yapılabilir. Son başvuru: 20 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -4231,8 +4231,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/peras-denizli-buyuksehir-belediyesi-5-egitmen-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/pursaklar-belediyesi-personel-as-70-beden-iscisi-alacak": {
-      "attempted_at": 1794299028.7624884,
-      "checked_at": 1794299028.7624884,
+      "attempted_at": 1794387708.3494115,
+      "checked_at": 1794387708.3494115,
       "feed_body": "Pursaklar Belediyesi Personel A.Ş., 5 ay 29 gün süreyle çalıştırılmak üzere 70 beden işçisi (temizlik) alımı yapacaktır. Başvurular 09.11.2026 tarihinde şahsen yapılacaktır. Son başvuru: 9 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -5497,8 +5497,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/yusufeli-kackar-enerji-1-cevre-muhendisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/zafer-kalkinma-ajansi-2-uzman-personel-alacak": {
-      "attempted_at": 1794299047.187828,
-      "checked_at": 1794299047.187828,
+      "attempted_at": 1794387726.7172952,
+      "checked_at": 1794387726.7172952,
       "feed_body": "Zafer Kalkınma Ajansı, TR33 Bölgesi'nde görevlendirilmek üzere 2 uzman personel alımı yapacaktır. Başvurular 25.11.2026 - 14.12.2026 tarihleri arasında Kariyer Kapısı üzerinden elektronik ortamda gerçekleştirilecektir. Son başvuru: 14 Aralık 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
