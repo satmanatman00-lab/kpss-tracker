@@ -179,8 +179,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/agri-eleskirt-belediyesi-1-itfaiye-eri-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/agri-ili-eleskirt-belediye-baskanligi-1-itfaiye-eri-alacak": {
-      "attempted_at": 1794739869.338545,
-      "checked_at": 1794739869.338545,
+      "attempted_at": 1794841972.398546,
+      "checked_at": 1794841972.398546,
       "feed_body": "Eleşkirt Belediye Başkanlığı, 657 sayılı Kanuna tabi olarak 1 adet lisans mezunu erkek itfaiye eri alımı yapacaktır. Başvurular 09-11 Aralık 2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 11 Aralık 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -273,8 +273,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/aksaray-universitesi-20-ogretim-uyesi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/akseki-belediyesi-1-sozlesmeli-muhendis-alacak": {
-      "attempted_at": 1794736432.6788023,
-      "checked_at": 1794736432.6788023,
+      "attempted_at": 1794841940.8278384,
+      "checked_at": 1794841940.8278384,
       "feed_body": "Akseki Belediye Başkanlığı, KPSS puanı ile 1 adet mühendis alımı yapacaktır. Başvurular 21-25 Aralık 2026 tarihleri arasında elektronik ortamda veya şahsen/posta yoluyla gerçekleştirilecektir. Son başvuru: 25 Aralık 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -810,6 +810,18 @@
       "title": "BEL-PA ANKARA EĞİT.SAĞ.HİZ.İNŞ.ENERJİ GIDA TEM.İTH.İHR.TİC.A.Ş – son belpa",
       "url": "https://devlet.tc/tr/kamu-ilanlari/bel-pa-ankara-egitsaghizinsenerji-gida-temithihrticas-son-belpa"
     },
+    "https://devlet.tc/tr/kamu-ilanlari/belde-as-1-muhendis-alacak": {
+      "attempted_at": 1794841909.842957,
+      "checked_at": 1794841909.842957,
+      "feed_body": "BELDE A.Ş., Kocaeli il sınırlarında görevlendirilmek üzere 1 daimi mühendis alımı yapacaktır. Başvurular 16.11.2026 ile 18.11.2026 tarihleri arasında www.beldeas.com adresi üzerinden çevrim içi olarak gerçekleştirilecektir. Son başvuru: 19 Kasım 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "BELDE A.Ş. 1 mühendis alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/belde-as-1-muhendis-alacak"
+    },
     "https://devlet.tc/tr/kamu-ilanlari/belkar-13-personel-alacak": {
       "attempted_at": 1792967846.5421395,
       "checked_at": 1792967846.5421395,
@@ -927,6 +939,18 @@
       "status": "rejected",
       "title": "besot manisa 6 personel alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/besot-manisa-6-personel-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/besot-manisa-as-1-elektrik-teknisyeni-alacak": {
+      "attempted_at": 1794841912.0590186,
+      "checked_at": 1794841912.0590186,
+      "feed_body": "BESOT Manisa A.Ş., daimi statüde görevlendirilmek üzere 1 elektrik teknisyeni alımı yapacaktır. Başvurular 17.11.2026 tarihinde e-posta yoluyla kabul edilecektir. Son başvuru: 17 Kasım 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "BESOT Manisa A.Ş. 1 elektrik teknisyeni alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/besot-manisa-as-1-elektrik-teknisyeni-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/beylikduzu-belediyesi-personel-as-10-beden-iscisi-alacak": {
       "attempted_at": 1794764675.8124402,
@@ -1060,6 +1084,18 @@
       "title": "Boğaziçi Üniversitesi 1 öğretim görevlisi alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/bogazici-universitesi-1-ogretim-gorevlisi-alacak"
     },
+    "https://devlet.tc/tr/kamu-ilanlari/bol-tur-1-asci-alacak": {
+      "attempted_at": 1794841903.4053218,
+      "checked_at": 1794841903.4053218,
+      "feed_body": "BOL TUR TURİZM ORGANİZASYON TİC. VE SAN. A.Ş., Bolu'da görevlendirmek üzere 1 daimi aşçı alımı yapacağını duyurdu. Başvurular 16-23 Kasım 2026 tarihleri arasında kabul edilecektir. Son başvuru: 23 Kasım 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "BOL TUR 1 aşçı alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/bol-tur-1-asci-alacak"
+    },
     "https://devlet.tc/tr/kamu-ilanlari/bolgiysan-yatirim-as-3-ozel-guvenlik-gorevlisi-alacak": {
       "attempted_at": 1794782756.3090596,
       "checked_at": 1794782756.3090596,
@@ -1083,6 +1119,18 @@
       "status": "rejected",
       "title": "Bolkar A.Ş 30 beden işçisi alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/bolkar-as-30-beden-iscisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/boluyu-seviyorum-personel-as-1-insaat-teknikeri-alacak": {
+      "attempted_at": 1794841902.6077313,
+      "checked_at": 1794841902.6077313,
+      "feed_body": "Boluyu Seviyorum Personel A.Ş., 1 inşaat teknikeri alımı yapacaktır. Başvurular 16.11.2026 ile 18.11.2026 tarihleri arasında Bolu Belediye Başkanlığına şahsen yapılacaktır. Son başvuru: 18 Kasım 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Boluyu Seviyorum Personel A.Ş. 1 inşaat teknikeri alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/boluyu-seviyorum-personel-as-1-insaat-teknikeri-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/borcka-belediyesi-1-isci-alacak": {
       "attempted_at": 1794743247.2327561,
@@ -1239,6 +1287,18 @@
       "status": "rejected",
       "title": "Bursa Yenişehir Belediyesi 1 beden işçisi alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/bursa-yenisehir-belediyesi-1-beden-iscisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/bursa-yenisehir-belediyesi-1-beden-iscisi-alacak-2": {
+      "attempted_at": 1794841905.0212564,
+      "checked_at": 1794841905.0212564,
+      "feed_body": "Bursa Yenişehir Belediyesi Personel Hizmetleri Ltd. Şti., 1 beden işçisi alımı yapacaktır. Başvurular 16.11.2026 ile 18.11.2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 18 Kasım 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Bursa Yenişehir Belediyesi 1 beden işçisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/bursa-yenisehir-belediyesi-1-beden-iscisi-alacak-2"
     },
     "https://devlet.tc/tr/kamu-ilanlari/bursa-yenisehir-belediyesi-5-personel-alacak": {
       "attempted_at": 1794779168.1695998,
@@ -1537,8 +1597,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/cifteler-belediyesi-personel-ltd-sti-2-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/corlu-belediyesi-personel-as-4-personel-alacak": {
-      "attempted_at": 1794739865.3419392,
-      "checked_at": 1794739865.3419392,
+      "attempted_at": 1794841968.5430949,
+      "checked_at": 1794841968.5430949,
       "feed_body": "Çorlu Belediyesi Personel A.Ş., 3 kadın destek personeli ve 1 erkek temizlik personeli olmak üzere toplam 4 geçici işçi alımı yapacaktır. Başvurular 9-10 Kasım 2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 10 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -1981,8 +2041,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/emin-personel-hizmeti-as-1-marangoz-ustasi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/emin-personel-hizmeti-as-1-marangoz-ustasi-alacak-2": {
-      "attempted_at": 1794739863.5009973,
-      "checked_at": 1794739863.5009973,
+      "attempted_at": 1794841966.893172,
+      "checked_at": 1794841966.893172,
       "feed_body": "Emin Personel Hizmeti A.Ş., Fatih İstanbul lokasyonunda daimi olarak görevlendirilmek üzere 1 adet en az 5 yıl deneyimli marangoz ustası alımı yapacaktır. Başvurular 09.11.2026 ile 20.11.2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 20 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -2219,6 +2279,18 @@
       "status": "rejected",
       "title": "espark eskişehir 1 beden işçisi alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/espark-eskisehir-1-beden-iscisi-alacak"
+    },
+    "https://devlet.tc/tr/kamu-ilanlari/espark-eskisehir-1-beden-iscisi-alacak-2": {
+      "attempted_at": 1794841906.5498104,
+      "checked_at": 1794841906.5498104,
+      "feed_body": "ESPARK Eskişehir Park Bahçe Peyzaj Temizlik A.Ş., 1 daimi beden işçisi alımı yapacaktır. Başvurular 17.11.2026 ile 19.11.2026 tarihleri arasında e-posta yoluyla kabul edilecektir. Son başvuru: 20 Kasım 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "ESPARK Eskişehir 1 beden işçisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/espark-eskisehir-1-beden-iscisi-alacak-2"
     },
     "https://devlet.tc/tr/kamu-ilanlari/espark-eskisehir-1-ekonomist-alacak": {
       "attempted_at": 1794779170.1707106,
@@ -2628,6 +2700,18 @@
       "title": "Gölmar Madencilik 1 beden işçisi alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/golmar-madencilik-1-beden-iscisi-alacak"
     },
+    "https://devlet.tc/tr/kamu-ilanlari/golmar-madencilik-1-veteriner-hekim-alacak": {
+      "attempted_at": 1794841916.6860068,
+      "checked_at": 1794841916.6860068,
+      "feed_body": "Gölmar Madencilik İnş. İml. San ve Tic. Ltd. Şti., Manisa Gölmarmara'da görevlendirilmek üzere 1 geçici veteriner hekim alımı yapacaktır. Başvurular 17-18 Kasım 2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 18 Kasım 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Gölmar Madencilik 1 veteriner hekim alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/golmar-madencilik-1-veteriner-hekim-alacak"
+    },
     "https://devlet.tc/tr/kamu-ilanlari/golmar-madencilik-5-beden-iscisi-alacak": {
       "attempted_at": 1794798110.031846,
       "checked_at": 1794798110.031846,
@@ -2665,12 +2749,12 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/gopas-5-otopark-gorevlisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/gudul-sosyal-yardimlasma-ve-dayanisma-vakfi-1-personel-alacak": {
-      "attempted_at": 1794739860.0446188,
-      "checked_at": 1794739860.0446188,
+      "attempted_at": 1794841963.2359693,
+      "checked_at": 1794841963.2359693,
       "feed_body": "Güdül Sosyal Yardımlaşma ve Dayanışma Vakfı, 1 adet Sosyal Yardım ve İnceleme Görevlisi alımı yapacaktır. Başvurular 09.11.2026-16.11.2026 tarihleri arasında çevrimiçi yapılacak olup belgelerin 17.11.2026 mesai bitimine kadar şahsen teslim edilmesi gerekmektedir. Son başvuru: 16 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
-      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi; Başvuru süresi dolmuş",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
       "status": "rejected",
       "title": "Güdül Sosyal Yardımlaşma ve Dayanışma Vakfı 1 personel alacak",
@@ -2713,8 +2797,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/gunbel-1-proje-muhendisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/gundogmus-belediye-baskanligi-4-memur-alacak": {
-      "attempted_at": 1794736430.7989674,
-      "checked_at": 1794736430.7989674,
+      "attempted_at": 1794841939.564856,
+      "checked_at": 1794841939.564856,
       "feed_body": "Gündoğmuş Belediye Başkanlığı, 657 sayılı kanuna tabi olarak mühendis, mimar, muhasebeci ve memur kadrolarında toplam 4 sözleşmeli memur alımı yapacaktır. Başvurular 21 Aralık 2026 ile 5 Ocak 2027 tarihleri arasında kabul edilecektir. Son başvuru: 5 Ocak 2027.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -2749,8 +2833,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/halic-universitesi-61-akademik-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/hamidiye-as-3-muhasebe-personeli-alacak": {
-      "attempted_at": 1794739849.503995,
-      "checked_at": 1794739849.503995,
+      "attempted_at": 1794841953.5529559,
+      "checked_at": 1794841953.5529559,
       "feed_body": "Hamidiye Kaynak Suları Sanayi Turz. Ve Tic. A.Ş., 3 muhasebe personeli alımı yapacaktır. Başvurular 12.11.2026 ile 01.12.2026 tarihleri arasında İBB Kariyer sitesi üzerinden gerçekleştirilecektir. Son başvuru: 1 Aralık 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -3047,12 +3131,12 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/isper-as-1-sayac-okuma-personeli-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/isper-as-10-cocuk-gelisimcisi-alacak": {
-      "attempted_at": 1794739847.716453,
-      "checked_at": 1794739847.716453,
+      "attempted_at": 1794841951.5111644,
+      "checked_at": 1794841951.5111644,
       "feed_body": "İsper İstanbul Personel Yönetim A.Ş., İstanbul genelinde görevlendirilmek üzere 10 daimi çocuk gelişimcisi alımı yapacaktır. Başvurular 12-15 Kasım 2026 tarihleri arasında kariyer.ibb.istanbul adresi üzerinden gerçekleştirilecektir. Son başvuru: 15 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
-      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi; Başvuru süresi dolmuş",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
       "status": "rejected",
       "title": "İsper A.Ş. 10 çocuk gelişimcisi alacak",
@@ -3143,8 +3227,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/isper-istanbul-personel-yonetim-as-3-bilgi-islem-uzman-yardimcisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/isper-istanbul-personel-yonetim-as-isper": {
-      "attempted_at": 1794739845.8192084,
-      "checked_at": 1794739845.8192084,
+      "attempted_at": 1794841949.8759558,
+      "checked_at": 1794841949.8759558,
       "feed_body": "Son başvuru: 14 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -3179,8 +3263,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/istac-2-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/istac-as-2-personel-alacak": {
-      "attempted_at": 1794739861.761283,
-      "checked_at": 1794739861.761283,
+      "attempted_at": 1794841964.89933,
+      "checked_at": 1794841964.89933,
       "feed_body": "İSTAÇ A.Ş., İstanbul genelinde görevlendirilmek üzere 1 Elektrik Teknikeri ve 1 Beden İşçisi olmak üzere toplam 2 daimi işçi alımı yapacaktır. Başvurular 13 Kasım 2026 tarihine kadar devam edecektir. Son başvuru: 13 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -3287,8 +3371,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/istanbul-kalkinma-ajansi-5-uzman-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/istanbul-kultur-universitesi-4-akademik-personel-alacak": {
-      "attempted_at": 1794739874.2608192,
-      "checked_at": 1794739874.2608192,
+      "attempted_at": 1794841974.6637447,
+      "checked_at": 1794841974.6637447,
       "feed_body": "İstanbul Kültür Üniversitesi, 1 araştırma görevlisi ve 3 öğretim üyesi (doktor öğretim üyesi, doçent, profesör) olmak üzere toplam 4 akademik personel alımı yapacaktır. Başvurular 19 Kasım 2026 tarihine kadar şahsen veya posta yoluyla yapılabilir. Son başvuru: 19 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -3514,6 +3598,18 @@
       "title": "İZENERJİ 12 özel güvenlik görevlisi alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/izenerji-12-ozel-guvenlik-gorevlisi-alacak"
     },
+    "https://devlet.tc/tr/kamu-ilanlari/izenerji-15-ozel-guvenlik-gorevlisi-alacak": {
+      "attempted_at": 1794841908.1968148,
+      "checked_at": 1794841908.1968148,
+      "feed_body": "İzenerji, İzmir Bridal Week Fuarı'nda görevlendirilmek üzere 15 geçici özel güvenlik görevlisi alımı yapacaktır. Başvurular 19.11.2026 ile 22.11.2026 tarihleri arasında internet üzerinden gerçekleştirilecektir. Son başvuru: 22 Kasım 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "İzenerji 15 özel güvenlik görevlisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/izenerji-15-ozel-guvenlik-gorevlisi-alacak"
+    },
     "https://devlet.tc/tr/kamu-ilanlari/izenerji-8-ozel-guvenlik-gorevlisi-alacak": {
       "attempted_at": 1794779209.7824936,
       "checked_at": 1794779209.7824936,
@@ -3551,8 +3647,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/izmir-demokrasi-universitesi-10-akademik-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/izmir-demokrasi-universitesi-2-sozlesmeli-avukat-alacak": {
-      "attempted_at": 1794736438.5437658,
-      "checked_at": 1794736438.5437658,
+      "attempted_at": 1794841946.411926,
+      "checked_at": 1794841946.411926,
       "feed_body": "İzmir Demokrasi Üniversitesi, 657 sayılı Kanun'un 4/B maddesi kapsamında 2026 KPSS (B) grubu puan sıralaması ile 2 sözleşmeli avukat alımı yapacaktır. Başvurular 07.11.2026 - 20.11.2026 tarihleri arasında Kariyer Kapısı üzerinden gerçekleştirilecektir. Son başvuru: 20 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -4004,6 +4100,18 @@
       "title": "Kaytazdere Belde Turizm 1 beden işçisi alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/kaytazdere-belde-turizm-1-beden-iscisi-alacak"
     },
+    "https://devlet.tc/tr/kamu-ilanlari/kazanbel-1-beden-iscisi-alacak": {
+      "attempted_at": 1794841920.4303107,
+      "checked_at": 1794841920.4303107,
+      "feed_body": "Kazanbel Sınav ve Belgelendirme İnş. Turz. San. Tic. Ltd. Şti., Ankara Kahramankazan'da görevlendirilmek üzere 1 daimi beden işçisi alımı yapacaktır. Son başvuru: 20 Kasım 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Kazanbel 1 beden işçisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/kazanbel-1-beden-iscisi-alacak"
+    },
     "https://devlet.tc/tr/kamu-ilanlari/kecikalesi-belediyesi-personel-limited-sirketi-1-beden-iscisi-alacak": {
       "attempted_at": 1794792629.8267756,
       "checked_at": 1794792629.8267756,
@@ -4089,8 +4197,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/kiraz-kalesi-ltd-sti-1-beden-iscisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/kirbel-kent-hizmetleri-as-4-beden-iscisi-alacak": {
-      "attempted_at": 1794739867.3253582,
-      "checked_at": 1794739867.3253582,
+      "attempted_at": 1794841970.570195,
+      "checked_at": 1794841970.570195,
       "feed_body": "Kırbel Kent Hizmetleri A.Ş., Kırıkkale ilinde ikamet eden, engelli statüsünde 4 beden işçisi alımı yapacaktır. Başvurular 09.11.2026 ile 13.11.2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 13 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -4566,6 +4674,18 @@
       "title": "Mazı Petrol 1 beden işçisi alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/mazi-petrol-1-beden-iscisi-alacak"
     },
+    "https://devlet.tc/tr/kamu-ilanlari/mazi-petrol-1-beden-iscisi-alacak-2": {
+      "attempted_at": 1794841918.6183565,
+      "checked_at": 1794841918.6183565,
+      "feed_body": "Mazı Petrol Ürünleri Ltd. Şti., Köprübaşı Belediyesi bünyesinde görevlendirilmek üzere 1 beden işçisi alımı yapacaktır. Başvurular 18-19 Kasım 2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 19 Kasım 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Mazı Petrol 1 beden işçisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/mazi-petrol-1-beden-iscisi-alacak-2"
+    },
     "https://devlet.tc/tr/kamu-ilanlari/menderes-belediyesi-16-personel-alacak": {
       "attempted_at": 1794828617.1326933,
       "checked_at": 1794828617.1326933,
@@ -4795,8 +4915,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/milli-saraylar-idaresi-baskanligi-3-sozlesmeli-muze-gorevlisi-kazi-gorevlisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/milli-saraylar-idaresi-baskanligi-38-sozlesmeli-personel-alacak": {
-      "attempted_at": 1794736429.2627397,
-      "checked_at": 1794736429.2627397,
+      "attempted_at": 1794841935.1799674,
+      "checked_at": 1794841935.1799674,
       "feed_body": "Milli Saraylar İdaresi Başkanlığı, merkez teşkilatında görevlendirilmek üzere 38 sözleşmeli personel alımı yapacaktır. Başvurular 07.11.2026-17.11.2026 tarihleri arasında Kariyer Kapısı üzerinden elektronik ortamda gerçekleştirilecektir. Son başvuru: 17 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -5463,8 +5583,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/pinarhisar-belediyesi-1-beden-iscisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/pursaklar-belediyesi-personel-as-70-beden-iscisi-alacak": {
-      "attempted_at": 1794739858.982727,
-      "checked_at": 1794739858.982727,
+      "attempted_at": 1794841962.122053,
+      "checked_at": 1794841962.122053,
       "feed_body": "Pursaklar Belediyesi Personel A.Ş., 5 ay 29 gün süreyle çalıştırılmak üzere 70 beden işçisi (temizlik) alımı yapacaktır. Başvurular 09.11.2026 tarihinde şahsen yapılacaktır. Son başvuru: 9 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -5750,6 +5870,18 @@
       "title": "sarbel organizasyon 1 otomotiv elektrikçisi alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/sarbel-organizasyon-1-otomotiv-elektrikcisi-alacak"
     },
+    "https://devlet.tc/tr/kamu-ilanlari/sarbel-uretim-ve-gida-5-personel-alacak": {
+      "attempted_at": 1794841922.9647949,
+      "checked_at": 1794841922.9647949,
+      "feed_body": "Sarbel Üretim ve Gıda Ltd. Şti., 1 kamyon şoförü, 3 beden işçisi ve 1 servis elemanı olmak üzere toplam 5 daimi işçi alımı yapacaktır. Başvurular 17-20 Kasım 2026 tarihleri arasında şahsen veya e-posta yoluyla yapılacaktır. Son başvuru: 20 Kasım 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Sarbel Üretim ve Gıda 5 personel alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/sarbel-uretim-ve-gida-5-personel-alacak"
+    },
     "https://devlet.tc/tr/kamu-ilanlari/sarbel-uretim-ve-gida-limited-sirketi-4-servis-elemani-alacak": {
       "attempted_at": 1794798135.3521748,
       "checked_at": 1794798135.3521748,
@@ -5797,8 +5929,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/sariz-belediyesi-3-personel-alacak-2"
     },
     "https://devlet.tc/tr/kamu-ilanlari/savunma-sanayii-baskanligi-26-sozlesmeli-personel-alacak": {
-      "attempted_at": 1794739851.4820912,
-      "checked_at": 1794739851.4820912,
+      "attempted_at": 1794841955.2519963,
+      "checked_at": 1794841955.2519963,
       "feed_body": "Savunma Sanayii Başkanlığı, bünyesindeki projelerde görevlendirmek üzere 26 proje bazlı sözleşmeli personel alımı yapacaktır. Başvurular 20 Kasım - 21 Aralık 2026 tarihleri arasında Kariyer Kapısı üzerinden elektronik ortamda alınacaktır. Son başvuru: 21 Aralık 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -6096,6 +6228,18 @@
       "title": "Sorgun İş Geliştirme Merkezi 1 beden işçisi alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/sorgun-is-gelistirme-merkezi-1-beden-iscisi-alacak"
     },
+    "https://devlet.tc/tr/kamu-ilanlari/sorgun-is-gelistirme-merkezi-1-sihhi-tesisat-iscisi-alacak": {
+      "attempted_at": 1794841924.718821,
+      "checked_at": 1794841924.718821,
+      "feed_body": "Sorgun İş Geliştirme Merkezi San. Tic. Ltd. Şti., 1 daimi sıhhi tesisat işçisi alımı yapacaktır. Başvurular 17.11.2026 tarihinde şahsen yapılacaktır. Son başvuru: 17 Kasım 2026.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
+      "status": "rejected",
+      "title": "Sorgun İş Geliştirme Merkezi 1 sıhhi tesisat işçisi alacak",
+      "url": "https://devlet.tc/tr/kamu-ilanlari/sorgun-is-gelistirme-merkezi-1-sihhi-tesisat-iscisi-alacak"
+    },
     "https://devlet.tc/tr/kamu-ilanlari/sorgun-sosyal-yardimlasma-ve-dayanisma-vakfi-1-temizlik-gorevlisi-alacak": {
       "attempted_at": 1794792645.4165196,
       "checked_at": 1794792645.4165196,
@@ -6193,8 +6337,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/sunbeton-ins-san-ve-tic-ltd-sti-2-isci-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/tanoba-belediyesi-1-memur-alacak": {
-      "attempted_at": 1794736434.6178591,
-      "checked_at": 1794736434.6178591,
+      "attempted_at": 1794841942.6099699,
+      "checked_at": 1794841942.6099699,
       "feed_body": "Tanoba Belediye Başkanlığı, 657 sayılı kanuna tabi olarak 1 memur alımı yapacaktır. Başvurular 16-18 Aralık 2026 tarihleri arasında şahsen, posta yoluyla veya e-posta ile kabul edilecektir. Son başvuru: 18 Aralık 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -6503,8 +6647,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/ugurludag-belediyesi-personel-limited-sirketi-6-temizlik-gorevlisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/ula-belediye-baskanligi-4-zabita-memuru-alacak": {
-      "attempted_at": 1794736436.5808876,
-      "checked_at": 1794736436.5808876,
+      "attempted_at": 1794841944.4121704,
+      "checked_at": 1794841944.4121704,
       "feed_body": "Ula Belediye Başkanlığı, KPSS P93 puan türünden en az 70 puan almış adaylar arasından 4 zabıta memuru alımı yapacaktır. Başvurular 21-23 Aralık 2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 23 Aralık 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -6623,8 +6767,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/unbel-danismanlik-6-daimi-isci-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/uraysim-5-sozlesmeli-personel-alacak": {
-      "attempted_at": 1794739844.8499472,
-      "checked_at": 1794739844.8499472,
+      "attempted_at": 1794841948.4466038,
+      "checked_at": 1794841948.4466038,
       "feed_body": "URAYSİM, Eskişehir'de görevlendirilmek üzere farklı mühendislik branşlarında ve idari personel pozisyonunda toplam 5 daimi işçi alımı yapacaktır. Son başvuru: 20 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -7005,8 +7149,8 @@
       "url": "https://www.isinolsa.com/41-universiteye-1139-personel-alimi-basvurular-suruyor-iste-kadrolar-ve-tarihler/"
     },
     "https://www.isinolsa.com/deu-68-hemsire-alimi-suruyor-kpss-taban-puani-kac-olur/": {
-      "attempted_at": 1794739858.7810783,
-      "checked_at": 1794739858.7810783,
+      "attempted_at": 1794841961.8500907,
+      "checked_at": 1794841961.8500907,
       "feed_body": "DEÜ’nün 68 hemşire alımı sürüyor. Önceki ÖSYM yerleştirmelerindeki 74,07 ve 76,53 KPSS puanlarını ve yeni taban puanın nasıl oluşacağını inceleyin.\nDokuz Eylül Üniversitesinin 68 sözleşmeli hemşire alımında başvurular 19 Kasım 2026 saat 13.00’e kadar devam ediyor. Üniversitenin önceki iki ÖSYM merkezi yerleştirmesinde en düşük puanlar 74,07332 ve 76,53233 oldu. Bu kez ilk asıl listenin taban puanını, başvuru şartlarını karşılayan adayların 2026 KPSS P3 sıralaması belirleyecek.\nDokuz Eylül Üniversitesi (DEÜ), İzmir’deki Uygulama ve Araştırma Hastanesinde görevlendirmek üzere\n4/B statüsünde 68 hemşire\nalacak. Üniversite yazılı veya sözlü sınav yapmadan, şartları taşıyan adayları\n2026 KPSS P3 puanına\ngöre sıralayacak. İlanda başvuru için sayısal bir asgari KPSS puanı belirtilmedi.\nDokuz Eylül’de önceki hemşire yerleştirmeleri kaç puanla kapandı?\nÖSYM’nin lisans yerleştirme sonuçlarına göre Dokuz Eylül Üniversitesinin\nKPSS-2025/1’de 30\n,\nKPSS-2025/2’de 5\nhemşire pozisyonu vardı. İki dönemde de kontenjanın tamamı doldu.\nÖSYM merkezi yerleştirme dönemi\nKontenjan\nYerleşen\nEn düşük puan\nEn yüksek puan\nKPSS-2025/1\n30\n30\n74,07332\n78,41597\nKPSS-2025/2\n5\n5\n76,53233\n77,96713\nGeçmişteki iki alım\nÖSYM merkezi yerleştirmesiyle\nyapıldı. Güncel 68 kişilik alımı ise üniversite doğrudan yürütüyor ve\n2026 KPSS P3\npuanını kullanıyor. Dolayısıyla tablodaki puanlar geçmiş yerleştirmelerin sonuçlarını gösteriyor. Bugünkü başvuruya ilişkin bir puan tahmini için geçerli başvuruların sayısı ve puan dağılımı henüz bilinmiyor.\n68 hemşire alımında taban puan nasıl oluşacak?\nÜniversite, başvuru şartlarını sağlayan adayları en yüksek KPSS P3 puanından başlayarak sıralayacak. Kontenjanın tamamı dolarsa\n68’inci asıl adayın puanı\n, ilk asıl listenin en düşük puanı olacak. İlandaki üç kat kuralına göre ayrıca\n204 kişilik yedek liste\noluşturulacak.\nKPSS puanı eşitse mezuniyet tarihi daha önce olan adaya öncelik verilecek. Eşitliğin sürmesi hâlinde yaşı büyük olan aday öne geçecek. Bu ölçütler de eşitse aday kura yoluyla belirlenecek.\n75 KPSS puanıyla başvuru yapılabilir mi?\n2026 KPSS P3 puanı 75 olan bir aday\n, diğer ilan şartlarını karşılıyorsa başvurabilir. Bu puan, geçmişteki 30 kişilik yerleştirmenin en düşük puanının üzerinde, 5 kişilik yerleştirmenin en düşük puanının altında kalıyor. Güncel alımda adayın asıl veya yedek listeye girip giremeyeceğini, geçerli başvurular arasındaki sırası belirleyecek.\nBaşvurular 19 Kasım saat 13.00’e kadar sürecek\nBaşvurular\n19 Kasım 2026 Perşembe günü saat 13.00’te\nsona erecek. Adayların Hemşirelik lisans mezunu olması, son başvuru tarihi itibarıyla 35 yaşını doldurmamış olması ve bir ön lisans veya lisans programında örgün öğrenci olmaması gerekiyor.\nBaşvuru Kariyer Kapısı üzerinden tamamlandıktan sonra\nBaşvurularım\nbölümünde\n“Başvuru Alındı”\nibaresi kontrol edilmeli. Belge listesi ve başvuru adımları için\nDokuz Eylül Üniversitesi 68 hemşire alımı başvuru rehberi\nincelenebilir.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -7031,8 +7175,8 @@
       "url": "https://www.isinolsa.com/dokuz-eylul-universitesi-68-hemsire-alacak-50-kpss-ve-mulakat-yok/"
     },
     "https://www.isinolsa.com/elazig-il-ozel-idaresi-60-kpss-ile-3-personel-alacak-kadrolar-ve-takvim-aciklandi/": {
-      "attempted_at": 1794736424.1983047,
-      "checked_at": 1794736424.1983047,
+      "attempted_at": 1794841926.329856,
+      "checked_at": 1794841926.329856,
       "feed_body": "Elazığ İl Özel İdaresi 60 KPSS ile 2 psikolog ve 1 sosyal çalışmacı alacak. 30 Kasım–9 Aralık başvuruları, belgeler ve Ocak 2027 sınavlarının ayrıntıları.\nElazığ İl Özel İdaresi, 2 psikolog ve 1 sosyal çalışmacı olmak üzere 3 tam zamanlı sözleşmeli personel alacak. Lisans mezunlarına yönelik ilanda 2026 KPSS P3’ten en az 60 puan şartı aranıyor. Başvurular 30 Kasım–9 Aralık 2026 tarihlerinde alınacak; sözlü sınavlar Ocak 2027’de yapılacak.\nElazığ İl Özel İdaresinin ilk defa atanmak üzere yayımladığı personel alım ilanında kontenjanlar, mezuniyet koşulları ve değerlendirme süreci açıklandı. Alım,\n5302 sayılı İl Özel İdaresi Kanunu’nun 36’ncı maddesi ve 5393 sayılı Belediye Kanunu’nun 49’uncu maddesi kapsamında sözleşmeli personel\nstatüsünde gerçekleştirilecek. Elazığ İl Özel İdaresi 3 personel alımı.pdf\nHangi Kadrolara Personel Alınacak?\nİki unvana da kadın ve erkek adaylar başvurabilecek. Sağlık Hizmetleri sınıfında gösterilen kadroların dağılımı şöyle:\nUnvan\nKontenjan\nDerece\nMezuniyet şartı\nKPSS\nPsikolog\n2\n8\nPsikoloji lisans veya YÖK tarafından eşdeğerliği/denkliği kabul edilen bölüm\n2026 P3: En az 60\nSosyal çalışmacı\n1\n8\nİlanda “Sosyal Hizmetler” olarak belirtilen lisans bölümü veya YÖK tarafından eşdeğerliği/denkliği kabul edilen bölüm\n2026 P3: En az 60\nToplam\n3\n—\n—\n—\nSosyal çalışmacı alımında lisans mezuniyeti gerekiyor.\nİki yıllık Sosyal Hizmetler ön lisans diploması, ilandaki öğrenim koşulunu karşılamıyor.\nBaşvuru Şartları Neler?\nAdayların başvuracakları unvana uygun mezuniyetinin yanında\n2026 KPSS P3 puan türünden en az 60 puan\nalmış olması gerekiyor.\nGenel koşullar arasında Türk vatandaşlığı, kamu haklarından mahrum bulunmama, ilanda belirtilen mahkûmiyet engellerini taşımama, erkek adaylar için askerlik koşullarını sağlama ve görevi devamlı yapmaya engel sağlık durumunun bulunmaması yer alıyor.\nİlanda ayrıca 657 sayılı Devlet Memurları Kanunu’nun 40 ve 48’inci maddelerindeki şartlara atıf yapılıyor.\nBaşvurular 30 Kasım’da Başlayacak\nElazığ İl Özel İdaresi personel alımı başvuruları\n30 Kasım–9 Aralık 2026\ntarihleri arasında kabul edilecek. Adaylar üç yöntemden biriyle müracaat edebilecek.\nE-posta ile başvuru\nİmzalanmış başvuru formu ve istenilen belgeler, başvuru dönemi içerisinde\nozelidare@elazig.gov.tr\nadresine gönderilecek.\nŞahsen veya posta ile başvuru\nBaşvurular, aynı tarihlerde\n08.00–17.00 mesai saatleri içerisinde\nElazığ İl Özel İdaresi İnsan Kaynakları ve Eğitim Müdürlüğüne şahsen veya iadeli taahhütlü posta yoluyla yapılabilecek.\nPostadaki gecikmeler dikkate alınmayacak. Evrakların başvuru süresi içerisinde kuruma ulaşması gerekiyor.\nE-posta başvuruları için ayrı bir son saat belirtilmediğinden, adayların bu ayrıntıyı kurumdan kontrol ederek işlemlerini son ana bırakmaması önem taşıyor.\nHangi Belgeler İstenecek?\nBaşvuru formunun imzalanarak şu belgelerle birlikte sunulması gerekiyor:\nKurum tarafından onaylanmak üzere Türkiye Cumhuriyeti kimlik kartı fotokopisi.\nDiploma, mezuniyet belgesi veya e-Devlet üzerinden alınan doğrulama kodlu/barkodlu mezun belgesi.\nYabancı okul mezunları için denklik belgesinin aslı veya noter onaylı örneği.\nÖSYM’den alınmış doğrulama kodlu KPSS sonuç belgesi çıktısı.\nErkek adaylar için askerlik durum belgesi.\nGörevi devamlı yapmaya engel sağlık durumunun bulunmadığına ilişkin ilanda belirtilen beyan.\nİki fotoğraf; fotoğraflardan biri başvuru formuna yapıştırılacak.\nİlan ekindeki formda\natanmak istenen kadro unvanı\n, iletişim bilgileri, tarih ve imza alanlarının da doldurulması gerekiyor.\nE-Postayla Başvuranlar Belge Asıllarını da Gösterecek\nE-posta veya posta yoluyla müracaat edenlerin, fotokopisini gönderdikleri belgelerin asıllarını sınav tarihine kadar kuruma ibraz etmesi gerekiyor.\nAsılları gösterilen ilgili belge suretleri idare tarafından onaylanabilecek.\nBu nedenle uzaktan başvuru yapan adayların yalnızca belgeleri göndermekle yetinmeyip asıl belge kontrolüne ilişkin işlemi de takip etmesi gerekiyor.\nSözlü Sınava Kaç Aday Çağrılacak?\nBaşvuruların ardından KPSS puan sıralaması yapılacak. En yüksek puandan başlanarak kontenjanın\nbeş katı aday\nsözlü sınava çağrılacak.\nPsikolog:\n10 aday.\nSosyal çalışmacı:\n5 aday.\nSon sıradaki adayla aynı KPSS puanına sahip olanlar da davet edilecek. Dolayısıyla toplam sayı 15’i aşabilecek.\n60 puan, başvuru alt sınırı; sözlü sınava çağrılmayı garanti etmiyor.\nSınava katılmaya hak kazananlar, KPSS puanlarıyla birlikte\n25 Aralık 2026’da\nkurumun internet sitesinde açıklanacak. Bu aşamada adaylara ayrıca bildirim yapılmayacak.\nSözlü Sınavlar Ocak 2027’de Yapılacak\nUnvan\nSözlü sınav tarihi\nSaat\nPsikolog\n6 Ocak 2027\n10.00\nSosyal çalışmacı\n7 Ocak 2027\n10.00\nSınavlar,\nÇaydaçıra Mahallesi Emsal Sokak No:16 Merkez/Elazığ\nadresindeki İl Özel İdaresi Hizmet Binasının üçüncü kat toplantı salonunda gerçekleştirilecek.\nSınava hak kazandığı hâlde belirtilen tarihte katılmayan adaylar sınav hakkını kaybedecek.\nBaşarı Puanı Nasıl Hesaplanacak?\nSözlü sınavın değerlendirme dağılımı şöyle:\nKonu\nPuan\nTürkiye Cumhuriyeti Anayasası\n15\nAtatürk İlkeleri ve İnkılap Tarihi\n15\n657 sayılı Devlet Memurları Kanunu\n15\nMahallî idarelerle ilgili temel mevzuat\n15\nMesleki ve uygulamalı bilgi ve yetenek\n40\nToplam\n100\nSözlü sınavda başarılı sayılmak için kurul puanlarının ortalamasının\nen az 60\nolması gerekiyor.\nAtamaya esas başarı puanı,\nKPSS ve sözlü sınav puanının aritmetik ortalamasıyla\nbelirlenecek. Eşitlikte KPSS puanı yüksek adaya öncelik verilecek. Kadro sayısı kadar asıl ve aynı sayıda yedek aday belirlenecek.\nBaşarı listesine, ilanından itibaren\nyedi gün içinde yazılı itiraz\nedilebilecek. İtirazlar yedi gün içerisinde sonuçlandırılacak.\nBaşvuru Öncesinde Kontrol Edilmesi Gereken Şart\nİlanın önceki kamu görevinden ayrılmaya ilişkin özel koşulunda\n“çıkarılmamış olmamak”\nşeklinde çift olumsuzluk içeren bir ifade bulunuyor. Bu şartın kapsamı konusunda kesin yorum yapmak yerine, ilgili durumdaki adayların başvuru öncesinde\nİnsan Kaynakları ve Eğitim Müdürlüğünden açıklama alması\ngerekiyor.\nDiğer kamu personeli alımlarını güncel ilan listemizden inceleyebilirsiniz.\nGüncel kamu ilanları ve başvuru duyuruları için İşin Olsa’yı takip edebilir, yeni haberlerden haberdar olmak için mobil uygulamamızı indirebilirsiniz.\nİLANIN TAM METNİ BURADA",
       "feed_pdf_urls": [
         "https://www.isinolsa.com/wp-content/uploads/2026/10/Elazig-Il-Ozel-Idaresi-3-personel-alimi.pdf"
@@ -7107,8 +7251,8 @@
       "url": "https://www.isinolsa.com/kultur-ve-turizm-bakanligi-162-kutuphaneci-alimi-yapacak/"
     },
     "https://www.isinolsa.com/maku-kpss-puani-olmadan-da-bilisim-personeli-alacak-sartlar-aciklandi/": {
-      "attempted_at": 1794736425.8487265,
-      "checked_at": 1794736425.8487265,
+      "attempted_at": 1794841929.5822518,
+      "checked_at": 1794841929.5822518,
       "feed_body": "MAKÜ 1 sistem yöneticisi alacak. KPSS puanı olmadan başvuru, üç yıl deneyim, teknik şartlar, belgeler ve 11 Kasım saat 13.00 son başvuru ayrıntıları haberde.\nBurdur Mehmet Akif Ersoy Üniversitesi, Bilgi İşlem Dairesi Başkanlığında çalıştırmak üzere 1 sözleşmeli sistem yöneticisi alacak. KPSS puanı bulunmayan adayların da başvurabileceği ilanda, belirli mühendislik bölümlerinden mezuniyet ve en az üç yıllık deneyim aranıyor. Başvurular 11 Kasım 2026 saat 13.00’te sona erecek.\nMAKÜ’nün yayımladığı ilan, tam zamanlı sözleşmeli bilişim personeli istihdamını kapsıyor. Adaylar, KPSS ve İngilizce puanlarıyla oluşturulacak ön değerlendirme sıralamasının ardından sözlü ve uygulamalı sınava çağrılacak. Alım,\n375 sayılı Kanun Hükmünde Kararname’nin Ek 6’ncı maddesi\nkapsamında gerçekleştirilecek. Burdur Mehmet Akif Ersoy Üniversitesi Rektörlüğünden- SÖZLEŞMELİ BİLİŞİM PERSONELİ ALIM İLANI .pdf\nMAKÜ Hangi Pozisyona Personel Alacak?\nPozisyon\nKontenjan\nÇalışma biçimi\nDeneyim\nÜcret sınırı\nSistem yöneticisi\n1\nTam zamanlı\nEn az 3 yıl\nAylık brüt sözleşme ücret tavanının 2 katına kadar\nGörev yeri Burdur Mehmet Akif Ersoy Üniversitesi Bilgi İşlem Dairesi Başkanlığı olacak.\nHangi Bölüm Mezunları Başvurabilecek?\nAdayların dört yıllık şu lisans bölümlerinden birinden mezun olması gerekiyor:\nBilgisayar Mühendisliği.\nYazılım Mühendisliği.\nElektrik Mühendisliği.\nElektronik Mühendisliği.\nElektrik ve Elektronik Mühendisliği.\nEndüstri Mühendisliği.\nBu bölümlere denkliği Yükseköğretim Kurulunca kabul edilmiş yurt dışındaki yükseköğretim programlarından mezun olanlar da başvurabilecek.\nAdaylarda ayrıca 657 sayılı Kanun’un 48’inci maddesindeki genel şartlar aranacak. Kamu görevinden veya meslekten ihraç edilmemiş olmak ve güvenlik soruşturması ile arşiv araştırmasının olumlu sonuçlanması da ilandaki koşullar arasında bulunuyor.\nÜç Yıllık Deneyim Nasıl Belgelenecek?\nSistem yöneticisi adaylarının,\nbüyük ölçekli bilgi işlem merkezlerinde en az üç yıl sistem uzmanı veya yöneticisi olarak çalışmış olması\nve bunu belgelemesi gerekiyor.\nDeneyim hesabında\nlisans mezuniyetinden sonraki hizmetler\ndikkate alınacak. Özel sektördeki çalışmalar için SGK kayıtlarıyla uyumlu, yapılan işi ve çalışma süresini gösteren hizmet veya çalışma belgesi istenecek.\nBelgelerin kaşe ve ıslak imzayla onaylanmış ya da elektronik imzalı olması gerekiyor. Kamu kurumlarında çalışanlar ise kurumlarından alacakları onaylı belgeleri sunacak.\nYalnızca üç yıllık SGK kaydı bulunması yeterli değil.\nÇalışmanın ilandaki bilişim ve sistem yönetimi deneyimiyle örtüşmesi de belgelendirilmeli.\nSistem Yöneticisinde Aranan Teknik Şartlar\nİlanda işletim sistemlerinden sanallaştırmaya, veri tabanından ağ güvenliğine kadar geniş bir teknik yeterlilik listesi bulunuyor.\nTeknik alan\nAranan bilgi ve deneyim\nİşletim sistemleri\nLinux ve BSD türevlerinde en az orta düzey; Windows Server kurulumu, yönetimi ve temel hizmetlerinde bilgi ve deneyim\nBetik kullanımı\nLinux üzerinde bash gibi betik dillerini ileri düzeyde kullanmış olmak\nSanallaştırma\nVMware ve Proxmox kurulumu, yapılandırması, yönetimi ve bakımında en az orta düzey yeterlilik\nYedekleme\nYedekleme sistemlerinin kurulumu, yapılandırması ve yönetiminde ileri düzey bilgi\nWeb ve veri tabanı\nWeb sunucuları ile MySQL, PostgreSQL ve MsSQL kurulumu ve yönetimi\nİzleme ve depolama\nMonitörleme araçları ve veri depolama mimarileri hakkında bilgi\nE-posta hizmetleri\nPostfix ve Dovecot gibi açık kaynak servislerin kurulumu, güvenliği ve yönetimi\nKimlik yönetimi\nOpenLDAP, Active Directory ve FreeRADIUS\nKonteyner ve sürüm yönetimi\nDocker, Kubernetes, OpenShift; Git ve GitLab/GitHub/Bitbucket\nAğ ve güvenlik\nTemel ağ bilgisi, ISO 27001, erişim kontrolü, sertifika yönetimi ve felaket kurtarma\nVPN ve güvenlik duvarı\nOpenVPN, WireGuard ve güvenlik duvarı kurulum ve yapılandırması\nDonanım ve veri merkezi\nSunucu, depolama, disk, Ethernet, HBA, RAID ve veri merkezi altyapı bileşenleri\nAyrıca adayların\nen az iki güncel programlama dilini bildiğini belgelemesi\ngerekiyor. Bu amaçla onaylı transkript, bölümden veya işyerinden alınan ilgili yazılar ve ilanda kabul edilen eğitim belgeleri kullanılabilecek.\nKPSS ve Yabancı Dil Puanı Olmadan Başvurulabilecek mi?\nİlanda KPSS puanı bulunmayan adaylara başvuru imkânı tanınıyor. Ön değerlendirme puanı şu şekilde hesaplanacak:\nÖn değerlendirme puanı = 2026 KPSS P3 × %70 + İngilizce puanı × %30\nKPSS P3 puanı olmayan veya belge ibraz etmeyen adayların KPSS puanı\n70\n, geçerli yabancı dil puanı bulunmayanların yabancı dil puanı ise\n0\nkabul edilecek.\nÖrneğin iki puanı da bulunmayan aday için ön değerlendirme sonucu\n49 puan\nolacak. Ancak bu hesaplama, diğer şartların sağlanması veya sınava çağrılma zorunluluğunu ortadan kaldırmıyor.\nYabancı dil değerlendirmesinde İngilizce YDS/e-YDS veya ÖSYM’nin eşdeğer kabul ettiği sınav sonuçları kullanılacak. Belgenin üzerinde geçerlilik süresi belirtilmemişse\nbeş yıllık süre\nesas alınacak.\nBaşvurular 11 Kasım Saat 13.00’te Bitecek\nBaşvurular,\n28 Ekim–11 Kasım 2026\ntarihleri arasında Kariyer Kapısı üzerinden yapılacak. Son gün işlemler\nsaat 13.00’te\nkapanacak.\nŞahsen veya posta yoluyla başvuru kabul edilmeyecek. Adayların işlemlerini tamamladıktan sonra “Başvurularım” ekranında\n“Başvuru Alındı”\nifadesini kontrol etmesi gerekiyor. Bu ifade görülmeyen başvurular değerlendirmeye alınmayacak.\nBaşvuru süresi bittikten sonra bilgilerde değişiklik yapılmayacağı için belgelerin ve beyanların son kontrolden geçirilmesi önem taşıyor.\nBaşvuruda Hangi Belgeler İstenecek?\nAdayların durumlarına göre şu belgeleri hazırlaması gerekiyor:\nMezuniyet belgesi; sistemden aktarılmazsa ilanda belirtilen belge PDF olarak yüklenecek.\nGerekli hâllerde onaylı denklik belgesi.\nEn az iki programlama dilini bildiğini gösteren belge.\nVarsa KPSS ve İngilizce sonuç belgeleri; sistemde eksik veya hatalı bilgiler kontrol edilecek.\nErkek adaylar için sistemden aktarılmayan askerlik durum belgesi.\nFotoğraflı, ayrıntılı özgeçmiş.\nÖzel sektör çalışmaları için barkodlu SGK Tescil ve Hizmet Dökümü/İşyeri Unvan Listesi.\nMesleki deneyimi gösteren onaylı hizmet veya çalışma belgeleri.\nKamu hizmetleri için kurumdan alınacak onaylı belge.\nSunulacak teknik sertifikalar ve bunların doğrulanmasını sağlayan bilgiler.\nİlanın sertifika hükümlerinde, programlama dili için kurs katılım belgelerine yer verilirken diğer hususlarda sertifikaların sınavla alınmış olması isteniyor.\nYalnızca katılım sertifikası sunacak adayların belge uygunluğunu Personel Daire Başkanlığından teyit etmesi faydalı olacaktır.\nSınav ve Sonuç Takvimi\nİşlem\nTarih\nSon başvuru\n11 Kasım 2026, 13.00\nBaşvuru sonuçlarının açıklanması\n16 Kasım 2026\nBaşvuru sonuçlarına itiraz\n16–20 Kasım 2026\nSözlü ve uygulamalı sınav\n30 Kasım 2026, 14.00–17.00\nNihai sonuçların açıklanması\n3 Aralık 2026\nSınav,\nMAKÜ İstiklal Yerleşkesi Rektörlük B Blok Bilgi İşlem Daire Başkanlığı/Burdur\nadresinde yapılacak. Konular, pozisyonun teknik ve özel şartlarını kapsayacak.\nÖn değerlendirme sıralamasına göre\n10 aday\nsınava çağrılacak. Son sıradaki adayla eşit puan alanlar da sınava katılabilecek.\nNihai Başarı Puanı Nasıl Hesaplanacak?\nSözlü/uygulamalı sınavda başarılı olmak için\nen az 70 puan\ngerekiyor. İlan, nihai başarı hesabında ön değerlendirme puanı ile sözlü sınav notunun ortalamasının da\nen az 70\nolmasını şart koşuyor.\nBu nedenle sınavdan 70 almak tek başına yeterli olmayabilir. Örneğin ilanda yazılan formüle göre,\n49 ön değerlendirme puanı ile 70 sözlü puanının ortalaması 59,5\noluyor.\nSınav sözlü ve uygulamalı olarak tanımlansa da uygulamalı bölümün nihai hesaptaki ağırlığı ayrıca açıklanmıyor. Bu ayrıntı üniversitenin sınav duyurularından takip edilmeli.\nBaşarı sıralamasıyla\n1 asıl ve 1 yedek aday\nbelirlenecek. Sözleşme için güvenlik soruşturmasının olumlu sonuçlanması ve tam teşekküllü hastaneden sağlık kurulu raporu sunulması da gerekecek.\nÜcret Ne Kadar Olacak?\nPozisyon için\naylık brüt sözleşme ücret tavanının iki katına kadar\nödeme öngörülüyor. Üniversite, üst sınırın altında sözleşme düzenleyebilecek.\nİlanda kesin net maaş tutarı açıklanmıyor.\nBelirtilen katsayı, iki ayrı maaş veya garanti edilmiş ödeme anlamına gelmiyor.\nBaşvuru ve sınav duyuruları üniversitenin internet sitesiyle Kariyer Kapısı’nda yayımlanacak; ayrıca yazılı tebligat yapılmayacak. İlanla ilgili iletişim adresi\npdb@mehmetakif.edu.tr\n, telefon numarası\n0248 213 10 82\n.\nDiğer kamu personeli alımlarını güncel ilan listemizden inceleyebilirsiniz.\nGüncel üniversite ve kamu personeli ilanları için İşin Olsa’yı takip edebilir, yeni duyurulardan haberdar olmak için mobil uygulamamızı indirebilirsiniz",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -7173,8 +7317,8 @@
       "url": "https://www.isinolsa.com/milli-saraylar-38-sozlesmeli-personel-alacak-sofor-itfaiyeci-guvenlik/"
     },
     "https://www.isinolsa.com/milli-saraylar-kpss-siz-muze-gorevlisi-alimi-ilani-yayimladi/": {
-      "attempted_at": 1794736426.8993092,
-      "checked_at": 1794736426.8993092,
+      "attempted_at": 1794841930.2278204,
+      "checked_at": 1794841930.2278204,
       "feed_body": "Millî Saraylar Edirne’de 3 müze görevlisi alacak. Sekiz lisans bölümü, yaş şartı, 28 Ekim–8 Kasım başvuruları ve iki aşamalı sınavın ayrıntıları haberde.\nMillî Saraylar İdaresi Başkanlığı, Edirne’de görevlendirmek üzere 3 sözleşmeli müze görevlisi — kazı görevlisi alacak. Sekiz farklı lisans bölümünden mezun adayların başvurabileceği alımda, uygulamalı ve sözlü sınav yapılacak. Başvuru dönemi 28 Ekim–8 Kasım 2026 olarak belirlendi.\nCumhurbaşkanlığı Millî Saraylar İdaresi Başkanlığı, 657 sayılı Devlet Memurları Kanunu’nun\n4/B maddesi kapsamında\npersonel alım ilanı yayımladı. Şartları sağlayarak başvurusu kabul edilen adayların tamamı uygulamalı sınava çağrılacak. Sözlü sınava katılacaklar ise uygulamalı sınavdaki başarı sıralamasıyla belirlenecek. Cumhurbaşkanlığı Milli Saraylar İdaresi Başkanlığından- SÖZLEŞMELİ PERSONEL POZİSYONUNDA 3 MÜZE GÖREVLİSİ (KAZI GÖREVLİSİ) ALIMI SINAV İLANI.pdf\nMillî Saraylar Müze Görevlisi Alımının Ayrıntıları\nBaşlık\nİlan bilgisi\nUnvan\nMüze Görevlisi — Kazı Görevlisi\nKontenjan\n3 kişi\nGörev yeri\nEdirne\nStatü\n4/B sözleşmeli personel\nÖğrenim\nİlanda belirtilen lisans bölümleri\nBaşvuru tarihleri\n28 Ekim–8 Kasım 2026\nSınav yöntemi\nUygulamalı sınav ve sözlü sınav\nHangi Bölüm Mezunları Başvurabilecek?\nAdayların aşağıdaki lisans bölümlerinden birinden mezun olması gerekiyor:\nArkeoloji.\nSanat Tarihi.\nArkeoloji ve Sanat Tarihi.\nKlasik Arkeoloji.\nTarih Öncesi Arkeolojisi.\nPrehistorya.\nProtohistorya ve Ön Asya Arkeolojisi.\nTürk İslam Arkeolojisi.\nBu programlara denkliği Yükseköğretim Kurulunca kabul edilmiş yurt dışındaki yükseköğretim kurumlarından mezun adaylar da başvurabilecek.\nYaş ve Genel Başvuru Şartları Neler?\nBaşvuracak adayların\n18 yaşını tamamlamış\nve\nson başvuru tarihi olan 8 Kasım 2026 itibarıyla 40 yaşını doldurmamış\nolması gerekiyor.\nİlanda ayrıca şu koşullar bulunuyor:\n657 sayılı Kanun’un belirtilen genel memuriyet şartlarını taşımak.\nGüvenlik soruşturması ve arşiv araştırmasının olumlu sonuçlanması.\nDul ve yetim aylığı alanlar hariç, herhangi bir sosyal güvenlik kurumundan emeklilik, yaşlılık veya malullük aylığı almaya hak kazanmamış olmak.\nKamu kurumunda çalışırken görevden veya meslekten ihraç edilmemiş olmak.\nİlanda belirtilen askerlik koşullarını sağlamak.\nGörevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak.\nDaha önce 4/B sözleşmeli personel olarak çalışanların, sözleşmelerinin sona erme biçimine bağlı\nbir yıllık yeniden istihdam sınırlamasını\nda kontrol etmesi gerekiyor. İlgili mevzuattaki istisnalar saklı tutuluyor.\nKPSS Şartı Bulunuyor mu?\nİlan metninde KPSS yılı, puan türü veya taban puan koşulu belirtilmiyor.\nAdayların değerlendirilmesi, başvuru şartlarının kontrolünün ardından yapılacak uygulamalı ve sözlü sınavlara dayanıyor.\nBaşvurular Nasıl Yapılacak?\nBaşvurular\n28 Ekim–8 Kasım 2026 tarihleri arasında\n, e-Devlet şifresiyle Kariyer Kapısı üzerinden elektronik ortamda gerçekleştirilecek. Şahsen, kargo veya posta yoluyla müracaat kabul edilmeyecek.\nMillî Saraylar personel alımı için Kariyer Kapısı başvuru ekranına ulaşın.\nDenklik belgesiyle başvuran adayların ilgili belgeyi\nPDF veya JPEG\nbiçiminde sisteme yüklemesi gerekiyor. Erkek adayların askerlik bilgileri sistem üzerinden alınacak; bilgilerde hata veya eksiklik varsa askerlik durum belgesi ilgili alana eklenecek.\nYarım bırakılan ve tamamlanmayan başvurular değerlendirmeye alınmayacak.\nBelgelerin eksiksiz yüklenmesinden ve başvurunun doğru tamamlanmasından aday sorumlu olacak.\nUygulamalı Sınava Kimler Çağrılacak?\nBaşvurusu kabul edilen adayların\ntamamı uygulamalı sınava\ndavet edilecek. Bu aşamada aşağıdaki beş yeterlilik değerlendirilecek:\nDeğerlendirme alanı\nPuan\nYapılacak işi kavrama yeterliliği\n20\nAraç, gereç ve malzeme bilgisi\n20\nİş sağlığı ve güvenliği kurallarına uyma\n20\nZamanı kullanma becerisi\n20\nİşi niteliğine uygun yapma becerisi\n20\nToplam\n100\nBaşarılı sayılmak için komisyon puanlarının aritmetik ortalamasının\nen az 60\nolması gerekiyor.\nSözlü Sınava 15 Aday Çağrılacak\nUygulamalı sınavda başarılı olanlar arasından en yüksek puandan başlanarak\nkontenjanın beş katı, yani 15 aday\nsözlü sınava çağrılacak. Son sıradaki adayla aynı puana sahip olanlar da davet edilecek.\nSözlü sınavda bilgi düzeyi 50 puan; ifade ve muhakeme, mesleğe uygunluk, özgüven ve ikna kabiliyeti, genel yetenek ve kültür ile bilimsel ve teknolojik gelişmelere açıklık başlıkları ise 10’ar puan üzerinden değerlendirilecek.\nBu aşamada da başarı sınırı\n60 puan\nolacak.\n15 kişilik sayı, işe alınacak personeli değil, sözlü sınava çağrılacak adayları ifade ediyor. Alım kontenjanı 3 kişi.\nBaşarı Puanı ve Sonuçlar Nasıl Belirlenecek?\nNihai başarı puanı,\nuygulamalı sınav ile sözlü sınav puanının aritmetik ortalamasıyla\nhesaplanacak. Eşitlikte sırasıyla uygulamalı ve sözlü sınav puanlarına, ardından diploma tarihine ve yaşa bakılacak.\nİlanda yedek aday sayısı, asıl aday sayısının dörtte biri olarak düzenleniyor. Üç kişilik kontenjanda bunun nasıl tam sayıya dönüştürüleceği açıklanmadığından kesin yedek sayısı belirtilmiyor.\nSınav tarihleri, yerleri ve sonuçlar Millî Saraylar ile Kariyer Kapısı üzerinden duyurulacak.\nAyrıca tebligat gönderilmeyecek.\nİlgili başvuru ve sınav sonuçlarına karşı, ilandaki usule göre beş iş günü içerisinde itiraz edilebilecek.\nDiğer kamu personeli alımlarını güncel ilan listemizden inceleyebilirsiniz.\nGüncel kamu ilanları ve sınav duyuruları için İşin Olsa’yı takip edebilir, yeni haberlerden haberdar olmak için mobil uygulamamızı indirebilirsiniz.\nİLANIN TAM METNİ BURADA",
       "feed_pdf_urls": [
         "https://www.isinolsa.com/wp-content/uploads/2026/10/Cumhurbaskanligi-Milli-Saraylar-Idaresi-Baskanligindan-SOZLESMELI-PERSONEL-POZISYONUNDA-3-MUZE-GOREVLISI-KAZI-GOREVLISI-ALIMI-SINAV-ILANI.pdf"
