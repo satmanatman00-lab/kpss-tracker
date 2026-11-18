@@ -181,14 +181,14 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/afyonkarahisar-tatarli-tasimacilik-12-gecici-isci-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/agri-eleskirt-belediyesi-1-itfaiye-eri-alacak": {
-      "attempted_at": 1794949213.6323743,
-      "checked_at": 1794949213.6323743,
+      "attempted_at": 1795039100.7229278,
+      "checked_at": 1795039100.7229278,
       "feed_body": "Ağrı Eleşkirt Belediye Başkanlığı, 657 sayılı Devlet Memurları Kanunu'na tabi olarak 1 adet itfaiye eri alımı yapacaktır. Başvurular 09.12.2026 ile 11.12.2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 11 Aralık 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
-      "rejection_reason": "Teknisyen + alan/eğitim pozitif eşleşmesi bulunamadı",
+      "rejection_reason": "Eksik PDF/RSS içeriği; sonraki tur yeniden denenecek",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
-      "status": "rejected",
+      "status": "pending",
       "title": "Ağrı Eleşkirt Belediyesi 1 itfaiye eri alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/agri-eleskirt-belediyesi-1-itfaiye-eri-alacak"
     },
@@ -311,8 +311,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/alanya-belediyesi-4-temizlik-personeli-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/alanya-belediyesi-45-beden-iscisi-alacak": {
-      "attempted_at": 1794949166.3869765,
-      "checked_at": 1794949166.3869765,
+      "attempted_at": 1795039058.8567207,
+      "checked_at": 1795039058.8567207,
       "feed_body": "Alanya Belediyesi Personel Limited Şirketi, 45 beden işçisi alımı yapacaktır. Başvurular 12-13 Kasım 2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 13 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -527,8 +527,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/asfat-as-1-uzman-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/avanos-belediyesi-personel-ltd-sti-10-isci-alacak": {
-      "attempted_at": 1794949205.6107907,
-      "checked_at": 1794949205.6107907,
+      "attempted_at": 1795039096.39903,
+      "checked_at": 1795039096.39903,
       "feed_body": "Avanos Belediyesi Personel Limited Şirketi, 10 beden işçisi (vasıfsız) alımı yapacaktır. Başvurular 05.11.2026 tarihinde şahsen yapılacaktır. Son başvuru: 5 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -599,8 +599,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/bag-kent-4-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/bag-kent-ltd-sti-1-buro-personeli-alacak": {
-      "attempted_at": 1794949201.859155,
-      "checked_at": 1794949201.859155,
+      "attempted_at": 1795039092.4728312,
+      "checked_at": 1795039092.4728312,
       "feed_body": "Bağ-Kent Sağ. Eğ. Kül. San. Sos. Hizm. Tur. İnş. Gıda Tar. Pet. San. ve Tic. Ltd. Şti., Foça'da görevlendirilmek üzere 1 daimi büro personeli alımı yapacaktır. Başvurular 06/11/2026 ile 09/11/2026 tarihleri arasında cv@foca.bel.tr adresi üzerinden kabul edilecektir. Son başvuru: 9 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -919,8 +919,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/belkar-13-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/belpa-as-12112026-belpa": {
-      "attempted_at": 1794949188.04808,
-      "checked_at": 1794949188.04808,
+      "attempted_at": 1795039079.2607489,
+      "checked_at": 1795039079.2607489,
       "feed_body": "Son başvuru: 12 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -1123,8 +1123,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/bezmialem-vakif-universitesi-rektorlugunden"
     },
     "https://devlet.tc/tr/kamu-ilanlari/bil-yap-ltd-sti-1-danisman-alacak": {
-      "attempted_at": 1794949193.8987849,
-      "checked_at": 1794949193.8987849,
+      "attempted_at": 1795039084.8947947,
+      "checked_at": 1795039084.8947947,
       "feed_body": "Bil-Yap Ltd. Şti. bünyesinde daimi olarak istihdam edilmek üzere 1 danışman alımı yapılacaktır. Başvurular 10-12 Kasım 2026 tarihleri arasında çevrim içi form üzerinden alınacaktır. Son başvuru: 12 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -1743,8 +1743,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/cerkes-bel-tasimacilik-5-beden-iscisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/ceyhan-ogretmenevi-3-yemekhane-iscisi-alacak": {
-      "attempted_at": 1794949221.735299,
-      "checked_at": 1794949221.735299,
+      "attempted_at": 1795039104.5907993,
+      "checked_at": 1795039104.5907993,
       "feed_body": "Ceyhan Öğretmenevi ve ASO Kamu İktisadi İşletmesi, 2026-2027 eğitim-öğretim yılı için 3 geçici yemekhane işçisi alımı yapacaktır. Başvurular 16-20 Kasım 2026 tarihleri arasında şahsen veya e-posta yoluyla kabul edilecektir. Son başvuru: 20 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -2103,8 +2103,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/duzce-ulasim-hizmetleri-as-2-engelli-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/ebton-insaat-1-sofor-alacak": {
-      "attempted_at": 1794949190.2135627,
-      "checked_at": 1794949190.2135627,
+      "attempted_at": 1795039081.0046961,
+      "checked_at": 1795039081.0046961,
       "feed_body": "EBTON İNŞAAT SAN. VE TİC. A.Ş., Elmalı/Antalya lokasyonunda görevlendirilmek üzere 1 geçici şoför alımı yapacaktır. Başvurular 10.11.2026 ile 13.11.2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 13 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -2139,8 +2139,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/eceabat-belediyesi-1-gecici-isci-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/edremit-belediyesi-personel-as-2-isci-alacak": {
-      "attempted_at": 1794949192.144462,
-      "checked_at": 1794949192.144462,
+      "attempted_at": 1795039083.2147884,
+      "checked_at": 1795039083.2147884,
       "feed_body": "Edremit Belediyesi Personel A.Ş., 2 geçici çöp kamyonu sürücüsü alımı yapacaktır. Başvurular 11.11.2026-13.11.2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 13 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -2343,8 +2343,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/ertokus-hazir-beton-3-beden-iscisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/erzurum-cetas-as-1-destek-personeli-alacak": {
-      "attempted_at": 1794949159.055289,
-      "checked_at": 1794949159.055289,
+      "attempted_at": 1795039052.4096737,
+      "checked_at": 1795039052.4096737,
       "feed_body": "Erzurum Çevre Temizlik Ağaç Peyzaj ve Enerji Ticaret Sanayi A.Ş., 1 geçici destek personeli alımı yapacağını duyurdu. Başvurular 05.11.2026 tarihinde şahsen yapılacaktır. Son başvuru: 5 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -2583,8 +2583,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/etimkent-7-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/etimkent-as-3-daimi-isci-alacak": {
-      "attempted_at": 1794949179.75882,
-      "checked_at": 1794949179.75882,
+      "attempted_at": 1795039070.0046196,
+      "checked_at": 1795039070.0046196,
       "feed_body": "ETİMKENT YAPI MADEN SAN. VE TİC. A.Ş., 1 büro işçisi ve 2 süpürgeci olmak üzere toplam 3 daimi işçi alımı yapacaktır. Başvurular 12.11.2026 ile 13.11.2026 tarihleri arasında insankaynaklari@etimkent.com e-posta adresi üzerinden online olarak kabul edilecektir. Son başvuru: 13 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -2631,8 +2631,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/etimkent-yapi-maden-san-ve-tic-as-1-buro-personeli-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/etimkent-yapi-maden-san-ve-tic-as-1-sofor-alacak": {
-      "attempted_at": 1794949164.6305137,
-      "checked_at": 1794949164.6305137,
+      "attempted_at": 1795039057.1206884,
+      "checked_at": 1795039057.1206884,
       "feed_body": "ETİMKENT YAPI MADEN SAN. VE TİC. A.Ş., daimi statüde 1 şoför alımı yapacaktır. Başvurular 13.11.2026-14.11.2026 tarihleri arasında e-posta yoluyla kabul edilecektir. Son başvuru: 14 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -2919,8 +2919,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/giresun-universitesi-23-ogretim-uyesi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/gokceada-e-ticaret-turizm-insaat-ltd-sti-3-beden-iscisi-alacak": {
-      "attempted_at": 1794949220.872559,
-      "checked_at": 1794949220.872559,
+      "attempted_at": 1795039103.716872,
+      "checked_at": 1795039103.716872,
       "feed_body": "Gökçeada E-Ticaret Turizm İnşaat Ltd. Şti., 3 beden işçisi alımı yapacağını duyurdu. Başvurular 4-9 Kasım 2026 tarihleri arasında Gökçeada Belediyesi Hizmet Binası'na şahsen yapılacaktır. Son başvuru: 9 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -3087,8 +3087,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/guneysu-enerji-1-garson-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/guroymak-belediyesi-1-engelli-buro-iscisi-alacak": {
-      "attempted_at": 1794949168.5149903,
-      "checked_at": 1794949168.5149903,
+      "attempted_at": 1795039060.600558,
+      "checked_at": 1795039060.600558,
       "feed_body": "Güroymak Belediyesi Personel Hiz. Ltd. Şti., 1 engelli büro işçisi alımı yapacağını duyurdu. Başvurular 12 Kasım 2026 tarihinde Güroymak Belediye Başkanlığına şahsen yapılacaktır. Son başvuru: 12 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -3313,8 +3313,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/isfalt-2-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/isfalt-istanbul-asfalt-fabrikalari-san-ve-tic-as-isfalt-17": {
-      "attempted_at": 1794949226.9593244,
-      "checked_at": 1794949226.9593244,
+      "attempted_at": 1795039109.930851,
+      "checked_at": 1795039109.930851,
       "feed_body": "Son başvuru: 17 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -3385,8 +3385,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/isper-5-personel-alimi-yapacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/isper-6-personel-alacak": {
-      "attempted_at": 1794949162.4336238,
-      "checked_at": 1794949162.4336238,
+      "attempted_at": 1795039055.3828444,
+      "checked_at": 1795039055.3828444,
       "feed_body": "İSPER AŞ., İstanbul genelinde görevlendirilmek üzere 2 temizlik görevlisi, 3 aşçı yardımcısı ve 1 garson olmak üzere toplam 6 daimi işçi alımı yapacaktır. Başvurular 6 Kasım - 8 Kasım 2026 tarihleri arasında kariyer.ibb.istanbul adresi üzerinden gerçekleştirilecektir. Son başvuru: 8 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -3397,8 +3397,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/isper-6-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/isper-as-1-beden-iscisi-alacak": {
-      "attempted_at": 1794949230.4618254,
-      "checked_at": 1794949230.4618254,
+      "attempted_at": 1795039113.6389377,
+      "checked_at": 1795039113.6389377,
       "feed_body": "İSPER İstanbul Personel Yönetim A.Ş., İstanbul genelinde görevlendirilmek üzere 1 beden işçisi alımı yapacaktır. Başvurular 17-19 Kasım 2026 tarihleri arasında kariyer.ibb.istanbul adresi üzerinden gerçekleştirilecektir. Son başvuru: 19 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -3445,12 +3445,12 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/isper-as-13-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/isper-as-17-personel-alacak": {
-      "attempted_at": 1794949228.65176,
-      "checked_at": 1794949228.65176,
+      "attempted_at": 1795039111.7513778,
+      "checked_at": 1795039111.7513778,
       "feed_body": "İSPER A.Ş., İstanbul genelinde görevlendirilmek üzere 17 daimi işçi alımı yapacaktır. Başvurular 16-18 Kasım 2026 tarihleri arasında kariyer.ibb.istanbul adresi üzerinden gerçekleştirilecektir. Son başvuru: 18 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
-      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi; Başvuru süresi dolmuş",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
       "status": "rejected",
       "title": "İSPER A.Ş. 17 personel alacak",
@@ -3733,8 +3733,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/istanbul-personel-yonetim-as-15-temizlik-gorevlisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/istanbul-personel-yonetim-as-isper-7-kasim": {
-      "attempted_at": 1794949160.3074298,
-      "checked_at": 1794949160.3074298,
+      "attempted_at": 1795039053.6515326,
+      "checked_at": 1795039053.6515326,
       "feed_body": "Son başvuru: 7 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -3793,8 +3793,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/istanbul-personel-yonetim-as-isper-as-isper-15112026"
     },
     "https://devlet.tc/tr/kamu-ilanlari/istanbul-personel-yonetim-as-isper-istanbul-personel-yoenetim-as-isper-10-ilan": {
-      "attempted_at": 1794949172.4350343,
-      "checked_at": 1794949172.4350343,
+      "attempted_at": 1795039064.352713,
+      "checked_at": 1795039064.352713,
       "feed_body": "Son başvuru: 16 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -3853,8 +3853,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/istay-altyapi-ve-yonetim-anonim-sirketi-2-temizlik-gorevlisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/istay-altyapi-ve-yonetim-as-1-buro-personeli-alacak": {
-      "attempted_at": 1794949225.1819317,
-      "checked_at": 1794949225.1819317,
+      "attempted_at": 1795039108.173813,
+      "checked_at": 1795039108.173813,
       "feed_body": "İSTAY ALTYAPI VE YÖNETİM A.Ş., 1 daimi büro personeli alımı yapacaktır. Başvurular 14.11.2026-15.11.2026 tarihleri arasında kabul edilecektir. Son başvuru: 15 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -3901,8 +3901,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/izbel-turizm-ve-isletme-hizsanticas-2-isci-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/izdoga-1-paletli-mobil-kirici-operatoru-alacak": {
-      "attempted_at": 1794949203.7923162,
-      "checked_at": 1794949203.7923162,
+      "attempted_at": 1795039094.2166812,
+      "checked_at": 1795039094.2166812,
       "feed_body": "İZDOĞA A.Ş. bünyesinde daimi olarak istihdam edilmek üzere 1 adet Paletli Mobil Kırıcı Operatörü alımı yapılacaktır. Başvurular 09-13 Kasım 2026 tarihleri arasında e-posta yoluyla kabul edilecektir. Son başvuru: 13 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -4069,8 +4069,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/jandarma-genel-komutanligi-30-devlet-memuru-alacak-2"
     },
     "https://devlet.tc/tr/kamu-ilanlari/ka-bel-enerji-4-personel-alacak": {
-      "attempted_at": 1794949176.072512,
-      "checked_at": 1794949176.072512,
+      "attempted_at": 1795039068.0227149,
+      "checked_at": 1795039068.0227149,
       "feed_body": "Ka-Bel Enerji İnşaat Turizm Ticaret Limited Şirketi, Kabadüz Belediyesi bünyesinde görevlendirilmek üzere 1 aşçı yardımcısı, 2 garson ve 1 aşçı olmak üzere toplam 4 personel alımı yapacaktır. Başvurular 12-13 Kasım 2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 13 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -4343,8 +4343,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/kasdas-6-isci-alimi-yapacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/kasdas-kadikoy-1-arastirmaci-personel-alacak": {
-      "attempted_at": 1794949174.321557,
-      "checked_at": 1794949174.321557,
+      "attempted_at": 1795039066.2949133,
+      "checked_at": 1795039066.2949133,
       "feed_body": "Kasdaş Kadıköy Sağlık Turizm Eğitim Çevre Temizliği Otopark Hizmetleri İnşaat Yayıncılık San. Ve Tic. A.Ş., daimi statüde 1 araştırmacı alımı yapacaktır. Başvurular 16.11.2026 mesai bitimine kadar e-posta yoluyla kabul edilecektir. Son başvuru: 16 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -4499,8 +4499,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/kemer-belediyesi-personel-ltd-sti-1-kepce-operatoru-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/kentim-kent-hizmetleri-as-1-asistan-alacak": {
-      "attempted_at": 1794949184.1585848,
-      "checked_at": 1794949184.1585848,
+      "attempted_at": 1795039075.3214555,
+      "checked_at": 1795039075.3214555,
       "feed_body": "Kentim Kent Hizmetleri A.Ş., 11-12 Kasım 2026 tarihleri arasında 1 asistan alımı yapacağını duyurdu. Başvurular e-posta yoluyla kabul edilecektir. Son başvuru: 12 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -5111,8 +5111,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/merkezefendi-temizlik-as-11-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/mersin-akdeniz-belediyesi-personel-anonim-sirketi-20112026-akdeniz-belediyesi-2-8": {
-      "attempted_at": 1794949182.2589874,
-      "checked_at": 1794949182.2589874,
+      "attempted_at": 1795039073.3607504,
+      "checked_at": 1795039073.3607504,
       "feed_body": "Son başvuru: 20 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -5219,8 +5219,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/mersin-mutlu-mezitli-tarim-turizm-gida-organ-san-ve-tic-ltd-sti-12112026-kep-iletisi-isci-alimi-hk-ek-1-kurumdisiiscialimformu"
     },
     "https://devlet.tc/tr/kamu-ilanlari/mersin-mutlu-mezitli-tarim-turizm-gida-organ-san-ve-tic-ltd-sti-13112026-kep-iletisi-isci-alimi-ek-1-kurumdisiiscialimiformu": {
-      "attempted_at": 1794949180.4877594,
-      "checked_at": 1794949180.4877594,
+      "attempted_at": 1795039071.596778,
+      "checked_at": 1795039071.596778,
       "feed_body": "Son başvuru: 13 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -5423,8 +5423,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/mustafakemalpasa-turizm-2-kamyon-soforu-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/mutlu-mezitli-1-buro-iscisi-alacak": {
-      "attempted_at": 1794949223.5418096,
-      "checked_at": 1794949223.5418096,
+      "attempted_at": 1795039106.3609982,
+      "checked_at": 1795039106.3609982,
       "feed_body": "Mutlu Mezitli Tarım Turizm Gıda Organ. San. ve Tic. Ltd. Şti., 1 büro işçisi alımı yapacaktır. Başvurular 14-16 Kasım 2026 tarihleri arasında e-posta yoluyla kabul edilecektir. Son başvuru: 16 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -6533,8 +6533,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/selinus-insaat-1-idari-buro-gorevlisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/seltas-akaryakit-1-buro-iscisi-alacak": {
-      "attempted_at": 1794949199.7377772,
-      "checked_at": 1794949199.7377772,
+      "attempted_at": 1795039090.2308908,
+      "checked_at": 1795039090.2308908,
       "feed_body": "Seltaş Akaryakıt San. ve Tic. A.Ş., Manisa Selendi'de görevlendirilmek üzere 1 daimi büro işçisi alımı yapacaktır. Başvurular 11-12 Kasım 2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 12 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -6581,8 +6581,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/sile-belediyesi-personel-as-1-buro-memuru-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/sile-belediyesi-personel-as-sile-belediyesi-ilan": {
-      "attempted_at": 1794949170.3220549,
-      "checked_at": 1794949170.3220549,
+      "attempted_at": 1795039062.5125284,
+      "checked_at": 1795039062.5125284,
       "feed_body": "Son başvuru: 13 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -6593,8 +6593,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/sile-belediyesi-personel-as-sile-belediyesi-ilan"
     },
     "https://devlet.tc/tr/kamu-ilanlari/silifke-belediyesi-4-personel-alacak": {
-      "attempted_at": 1794949196.1166754,
-      "checked_at": 1794949196.1166754,
+      "attempted_at": 1795039086.6647508,
+      "checked_at": 1795039086.6647508,
       "feed_body": "Silifke Belediyesi Silifke Ticaret Turizm Sanayi Anonim Şirketi, 4 daimi personel alımı yapacaktır. Başvurular 11.11.2026 ile 13.11.2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 13 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -6725,8 +6725,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/soma-bel-insaat-maden-sanayi-ticaret-anonim-sirketi-6-otopark-gorevlisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/sorgun-is-gelistirme-merkezi-1-beden-iscisi-alacak": {
-      "attempted_at": 1794949211.320085,
-      "checked_at": 1794949211.320085,
+      "attempted_at": 1795039098.6213753,
+      "checked_at": 1795039098.6213753,
       "feed_body": "Sorgun İş Geliştirme Merkezi San. Tic. Ltd. Şti., 1 daimi beden işçisi alımı yapacaktır. Başvurular 06.11.2026 tarihinde şahsen yapılacaktır. Son başvuru: 6 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -6797,8 +6797,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/spilas-as-1-ekmek-satis-personeli-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/spilas-as-2-personel-alacak": {
-      "attempted_at": 1794949185.9146729,
-      "checked_at": 1794949185.9146729,
+      "attempted_at": 1795039077.082516,
+      "checked_at": 1795039077.082516,
       "feed_body": "Spilaş A.Ş., Manisa'da görevlendirilmek üzere 1 Reklam Montaj Operatörü ve 1 Ekmek Satış Personeli olmak üzere toplam 2 işçi alımı yapacaktır. Başvurular 12.11.2026 tarihinde e-posta yoluyla kabul edilecektir. Son başvuru: 12 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -6917,8 +6917,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/tarakli-belediyesi-personel-ltd-sti-4-beden-iscisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/tarsus-imar-tic-ltd-sti-10-beden-iscisi-alacak": {
-      "attempted_at": 1794949197.952689,
-      "checked_at": 1794949197.952689,
+      "attempted_at": 1795039088.4326892,
+      "checked_at": 1795039088.4326892,
       "feed_body": "Tarsus İmar Tic. Ltd. Şti., daimi statüde çalışacak 10 beden işçisi alımı yapacaktır. Başvurular 11.11.2026 ile 14.11.2026 tarihleri arasında kabul edilecektir. Son başvuru: 14 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -7669,8 +7669,8 @@
       "url": "https://www.isinolsa.com/162-kutuphaneci-aliminda-sozlu-sinava-kimler-cagrilacak-il-il-siralama-nasil-yapilacak/"
     },
     "https://www.isinolsa.com/2026-gsb-sozlesmeli-personel-alimi-11-pozisyonda-kpss-puani-kac-olacak/": {
-      "attempted_at": 1794949177.8309956,
-      "checked_at": 1794949177.8309956,
+      "attempted_at": 1795039069.8409321,
+      "checked_at": 1795039069.8409321,
       "feed_body": "2026 GSB sözleşmeli personel alımında KPSS puanı kaç olacak? 11 pozisyonun önceki 50, 60 ve 70 puanlık başvuru barajları ve yerleştirme örnekleri.\nGençlik ve Spor Bakanlığında temizlik personeli, güvenlik görevlisi veya yurt yönetim personeli olmak isteyen adaylar, yeni ilanlarda kaç KPSS puanı isteneceğini merak ediyor. Bu pozisyonlar için yeni başvuru barajları henüz açıklanmadı. Bakanlığın 2026’da başvuru aldığı ilanlarda ise asgari puanlar unvana göre 50, 60 ve 70 olarak belirlendi.\nGSB’nin 2026 ilanlarında hangi pozisyon kaç KPSS puanı istedi?\nBakanlık, tabloda yer alan önceki alımlarda\n2024 KPSS sonuçlarını\nkullandı. Güvenlik görevlisi alımında lisans ve ön lisans mezunları için baraj aynıydı, ancak adaylar öğrenim düzeylerine göre farklı puan türleriyle değerlendirildi.\nPozisyon\nÖğrenim düzeyi\nKPSS puan türü\nÖnceki başvuru barajı\nDestek Personeli (Temizlik)\nLise ve dengi okul\nP94\n50\nDestek Personeli (Bakım-Onarım)\nLise ve dengi okul\nP94\n50\nAntrenör (KPSS ile alım)\nSpor bilimleri alanında lisans\nP3\n50\nKoruma ve Güvenlik Görevlisi\nLisans veya ön lisans\nLisans için P3, ön lisans için P93\n60\nGençlik Çalışanı\nLisans\nP3\n60\nYurt Yönetim Personeli\nLisans\nP3\n60\nSosyal Çalışmacı\nSosyal Hizmet lisans programı\nP3\n60\nPsikolog\nPsikoloji lisans programı\nP3\n60\nDiyetisyen\nBeslenme ve Diyetetik lisans programı\nP3\n60\nMühendis\nİlgili mühendislik bölümü\nP3\n70\nAvukat\nHukuk fakültesi\nP3\n70\nLise mezunları 50 puanla hangi GSB ilanlarına başvurdu?\nMayıs 2026’daki alımda lise ve dengi okul mezunları için\n783 temizlik\nve\n677 bakım-onarım\nkontenjanı açıldı. Bakım-onarım grubunda elektrik tesisatçısı, sıhhi tesisatçı, iklimlendirme personeli, havuz suyu operatörü ve marangoz pozisyonları yer aldı. Başvurulan mesleğe göre ilgili diploma, sertifika veya mesleki yeterlilik belgesi istendi.\n50 puanlık baraj\nKPSS ile yapılan antrenör alımında da uygulandı. Bu ilanda adayların spor bilimleri alanında örgün lisans mezunu olması ve başvurdukları branşa uygun antrenörlük belgesi bulunması gerekiyordu. KPSS sıralamasına göre çağrılan adaylar sözlü ve uygulamalı sınava alındı.\nYurt yönetiminde 60 puan başvuruya yetti, sözlü sınava çağrı kaçta kaldı?\nYurt yönetim personeli alımında\n60 KPSS P3\npuanı başvuru şartını karşılıyordu. Bakanlık, sözlü sınava çağrılacak adayları KPSS sırasına göre belirledi. Antalya’da\nerkek adayların 1. grubunda\nsözlü sınava çağrılan son adayın puanı\n79,53730\noldu.\nDoğrudan KPSS sıralamasıyla yapılan avukat alımında ise\n70 puanla başvuru\nyapılabildi. Asıl listeye giren son adayın puanı Erzurum’da\n87,83367\n, Antalya’da\n95,50551\nolarak açıklandı. Bu iki örnek, başvuru barajını geçen adayların sonuçlarını değerlendirirken neden\nil ve kontenjan grubuna\nbakması gerektiğini gösteriyor.\nYeni GSB alımında 2026 KPSS puanı kullanılacak mı?\nYeni bir ilan yayımlandığında geçerli\nKPSS yılı, puan türü, başvuru barajı ve seçim yöntemi\nilan metninde belli olacak. 2026 KPSS’ye giren adaylar için ilk kontrol edilecek bilgi, başvurmak istedikleri pozisyonda hangi sınav yılının kabul edildiği olacak. Yeni GSB ilanlarını İşin Olsa’dan takip edebilir, bildirim almak için mobil uygulamayı indirebilirsiniz.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
