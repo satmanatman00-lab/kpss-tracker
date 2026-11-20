@@ -193,14 +193,14 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/afyonkarahisar-tatarli-tasimacilik-12-gecici-isci-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/agri-eleskirt-belediyesi-1-itfaiye-eri-alacak": {
-      "attempted_at": 1795039100.7229278,
-      "checked_at": 1795039100.7229278,
+      "attempted_at": 1795137248.7760487,
+      "checked_at": 1795137248.7760487,
       "feed_body": "Ağrı Eleşkirt Belediye Başkanlığı, 657 sayılı Devlet Memurları Kanunu'na tabi olarak 1 adet itfaiye eri alımı yapacaktır. Başvurular 09.12.2026 ile 11.12.2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 11 Aralık 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
-      "rejection_reason": "Eksik PDF/RSS içeriği; sonraki tur yeniden denenecek",
+      "rejection_reason": "Teknisyen + alan/eğitim pozitif eşleşmesi bulunamadı",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
-      "status": "pending",
+      "status": "rejected",
       "title": "Ağrı Eleşkirt Belediyesi 1 itfaiye eri alacak",
       "url": "https://devlet.tc/tr/kamu-ilanlari/agri-eleskirt-belediyesi-1-itfaiye-eri-alacak"
     },
@@ -407,8 +407,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/anet-antalya-insaat-2-engelli-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/anfa-ankara-altinpark-5-personel-alacak": {
-      "attempted_at": 1795042709.476766,
-      "checked_at": 1795042709.476766,
+      "attempted_at": 1795137293.4423895,
+      "checked_at": 1795137293.4423895,
       "feed_body": "Anfa Ankara Altınpark İşletmeleri Ltd. Şti., 1 peyzaj mimarı ve 4 ziraat mühendisi olmak üzere toplam 5 daimi işçi alımı yapacaktır. Başvurular 02-03 Kasım 2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 3 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -539,8 +539,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/asfat-as-1-uzman-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/avanos-belediyesi-personel-ltd-sti-10-isci-alacak": {
-      "attempted_at": 1795039096.39903,
-      "checked_at": 1795039096.39903,
+      "attempted_at": 1795137244.6892831,
+      "checked_at": 1795137244.6892831,
       "feed_body": "Avanos Belediyesi Personel Limited Şirketi, 10 beden işçisi (vasıfsız) alımı yapacaktır. Başvurular 05.11.2026 tarihinde şahsen yapılacaktır. Son başvuru: 5 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -623,8 +623,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/bag-kent-4-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/bag-kent-ltd-sti-1-buro-personeli-alacak": {
-      "attempted_at": 1795039092.4728312,
-      "checked_at": 1795039092.4728312,
+      "attempted_at": 1795137240.9164152,
+      "checked_at": 1795137240.9164152,
       "feed_body": "Bağ-Kent Sağ. Eğ. Kül. San. Sos. Hizm. Tur. İnş. Gıda Tar. Pet. San. ve Tic. Ltd. Şti., Foça'da görevlendirilmek üzere 1 daimi büro personeli alımı yapacaktır. Başvurular 06/11/2026 ile 09/11/2026 tarihleri arasında cv@foca.bel.tr adresi üzerinden kabul edilecektir. Son başvuru: 9 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -1195,8 +1195,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/bezmialem-vakif-universitesi-rektorlugunden"
     },
     "https://devlet.tc/tr/kamu-ilanlari/bil-yap-ltd-sti-1-danisman-alacak": {
-      "attempted_at": 1795039084.8947947,
-      "checked_at": 1795039084.8947947,
+      "attempted_at": 1795137233.722292,
+      "checked_at": 1795137233.722292,
       "feed_body": "Bil-Yap Ltd. Şti. bünyesinde daimi olarak istihdam edilmek üzere 1 danışman alımı yapılacaktır. Başvurular 10-12 Kasım 2026 tarihleri arasında çevrim içi form üzerinden alınacaktır. Son başvuru: 12 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -1863,8 +1863,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/cerkes-bel-tasimacilik-5-beden-iscisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/ceyhan-ogretmenevi-3-yemekhane-iscisi-alacak": {
-      "attempted_at": 1795039104.5907993,
-      "checked_at": 1795039104.5907993,
+      "attempted_at": 1795137264.9275804,
+      "checked_at": 1795137264.9275804,
       "feed_body": "Ceyhan Öğretmenevi ve ASO Kamu İktisadi İşletmesi, 2026-2027 eğitim-öğretim yılı için 3 geçici yemekhane işçisi alımı yapacaktır. Başvurular 16-20 Kasım 2026 tarihleri arasında şahsen veya e-posta yoluyla kabul edilecektir. Son başvuru: 20 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -2031,8 +2031,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/darica-kent-insaat-as-3-daimi-isci-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/derecik-belediyesi-personel-limited-sirketi-6-beden-iscisi-alacak": {
-      "attempted_at": 1795042696.3956623,
-      "checked_at": 1795042696.3956623,
+      "attempted_at": 1795137278.9708247,
+      "checked_at": 1795137278.9708247,
       "feed_body": "Derecik Belediyesi Personel Limited Şirketi, daimi statüde görevlendirilmek üzere 6 beden işçisi alımı yapacaktır. Başvurular 04.11.2026 tarihinde şahsen yapılacaktır. Son başvuru: 4 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -2211,8 +2211,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/duzce-belka-insan-kaynaklari-as-1-beden-iscisi-alacak-2"
     },
     "https://devlet.tc/tr/kamu-ilanlari/duzce-ulasim-hizmetleri-as-2-engelli-personel-alacak": {
-      "attempted_at": 1795042705.97804,
-      "checked_at": 1795042705.97804,
+      "attempted_at": 1795137288.3524158,
+      "checked_at": 1795137288.3524158,
       "feed_body": "Düzce Ulaşım Hizmetleri A.Ş., engelli statüsünde 2 genel saha temizlik personeli alımı yapacaktır. Başvurular 4-6 Kasım 2026 tarihleri arasında kabul edilecektir. Son başvuru: 6 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -2223,8 +2223,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/duzce-ulasim-hizmetleri-as-2-engelli-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/ebton-insaat-1-sofor-alacak": {
-      "attempted_at": 1795039081.0046961,
-      "checked_at": 1795039081.0046961,
+      "attempted_at": 1795137230.8356183,
+      "checked_at": 1795137230.8356183,
       "feed_body": "EBTON İNŞAAT SAN. VE TİC. A.Ş., Elmalı/Antalya lokasyonunda görevlendirilmek üzere 1 geçici şoför alımı yapacaktır. Başvurular 10.11.2026 ile 13.11.2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 13 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -2259,8 +2259,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/eceabat-belediyesi-1-gecici-isci-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/edremit-belediyesi-personel-as-2-isci-alacak": {
-      "attempted_at": 1795039083.2147884,
-      "checked_at": 1795039083.2147884,
+      "attempted_at": 1795137231.7344933,
+      "checked_at": 1795137231.7344933,
       "feed_body": "Edremit Belediyesi Personel A.Ş., 2 geçici çöp kamyonu sürücüsü alımı yapacaktır. Başvurular 11.11.2026-13.11.2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 13 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -2583,8 +2583,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/esenyurt-belediyesi-site-yonetim-as-2-engelli-isci-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/esker-ins-as-1-buro-personeli-alacak": {
-      "attempted_at": 1795042713.1108797,
-      "checked_at": 1795042713.1108797,
+      "attempted_at": 1795137297.6884706,
+      "checked_at": 1795137297.6884706,
       "feed_body": "Esker İnş. Taah. Enerji Üretim Gıda ve Deri Mam. San.Tic.A.Ş, Erzurum il ve ilçelerinde görevlendirilmek üzere 1 büro personeli alımı yapacaktır. Başvurular 12.11.2026 ile 13.11.2026 tarihleri arasında kabul edilecektir. Son başvuru: 13 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -3063,8 +3063,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/giresun-universitesi-23-ogretim-uyesi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/gokceada-e-ticaret-turizm-insaat-ltd-sti-3-beden-iscisi-alacak": {
-      "attempted_at": 1795039103.716872,
-      "checked_at": 1795039103.716872,
+      "attempted_at": 1795137263.68085,
+      "checked_at": 1795137263.68085,
       "feed_body": "Gökçeada E-Ticaret Turizm İnşaat Ltd. Şti., 3 beden işçisi alımı yapacağını duyurdu. Başvurular 4-9 Kasım 2026 tarihleri arasında Gökçeada Belediyesi Hizmet Binası'na şahsen yapılacaktır. Son başvuru: 9 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -3469,8 +3469,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/isfalt-1-butce-ve-raporlama-uzmani-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/isfalt-2-personel-alacak": {
-      "attempted_at": 1795042714.7849262,
-      "checked_at": 1795042714.7849262,
+      "attempted_at": 1795137299.3738163,
+      "checked_at": 1795137299.3738163,
       "feed_body": "İsfalt, İstanbul genelinde görevlendirilmek üzere 1 İnşaat Mühendisi ve 1 Harita Mühendisi olmak üzere toplam 2 daimi işçi alımı yapacaktır. Son başvuru: 13 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -3481,8 +3481,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/isfalt-2-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/isfalt-istanbul-asfalt-fabrikalari-san-ve-tic-as-isfalt-17": {
-      "attempted_at": 1795039109.930851,
-      "checked_at": 1795039109.930851,
+      "attempted_at": 1795137270.112418,
+      "checked_at": 1795137270.112418,
       "feed_body": "Son başvuru: 17 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -3577,12 +3577,12 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/isper-6-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/isper-as-1-beden-iscisi-alacak": {
-      "attempted_at": 1795039113.6389377,
-      "checked_at": 1795039113.6389377,
+      "attempted_at": 1795137273.7312713,
+      "checked_at": 1795137273.7312713,
       "feed_body": "İSPER İstanbul Personel Yönetim A.Ş., İstanbul genelinde görevlendirilmek üzere 1 beden işçisi alımı yapacaktır. Başvurular 17-19 Kasım 2026 tarihleri arasında kariyer.ibb.istanbul adresi üzerinden gerçekleştirilecektir. Son başvuru: 19 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
-      "rejection_reason": "Hedef dışı ilan türü: İşçi",
+      "rejection_reason": "Hedef dışı ilan türü: İşçi; Başvuru süresi dolmuş",
       "source": "https://devlet.tc/tr/kamu-ilanlari/rss.xml",
       "status": "rejected",
       "title": "İSPER A.Ş. 1 beden işçisi alacak",
@@ -3625,8 +3625,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/isper-as-13-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/isper-as-17-personel-alacak": {
-      "attempted_at": 1795039111.7513778,
-      "checked_at": 1795039111.7513778,
+      "attempted_at": 1795137271.818611,
+      "checked_at": 1795137271.818611,
       "feed_body": "İSPER A.Ş., İstanbul genelinde görevlendirilmek üzere 17 daimi işçi alımı yapacaktır. Başvurular 16-18 Kasım 2026 tarihleri arasında kariyer.ibb.istanbul adresi üzerinden gerçekleştirilecektir. Son başvuru: 18 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -3973,8 +3973,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/istanbul-personel-yonetim-as-isper-7-kasim"
     },
     "https://devlet.tc/tr/kamu-ilanlari/istanbul-personel-yonetim-as-isper-as-1-hizmet-iscisi-alacak": {
-      "attempted_at": 1795042700.1626594,
-      "checked_at": 1795042700.1626594,
+      "attempted_at": 1795137283.024811,
+      "checked_at": 1795137283.024811,
       "feed_body": "İSPER A.Ş., İstanbul'da görevlendirilmek üzere 1 daimi hizmet işçisi alımı yapacaktır. Başvurular 04.11.2026 ile 06.11.2026 tarihleri arasında kariyer.ibb.istanbul adresi üzerinden gerçekleştirilecektir. Son başvuru: 6 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -4081,8 +4081,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/istay-altyapi-ve-yonetim-anonim-sirketi-2-temizlik-gorevlisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/istay-altyapi-ve-yonetim-as-1-buro-personeli-alacak": {
-      "attempted_at": 1795039108.173813,
-      "checked_at": 1795039108.173813,
+      "attempted_at": 1795137268.3701034,
+      "checked_at": 1795137268.3701034,
       "feed_body": "İSTAY ALTYAPI VE YÖNETİM A.Ş., 1 daimi büro personeli alımı yapacaktır. Başvurular 14.11.2026-15.11.2026 tarihleri arasında kabul edilecektir. Son başvuru: 15 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -4129,8 +4129,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/izbel-turizm-ve-isletme-hizsanticas-2-isci-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/izdoga-1-paletli-mobil-kirici-operatoru-alacak": {
-      "attempted_at": 1795039094.2166812,
-      "checked_at": 1795039094.2166812,
+      "attempted_at": 1795137242.5230608,
+      "checked_at": 1795137242.5230608,
       "feed_body": "İZDOĞA A.Ş. bünyesinde daimi olarak istihdam edilmek üzere 1 adet Paletli Mobil Kırıcı Operatörü alımı yapılacaktır. Başvurular 09-13 Kasım 2026 tarihleri arasında e-posta yoluyla kabul edilecektir. Son başvuru: 13 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -4261,8 +4261,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/izmir-yuksek-teknoloji-enstitusu-9-akademik-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/izulas-izmir-ulasim-hizmetleri-1-koordinator-alacak": {
-      "attempted_at": 1795042693.645389,
-      "checked_at": 1795042693.645389,
+      "attempted_at": 1795137275.485559,
+      "checked_at": 1795137275.485559,
       "feed_body": "(İZULAŞ) İZMİR ULAŞIM HİZMETLERİ VE MAK. SAN. A.Ş., daimi statüde görevlendirilmek üzere 1 koordinatör alımı yapacaktır. Başvurular 14.11.2026 ile 16.11.2026 tarihleri arasında e-posta yoluyla kabul edilecektir. Son başvuru: 16 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -4891,8 +4891,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/kirsehir-gida-ltd-sti-4-is-makinesi-operatoru-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/kiyikoy-belediyesi-1-beden-iscisi-alacak": {
-      "attempted_at": 1795042716.46213,
-      "checked_at": 1795042716.46213,
+      "attempted_at": 1795137301.42593,
+      "checked_at": 1795137301.42593,
       "feed_body": "Kıyıköy Belediyesi Temizlik, Taşımacılık Turizm ve Per. Ltd. Şti, 1 beden işçisi alımı yapacaktır. Başvurular 16/11/2026 tarihinde şahsen yapılacaktır. Son başvuru: 16 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -4939,8 +4939,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/konakli-belediyesi-personel-ltdsti-1-beden-iscisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/konya-beysehir-altingol-turizm-5-beden-iscisi-alacak": {
-      "attempted_at": 1795042701.8306282,
-      "checked_at": 1795042701.8306282,
+      "attempted_at": 1795137284.774297,
+      "checked_at": 1795137284.774297,
       "feed_body": "Konya Beyşehir Altıngöl Turizm Ulaşım İnşaat Gıda Enerji San. Tic. A. Ş., geçici statüde 5 beden işçisi alımı yapacaktır. Başvurular 4 Kasım 2026 tarihinde şahsen yapılacaktır. Son başvuru: 4 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -5303,8 +5303,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/mavi-nar-emlak-turizm-10-beden-iscisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/mazi-petrol-1-beden-iscisi-alacak": {
-      "attempted_at": 1795042703.9110782,
-      "checked_at": 1795042703.9110782,
+      "attempted_at": 1795137286.652243,
+      "checked_at": 1795137286.652243,
       "feed_body": "Mazı Petrol Ürünleri Tavukçuluk Nakliyat Sanayi ve Ticaret Limited Şirketi, Köprübaşı Belediyesi bünyesinde görevlendirilmek üzere 1 geçici beden işçisi alımı yapacaktır. Son başvuru: 6 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -5531,8 +5531,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/mihaliccik-belediyesi-personel-ltdsti-5-beden-iscisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/milas-belediyesi-13-personel-alacak": {
-      "attempted_at": 1795042694.750424,
-      "checked_at": 1795042694.750424,
+      "attempted_at": 1795137277.1777313,
+      "checked_at": 1795137277.1777313,
       "feed_body": "Milas Belediyesi Emek Personel A.Ş., beden işçisi, vinç operatörü ve traktör şoförü kadrolarında toplam 13 daimi personel alımı yapacaktır. Başvurular 16-18 Kasım 2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 18 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -5711,8 +5711,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/mustafakemalpasa-turizm-2-kamyon-soforu-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/mutlu-mezitli-1-buro-iscisi-alacak": {
-      "attempted_at": 1795039106.3609982,
-      "checked_at": 1795039106.3609982,
+      "attempted_at": 1795137266.6446218,
+      "checked_at": 1795137266.6446218,
       "feed_body": "Mutlu Mezitli Tarım Turizm Gıda Organ. San. ve Tic. Ltd. Şti., 1 büro işçisi alımı yapacaktır. Başvurular 14-16 Kasım 2026 tarihleri arasında e-posta yoluyla kabul edilecektir. Son başvuru: 16 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -5747,8 +5747,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/mutlu-mezitli-tarim-turizm-1-ozel-guvenlik-gorevlisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/mutlu-mezitli-tarim-turizm-2-personel-alacak": {
-      "attempted_at": 1795042698.48945,
-      "checked_at": 1795042698.48945,
+      "attempted_at": 1795137281.0987837,
+      "checked_at": 1795137281.0987837,
       "feed_body": "Mutlu Mezitli Tarım Turizm Gıda Organ. San. ve Tic. Ltd. Şti., 1 veteriner hekim ve 1 servis elemanı yardımcısı olmak üzere toplam 2 geçici personel alımı yapacaktır. Başvurular 04.11.2026 ile 06.11.2026 tarihleri arasında e-posta yoluyla kabul edilecektir. Son başvuru: 6 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -6881,8 +6881,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/selinus-insaat-1-idari-buro-gorevlisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/seltas-akaryakit-1-buro-iscisi-alacak": {
-      "attempted_at": 1795039090.2308908,
-      "checked_at": 1795039090.2308908,
+      "attempted_at": 1795137239.169251,
+      "checked_at": 1795137239.169251,
       "feed_body": "Seltaş Akaryakıt San. ve Tic. A.Ş., Manisa Selendi'de görevlendirilmek üzere 1 daimi büro işçisi alımı yapacaktır. Başvurular 11-12 Kasım 2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 12 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -6905,8 +6905,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/senkayam-tarim-6-temizlik-gorevlisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/senkayam-tarim-turizm-10-temizlik-gorevlisi-alacak": {
-      "attempted_at": 1795042711.1304598,
-      "checked_at": 1795042711.1304598,
+      "attempted_at": 1795137295.5438833,
+      "checked_at": 1795137295.5438833,
       "feed_body": "Şenkayam Tarım Turizm İnşaat Taahhüt Sanayi ve Ticaret Limited Şirketi, Şenkaya'da görevlendirilmek üzere 10 temizlik görevlisi alımı yapacaktır. Başvurular 02.11.2026 ile 04.11.2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 4 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -6941,8 +6941,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/sile-belediyesi-personel-as-sile-belediyesi-ilan"
     },
     "https://devlet.tc/tr/kamu-ilanlari/silifke-belediyesi-4-personel-alacak": {
-      "attempted_at": 1795039086.6647508,
-      "checked_at": 1795039086.6647508,
+      "attempted_at": 1795137235.5955014,
+      "checked_at": 1795137235.5955014,
       "feed_body": "Silifke Belediyesi Silifke Ticaret Turizm Sanayi Anonim Şirketi, 4 daimi personel alımı yapacaktır. Başvurular 11.11.2026 ile 13.11.2026 tarihleri arasında şahsen yapılacaktır. Son başvuru: 13 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -7073,8 +7073,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/soma-bel-insaat-maden-sanayi-ticaret-anonim-sirketi-6-otopark-gorevlisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/sorgun-is-gelistirme-merkezi-1-beden-iscisi-alacak": {
-      "attempted_at": 1795039098.6213753,
-      "checked_at": 1795039098.6213753,
+      "attempted_at": 1795137246.6567373,
+      "checked_at": 1795137246.6567373,
       "feed_body": "Sorgun İş Geliştirme Merkezi San. Tic. Ltd. Şti., 1 daimi beden işçisi alımı yapacaktır. Başvurular 06.11.2026 tarihinde şahsen yapılacaktır. Son başvuru: 6 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -7277,8 +7277,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/tarakli-belediyesi-personel-ltd-sti-4-beden-iscisi-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/tarsus-imar-tic-ltd-sti-10-beden-iscisi-alacak": {
-      "attempted_at": 1795039088.4326892,
-      "checked_at": 1795039088.4326892,
+      "attempted_at": 1795137237.5526564,
+      "checked_at": 1795137237.5526564,
       "feed_body": "Tarsus İmar Tic. Ltd. Şti., daimi statüde çalışacak 10 beden işçisi alımı yapacaktır. Başvurular 11.11.2026 ile 14.11.2026 tarihleri arasında kabul edilecektir. Son başvuru: 14 Kasım 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -7993,8 +7993,8 @@
       "url": "https://devlet.tc/tr/kamu-ilanlari/zafer-kalkinma-ajansi-2-uzman-personel-alacak"
     },
     "https://devlet.tc/tr/kamu-ilanlari/zafer-kalkinma-ajansi-2-uzman-personel-alacak-2": {
-      "attempted_at": 1795042707.619143,
-      "checked_at": 1795042707.619143,
+      "attempted_at": 1795137290.07406,
+      "checked_at": 1795137290.07406,
       "feed_body": "Zafer Kalkınma Ajansı, TR33 Bölgesi'nde görevlendirilmek üzere 2 uzman personel alımı yapacaktır. Başvurular 25.11.2026 ile 14.12.2026 tarihleri arasında Kariyer Kapısı üzerinden gerçekleştirilecektir. Son başvuru: 14 Aralık 2026.",
       "feed_pdf_urls": [],
       "filter_id": "dabceb2baf083817",
@@ -9083,6 +9083,44 @@
       "status": "notified",
       "title": "41 Üniversiteye 1139 Personel Alımı: Başvurular Sürüyor! İşte Kadrolar ve Tarihler",
       "url": "https://www.isinolsa.com/41-universiteye-1139-personel-alimi-basvurular-suruyor-iste-kadrolar-ve-tarihler/"
+    },
+    "https://www.isinolsa.com/adli-tip-kurumu-181-personel-alacak-22-il-icin-kontenjanlar-ve-basvuru-sartlari/": {
+      "attempted_at": 1795137228.2272353,
+      "checked_at": 1795137228.2272353,
+      "feed_body": "Adli Tıp Kurumu 22 ilde 181 sözleşmeli personel alacak. 2026 KPSS 70 puan şartı, kontenjanlar ve 30 Kasım–6 Aralık başvuru detayları.\nAdli Tıp Kurumu, lise, ön lisans ve lisans mezunları arasından 181 sözleşmeli personel alacak. 2026 KPSS’den en az 70 puan şartıyla gerçekleştirilecek alımda başvurular 30 Kasım–6 Aralık 2026 tarihleri arasında alınacak. İşte pozisyonlar, il kontenjanları ve başvuru detayları.\nAdalet Bakanlığı Adli Tıp Kurumu Başkanlığı, 2026-2 sözleşmeli personel alım ilanı kapsamında merkez ve taşra teşkilatına\n181 personel alımı\nyapacak. Alımlar, 657 sayılı Devlet Memurları Kanunu’nun 4/B maddesi kapsamında gerçekleştirilecek.\nİlanda mühendis, kimyager, biolog, hemşire, laborant, tekniker, sağlık teknikeri, büro personeli, infaz ve koruma memuru ile destek personeli pozisyonlarına yer verildi. Adaylar, KPSS puan sıralamasının ardından yapılacak sözlü sınav sonucuna göre değerlendirilecek.\nAdli Tıp Kurumu hangi pozisyonlara personel alacak?\nİlanın Ek-1 tablosuna göre 181 kişilik kontenjanın pozisyonlara dağılımı şöyle:\nPozisyon\nKontenjan\nMühendis – Makine\n12\nMühendis – Kimya\n1\nMühendis – Bilişim\n4\nDiğer Teknik Hizmet Personeli – Kimyager\n18\nBiolog\n5\nHemşire\n3\nLaborant\n26\nTekniker – Elektrik\n4\nTekniker – Sıhhi Tesisat\n5\nTekniker – Silah Muayene\n1\nTekniker – Bilgisayar\n1\nSağlık Teknikeri – Otopsi\n18\nBüro Personeli – İşletme, İktisat, Kamu Yönetimi\n5\nBüro Personeli – Bilgi Belge Yönetimi\n5\nBüro Personeli – Tıbbi Sekreter\n5\nBüro Personeli – İşletme, İktisat, Kamu Yönetimi, Bilgi Belge Yönetimi\n29\nİnfaz ve Koruma Memuru – Erkek\n1\nDestek Personeli – Hizmetli\n26\nDestek Personeli – Şoför\n10\nDestek Personeli – Aşçı\n2\nToplam\n181\nBüro personeli pozisyonlarında toplam\n44\n, mühendislik alanlarında\n17\n, tekniker pozisyonlarında\n11\n, destek personeli pozisyonlarında ise\n38 kişilik\nkontenjan bulunuyor.\nATK personel alımı hangi illerde yapılacak?\nAdli Tıp Kurumu personel alımı\n22 ili\nkapsıyor. Tüm pozisyonlar birlikte değerlendirildiğinde il bazındaki kontenjanlar şöyle:\nİl\nKontenjan\nİl\nKontenjan\nİstanbul\n50\nAdana\n7\nİzmir\n14\nKonya\n7\nAnkara\n12\nSamsun\n6\nAntalya\n12\nHatay\n5\nGaziantep\n11\nTrabzon\n5\nBursa\n10\nDiyarbakır\n4\nDenizli\n10\nMalatya\n3\nErzurum\n8\nŞanlıurfa\n3\nKayseri\n8\nVan\n2\nAğrı\n1\nArtvin\n1\nAydın\n1\nMuğla\n1\nİstanbul’daki alımlar merkez teşkilatı için yapılacak. Ağrı, Artvin, Aydın ve Muğla’da Adli Tıp Şube Müdürlüklerine, diğer illerde ise Adli Tıp Grup Başkanlıklarına personel alınacak. Pozisyonların görev yerleri Ek-1 tablosunda ayrı ayrı belirtiliyor.\nKPSS puan şartı ve öğrenim dağılımı\nBaşvuracak adayların\n2026 KPSS’de ilgili puan türünden en az 70 puan\nalmış olması gerekiyor.\nÖğrenim düzeyi\nKPSS puan türü\nKontenjan\nLisans\nP3\n82\nÖn lisans\nP93\n62\nOrtaöğretim\nP94\n37\nToplam\n181\nLisans mezunları için mühendislik, kimyagerlik, biolog, hemşirelik ve ilgili büro personeli alanlarında kontenjan bulunuyor. Ön lisans mezunları laborant, tekniker, otopsi sağlık teknikeri, tıbbi sekreter büro personeli ve aşçı pozisyonlarına başvurabilecek.\nLise ve dengi okul mezunları için ise hizmetli, şoför ve erkek infaz ve koruma memuru pozisyonları bulunuyor.\nAdayların başvuracakları pozisyon için\nEk-1’de belirtilen mezuniyet programlarından birini bitirmiş olması\nve varsa özel şartları taşıması gerekiyor.\nBaşvuru şartları neler?\nİlana başvuracak adaylarda Türk vatandaşı olmak, kamu haklarından mahrum bulunmamak, ilanda belirtilen suçlardan mahkûm olmamak, askerlik şartını karşılamak ve görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak şartları aranıyor.\nAdayların son başvuru tarihi olan\n6 Aralık 2026 itibarıyla\ngerekli öğrenim niteliğini ve ilanda belirtilen yaş şartlarını taşıması gerekiyor.\nBazı pozisyonlarda ayrıca deneyim, sürücü belgesi, boy-kilo ve çalışma koşullarına ilişkin özel şartlar bulunuyor.\nHizmetli alımında altı ay deneyim şartı\nDestek personeli hizmetli pozisyonuna başvuracak adayların lise veya dengi okul mezunu olması ve\ntemizlik işlerinde en az altı ay sigortalı çalışmış olması\ngerekiyor.\nDeneyimin, e-Devlet üzerinden alınan ve meslek kodlarını gösteren barkodlu SGK hizmet dökümüyle belgelenmesi isteniyor. Belgenin başvuru sırasında sisteme yüklenmesi gerekiyor.\nBu pozisyonda ayrıca yükseköğretim kurumlarında aktif örgün eğitim öğrencisi olarak kayıtlı bulunmama şartı aranıyor.\nŞoför alımında hangi ehliyet gerekiyor?\nŞoför pozisyonuna başvuracak adayların lise veya dengi okul mezunu olması gerekiyor. Sürücü belgesi şartı ise\neski tip E sınıfı ehliyet veya yeni tip D ve C sınıfı ehliyetlere birlikte sahip olmak\nşeklinde belirtiliyor.\nAdayların sürücü belgelerini başvuru sırasında sisteme yüklemesi isteniyor.\nİnfaz ve koruma memuru alımında yaş ve boy şartı\nİstanbul merkez teşkilatı için\nbir erkek infaz ve koruma memuru\nalınacak. Bu pozisyona başvuracak adayların lise veya dengi okul mezunu olması gerekiyor.\nAdayların son başvuru tarihi itibarıyla 18 yaşını doldurmuş olması ve ilanda belirtilen yaş şartı kapsamında\n1 Ocak 1996 ve sonrasında doğmuş olması\naranıyor.\nEn az\n170 santimetre boy\nşartının yanı sıra ilandaki boy-kilo aralığının da karşılanması gerekiyor. Örneğin 170 santimetre boyundaki bir adayın kilosunun 53 ile 83 arasında olması isteniyor.\nBoy-kilo ölçümleri sözlü sınav tarihinde yapılacak. Gerekli şartları sağlamayan adaylar sözlü sınava alınmayacak. Pozisyon için sağlık kurulu raporu ve vardiyalı çalışma koşullarına ilişkin özel şartlar da bulunuyor.\nAdli Tıp Kurumu personel alımı başvuruları ne zaman?\nBaşvurular\n30 Kasım 2026 Pazartesi günü saat 09.00’da başlayacak, 6 Aralık 2026 Pazar günü saat 23.59’da sona erecek.\nAdaylar başvurularını e-Devlet üzerinden\n“Adli Tıp Kurumu Başkanlığı – Kariyer Kapısı Kamu İşe Alım”\nhizmetini kullanarak veya Kariyer Kapısı Kamu İşe Alım adresinden gerçekleştirecek.\nBaşvuru ekranı belirtilen tarih aralığında aktif olacak.\nŞahsen veya posta yoluyla yapılan başvurular kabul edilmeyecek.\nİlanda, adayların her bir pozisyon için yalnızca bir başvuru yapabileceği belirtiliyor.\nSözlü sınav nerede yapılacak?\nBaşvurusu kabul edilen adaylar, ilgili KPSS puan türünde en yüksek puandan başlanarak sıralanacak.\nHer pozisyon için kontenjanın üç katı kadar aday sözlü sınava çağrılacak.\nTüm pozisyonların sözlü sınavları, Adli Tıp Kurumu Başkanlığının\nİstanbul Bahçelievler’deki merkez binasında\nyapılacak. Sınav tarihleri daha sonra duyurulacak.\nBaşvuru ve sınav sonuçları kurumun internet sitesinde yayımlanacak. Adaylar sınava ilişkin bilgilerini Kariyer Kapısı üzerinden de görüntüleyebilecek. Yayımlanan duyurular tebligat yerine geçeceğinden adaylara ayrıca tebligat yapılmayacak.\nİLANIN TAM METNİ BURADA",
+      "feed_pdf_urls": [
+        "https://www.isinolsa.com/wp-content/uploads/2026/11/Adalet-Bakanligi-Adli-Tip-Kurumu-Baskanligi-perosnel-alimi.pdf"
+      ],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Teknisyen + alan/eğitim pozitif eşleşmesi bulunamadı",
+      "source": "https://www.isinolsa.com/sozlesmeli-personel-alimi/feed/",
+      "status": "rejected",
+      "title": "Adli Tıp Kurumu 181 personel alacak! 22 il için kontenjanlar ve başvuru şartları",
+      "url": "https://www.isinolsa.com/adli-tip-kurumu-181-personel-alacak-22-il-icin-kontenjanlar-ve-basvuru-sartlari/"
+    },
+    "https://www.isinolsa.com/atk-38-destek-personeli-alacak-hizmetli-sofor-ve-asci-sartlari/": {
+      "attempted_at": 1795137226.098755,
+      "checked_at": 1795137226.098755,
+      "feed_body": "ATK 26 hizmetli, 10 şoför ve 2 aşçı alacak. İl kontenjanları, KPSS 70 puan şartı, öğrenim ve ehliyet koşulları ile başvuru tarihleri.\nAdli Tıp Kurumu, 15 ilde görevlendirmek üzere 26 hizmetli, 10 şoför ve 2 aşçı olmak üzere toplam 38 destek personeli alacak. Lise ve ön lisans mezunlarına yönelik alımda 2026 KPSS’den en az 70 puan şartı aranıyor. Başvurular 30 Kasım–6 Aralık 2026 tarihleri arasında yapılacak.\nAdalet Bakanlığı Adli Tıp Kurumu Başkanlığının 2026-2 sözleşmeli personel alım ilanında\n38 kişilik destek personeli kontenjanı\nbulunuyor. Hizmetli, şoför ve aşçı pozisyonlarına yapılacak alımlar, 657 sayılı Devlet Memurları Kanunu’nun\n4/B maddesi kapsamında sözleşmeli personel statüsünde\ngerçekleştirilecek.\nHizmetli ve şoför pozisyonlarına lise mezunları, aşçı pozisyonuna ise ilanda belirtilen ön lisans programlarından mezun olan adaylar başvurabilecek. Her pozisyon için öğrenim, KPSS ve özel başvuru şartlarının birlikte karşılanması gerekiyor.\nATK destek personeli alımı kontenjan dağılımı\nİlan kapsamında destek personeli kontenjanları üç gruba ayrılıyor:\nPozisyon\nKontenjan\nÖğrenim\n2026 KPSS şartı\nDestek Personeli – Hizmetli\n26\nLise ve dengi okul\nP94, en az 70 puan\nDestek Personeli – Şoför\n10\nLise ve dengi okul\nP94, en az 70 puan\nDestek Personeli – Aşçı\n2\nİlgili ön lisans programları\nP93, en az 70 puan\nToplam\n38\nHangi illerde hizmetli, şoför ve aşçı alınacak?\nDestek personeli alımı\n15 ili\nkapsıyor. İstanbul’daki pozisyonlar merkez teşkilatında, diğer illerdeki pozisyonlar ise Adli Tıp Grup Başkanlıklarında bulunuyor.\nGörev yeri\nHizmetli\nŞoför\nAşçı\nToplam\nİstanbul\n8\n5\n2\n15\nAdana\n1\n1\n—\n2\nAnkara\n2\n—\n—\n2\nAntalya\n2\n—\n—\n2\nBursa\n1\n1\n—\n2\nDenizli\n1\n—\n—\n1\nDiyarbakır\n—\n1\n—\n1\nErzurum\n2\n—\n—\n2\nGaziantep\n2\n—\n—\n2\nHatay\n1\n—\n—\n1\nİzmir\n2\n—\n—\n2\nKayseri\n—\n1\n—\n1\nKonya\n1\n1\n—\n2\nSamsun\n2\n—\n—\n2\nŞanlıurfa\n1\n—\n—\n1\nToplam\n26\n10\n2\n38\nEn yüksek destek personeli kontenjanı\n15 kişiyle İstanbul’a\nayrıldı. İki kişilik aşçı alımının tamamı da İstanbul merkez teşkilatı için yapılacak.\n26 hizmetli alımında hangi şartlar aranıyor?\nHizmetli pozisyonuna başvuracak adayların\nlise veya dengi okul mezunu olması\nve\n2026 KPSS P94 puan türünden en az 70 puan alması\ngerekiyor.\nBu pozisyonda ayrıca\ntemizlik işlerinde en az altı ay sigortalı çalışma deneyimi\naranıyor. Adayların çalışmalarını, e-Devlet üzerinden alınan ve meslek kodlarını gösteren\nbarkodlu SGK hizmet dökümüyle\nbelgelendirmesi gerekiyor. Belgenin başvuru sırasında sisteme yüklenmesi isteniyor.\nHizmetli adaylarının\nyükseköğretim kurumlarında aktif örgün eğitim öğrencisi olarak kayıtlı bulunmaması\nda özel şartlar arasında yer alıyor.\nİstihdam edilecek personel; görevlendirildiği birimin açık ve kapalı alanlarının temizliği, katı atıkların toplanması, malzeme ve demirbaş taşıma, yükleme-boşaltma ile yöneticiler tarafından verilen diğer hizmetli görevlerini yerine getirecek.\n10 şoför alımı için hangi ehliyet gerekiyor?\nŞoför pozisyonunda\nlise veya dengi okul mezuniyeti\nve\n2026 KPSS P94’ten en az 70 puan\nşartı bulunuyor.\nBaşvuracak adayların sürücü belgesi bakımından şu şartlardan birini karşılaması gerekiyor:\nEski tip E sınıfı sürücü belgesine sahip olmak.\nYeni tip D ve C sınıfı sürücü belgelerine birlikte sahip olmak.\nSürücü belgesinin başvuru sırasında sisteme yüklenmesi gerekiyor. Şoför alımları İstanbul, Adana, Bursa, Diyarbakır, Kayseri ve Konya için gerçekleştirilecek.\nAşçı alımına hangi bölüm mezunları başvurabilir?\nİstanbul merkez teşkilatına alınacak\niki aşçı\niçin\n2026 KPSS P93 puan türünden en az 70 puan\nşartı aranıyor.\nAdayların aşağıdaki\nön lisans programlarından birinden mezun olması\ngerekiyor:\nAşçılık\nHazır Yemek ve Aşçılık\nMutfak Yönetimi\nYemek Pişirme Teknikleri\nGastronomi ve Mutfak Sanatları\nBaşvurularda, ilandaki öğrenim düzeyi ve program şartının karşılanması gerekiyor.\nGenel başvuru şartları neler?\nAdaylarda Türk vatandaşı olmak, kamu haklarından mahrum bulunmamak, ilanda belirtilen suçlardan mahkûm olmamak ve askerlik şartını karşılamak gibi genel şartlar aranıyor.\nAyrıca görevi devamlı yapmaya engel olabilecek akıl hastalığı bulunmaması gerekiyor. Başvurulacak pozisyon için gerekli öğrenim niteliğinin\nson başvuru tarihi olan 6 Aralık 2026 itibarıyla\ntaşınması isteniyor. Adayların ilanda belirtilen genel yaş şartlarını da karşılaması gerekiyor.\nATK destek personeli maaşları ne kadar?\nAlım ilanında hizmetli, şoför ve aşçı pozisyonları için net veya brüt maaş tutarı belirtilmiyor.\nİlanda istihdamın 4/B sözleşmeli personel statüsünde yapılacağı açıklanıyor.\nBu nedenle söz konusu 38 kişilik alım için kurum tarafından ilan edilmiş kesin bir maaş rakamı bulunmuyor.\nBaşvurular ne zaman ve nasıl yapılacak?\nATK destek personeli alımı başvuruları\n30 Kasım 2026 Pazartesi günü saat 09.00’da başlayacak, 6 Aralık 2026 Pazar günü saat 23.59’da sona erecek.\nAdaylar başvurularını e-Devlet üzerinden\n“Adli Tıp Kurumu Başkanlığı – Kariyer Kapısı Kamu İşe Alım”\nhizmetini kullanarak veya\nKariyer Kapısı Kamu İşe Alım\nadresinden gerçekleştirecek.\nŞahsen veya posta yoluyla yapılan başvurular kabul edilmeyecek. Başvuru sırasında pozisyonun gerektirdiği belgelerin sisteme yüklenmesi gerekiyor.\nDestek personeli alımında sınav yapılacak mı?\nAlım sürecinde\nKPSS puan sıralaması ve sözlü sınav\nuygulanacak. Başvurusu kabul edilen adaylar, ilgili KPSS puan türünde en yüksek puandan başlanarak sıralanacak.\nHer pozisyon için ilan edilen kontenjanın üç katı kadar aday sözlü sınava çağrılacak.\nSözlü sınavlar, Adli Tıp Kurumu Başkanlığının İstanbul Bahçelievler’deki merkez binasında yapılacak. Sınav tarihleri daha sonra duyurulacak.\nBaşvuru ve sınav sonuçları kurumun internet sitesinde yayımlanacak. Adaylar sınava ilişkin bilgilerini Kariyer Kapısı üzerinden de görüntüleyebilecek.\nATK’nin diğer personel alımı kontenjanları\n38 destek personeli alımı, Adli Tıp Kurumunun\n22 ilde toplam 181 sözleşmeli personel alacağı\nilanın bir bölümünü oluşturuyor.\nİnfaz ve koruma memuru, büro personeli, mühendis, laborant ve diğer pozisyonların kontenjanlarına\nAdli Tıp Kurumu 181 personel alımı ana haberimizden\nulaşabilirsiniz.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Teknisyen + alan/eğitim pozitif eşleşmesi bulunamadı",
+      "source": "https://www.isinolsa.com/sozlesmeli-personel-alimi/feed/",
+      "status": "rejected",
+      "title": "ATK 38 Destek Personeli Alacak! Hizmetli, Şoför ve Aşçı Şartları",
+      "url": "https://www.isinolsa.com/atk-38-destek-personeli-alacak-hizmetli-sofor-ve-asci-sartlari/"
+    },
+    "https://www.isinolsa.com/bartin-universitesi-kpss-60-puanla-buro-personeli-alacak-bolum-sarti-yok-sinav-yapilmayacak/": {
+      "attempted_at": 1795137227.2089226,
+      "checked_at": 1795137227.2089226,
+      "feed_body": "Bartın Üniversitesi KPSS 60 puanla sınavsız büro personeli alacak. Herhangi bir ön lisans mezunu başvurabilecek. Başvuru tarihi ve şartlar açıklandı.\nBartın Üniversitesi, en az 60 KPSS puanıyla sözleşmeli büro personeli alımı yapacağını duyurdu. Herhangi bir ön lisans programından mezun olan adayların başvurabileceği alımda yazılı veya sözlü sınav yapılmayacak. Ancak adayların başvurularını tamamlamak için yerine getirmesi gereken ek bir işlem bulunuyor.\nBartın Üniversitesi Rektörlüğü tarafından 20 Kasım 2026 tarihinde yeni sözleşmeli personel alım ilanı yayımlandı. Üniversitenin 2026-04 numaralı ilanına göre 657 sayılı Devlet Memurları Kanunu’nun 4/B maddesi kapsamında 1 büro personeli istihdam edilecek.\nAlımda belirli bir ön lisans bölümünden mezun olma şartı aranmıyor. İki yıllık yükseköğretim programlarının herhangi birinden mezun olan ve 2026 KPSS P93 puan türünden en az 60 puan alan adaylar başvuru yapabilecek.\nBaşvurular 20 Kasım 2026 tarihinde saat 09.00 itibarıyla başlayacak.\nBartın Üniversitesi Büro Personeli Alımı Kontenjanı\nÜniversitenin yayımladığı ilanda tek pozisyon için personel alımı yapılacağı belirtildi.\nİlan bilgisi\nAçıklama\nKurum\nBartın Üniversitesi\nİlan numarası\n2026-11\nPozisyon\nBüro Personeli\nKontenjan\n1 kişi\nCinsiyet\nKadın / Erkek\nÖğrenim\nÖn lisans\nMezuniyet şartı\nHerhangi bir ön lisans programı\nKPSS yılı\n2026\nKPSS puan türü\nP93\nEn düşük puan\n60\nAlım yöntemi\nKPSS puan sıralaması\nBüro Personeli Alımına Kimler Başvurabilecek?\nBartın Üniversitesi, büro personeli pozisyonunda bölüm sınırlamasına gitmedi. Bu kapsamda herhangi bir ön lisans programından mezun olan adaylar, diğer şartları da karşılamaları halinde başvuru yapabilecek.\nİlanda belirtilen özel şartlar şöyle:\n2026 KPSS P93 puan türünden en az 60 puan almış olmak.\nYükseköğretim kurumlarının herhangi bir ön lisans programından mezun olmak.\n1 Ocak 1991 veya sonrasında doğmuş olmak.\n657 sayılı Devlet Memurları Kanunu’nun 48’inci maddesinde yer alan genel şartları taşımak.\nYapılacak arşiv araştırmasının olumlu sonuçlanması.\nAdayların herhangi bir sosyal güvenlik kurumundan emeklilik veya yaşlılık aylığı almaması da gerekiyor.\nKPSS 60 Puanla Sınavsız Personel Alımı Yapılacak\nİlanın öne çıkan koşullarından biri de personel alımında yazılı veya sözlü sınav yapılmayacak olması.\nÜniversite, şartları sağlayan adayları 2026 KPSS P93 puanlarına göre en yüksekten en düşüğe sıralayacak.\nBu sıralama sonucunda 1 asıl ve 3 yedek aday belirlenecek.\nPuanların eşit olması halinde öncelikle mezuniyet tarihi daha eski olan aday değerlendirilecek. Eşitlik devam ederse doğum tarihi daha önce olan adaya öncelik verilecek. Bunun da eşit olması durumunda kura yöntemine başvurulacak.\nAsıl adayın göreve başlamaması, hakkından vazgeçmesi veya şartları taşımadığının belirlenmesi halinde yedek adaylardan sırasıyla yerleştirme yapılabilecek.\nBaşvuru Tarihleri Açıklandı\nBartın Üniversitesi büro personeli alımı için başvurular 20 Kasım 2026 tarihinde başlayacak ve 5 Aralık 2026 tarihinde sona erecek.\nİşlem\nTarih\nBaşvuru başlangıcı\n20 Kasım 2026 – 09.00\nSon başvuru\n5 Aralık 2026 – 13.00\nBaşvuru belgesi elden teslim son günü\n8 Aralık 2026 – 17.30\nÖn değerlendirme sonuçları\n18 Aralık 2026\nNihai değerlendirme sonuçları\n29 Aralık 2026\nBaşvuruların son gün saat 13.00’te sona erecek olması nedeniyle adayların işlemlerini bu saate kadar tamamlamaları gerekiyor.\nBaşvuru İçin Evrak Teslimi Zorunlu\nBartın Üniversitesi personel alımında yalnızca internet üzerinden başvuru yapmak yeterli olmayacak.\nAdaylar öncelikle e-Devlet üzerinden Kariyer Kapısı Kamu İşe Alım platformuna giriş yaparak başvurularını gerçekleştirecek.\nElektronik başvuru tamamlandıktan sonra sistemdeki “Başvurularım” bölümünden “Bilgiler” butonuna tıklanarak\nAday Başvuru Bilgileri\nbelgesi indirilecek.\nBu belgenin çıktısının en geç 8 Aralık 2026 Salı günü saat 17.30’a kadar üniversiteye şahsen veya noter onaylı vekaletname aracılığıyla teslim edilmesi gerekiyor.\nBelgeyi belirtilen süre içerisinde teslim etmeyen adayların başvuruları geçersiz sayılacak. Posta yoluyla yapılan müracaatlar kabul edilmeyecek.\nBelge teslim adresi:\nBartın Üniversitesi Rektörlüğü, Personel Daire Başkanlığı, İdari İnsan Kaynağı Şube Müdürlüğü, Kutlubeyyazıcılar Köyü Yeni Köybağlısı Yeni Sokak No: 32/2 Merkez/BARTIN\nBaşvuruda Hangi Belgeler İsteniyor?\nBaşvuru sırasında diploma, KPSS sonucu, kimlik ve adli sicil gibi bilgiler ilgili kurumların sistemlerinden otomatik alınacak.\nAncak adayların iki belgeyi ayrıca sisteme yüklemesi gerekiyor:\ne-Devlet üzerinden alınmış barkodlu SGK Hizmet Dökümü\ne-Devlet üzerinden alınmış barkodlu Nüfus Kayıt Örneği\nYurt dışından mezun olan adayların ise YÖK tarafından onaylanmış denklik belgesini başvurularına eklemesi gerekiyor.\nBartın Üniversitesi Personel Alımına Nasıl Başvurulur?\nBaşvurular e-Devlet üzerinden Bartın Üniversitesi Kariyer Kapısı Kamu İşe Alım hizmeti aracılığıyla yapılacak.\nBaşvuru ekranı:\nhttps://kariyerkapisi.gov.tr/isealim\nÜniversite resmi internet sitesi:\nhttps://w3.bartin.edu.tr/\nBaşvuru ve belge teslim işlemlerini tamamlayan adaylar, ön değerlendirme sonuçlarını 18 Aralık 2026 tarihinde takip edebilecek.\nNihai sonuçların ise 29 Aralık 2026 tarihinde açıklanması planlanıyor.\nBaşvuru sürecine ilişkin bilgi almak isteyen adaylar 0378 501 10 00 numaralı telefondan 5007 ve 5524 dahili hatlarına veya\npersonel@bartin.edu.tr\nadresine ulaşabilecek.",
+      "feed_pdf_urls": [],
+      "filter_id": "dabceb2baf083817",
+      "rejection_reason": "Teknisyen + alan/eğitim pozitif eşleşmesi bulunamadı",
+      "source": "https://www.isinolsa.com/sozlesmeli-personel-alimi/feed/",
+      "status": "rejected",
+      "title": "Bartın Üniversitesi KPSS 60 Puanla Büro Personeli Alacak! Bölüm Şartı Yok, Sınav Yapılmayacak",
+      "url": "https://www.isinolsa.com/bartin-universitesi-kpss-60-puanla-buro-personeli-alacak-bolum-sarti-yok-sinav-yapilmayacak/"
     },
     "https://www.isinolsa.com/deu-68-hemsire-alimi-suruyor-kpss-taban-puani-kac-olur/": {
       "attempted_at": 1795121989.7787118,
